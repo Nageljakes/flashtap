@@ -1,0 +1,644 @@
+{
+  "id": "set-3-bushveld-backroads",
+  "name": "Set 3: Bushveld & Backroads",
+  "badge": "Set 3 • Bushveld Masters",
+  "description": "Super Rugby, Rock Anthems, Big Five Wildlife & Safari Roads",
+  "questions": [
+    {
+      "q": "Which fruit is traditionally used to garnish a classic Gin & Tonic cocktail?",
+      "answers": [
+        "Lime or Lemon",
+        "Apple slice",
+        "Pineapple wedge",
+        "Banana wheel"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Rapid-Fire Pub Trivia",
+      "fact": "Crisp lime wedge or slice of lemon is the standard garnish."
+    },
+    {
+      "q": "How many millimeters are there in a standard metric meter?",
+      "answers": [
+        "100 mm",
+        "500 mm",
+        "1,000 mm",
+        "10,000 mm"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Rapid-Fire Pub Trivia",
+      "fact": "1,000 millimeters per meter."
+    },
+    {
+      "q": "Which animal is featured on the famous label of Castle Milk Stout?",
+      "answers": [
+        "Lion",
+        "Black Bull",
+        "Rhino",
+        "Eagle"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Rapid-Fire Pub Trivia",
+      "fact": "The iconic black bull with horns symbolizing rich malt strength."
+    },
+    {
+      "q": "What board game involves buying streets like Mayfair, building green houses, and collecting 200 for passing GO?",
+      "answers": [
+        "Scrabble",
+        "Cluedo",
+        "Monopoly",
+        "Risk"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Rapid-Fire Pub Trivia",
+      "fact": "Monopoly, originally published in its modern form by Parker Brothers in 1935."
+    },
+    {
+      "q": "How many days are there in a leap year?",
+      "answers": [
+        "364 days",
+        "365 days",
+        "366 days",
+        "367 days"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Rapid-Fire Pub Trivia",
+      "fact": "February 29 gives a leap year 366 days."
+    },
+    {
+      "q": "What is the capital city of Australia?",
+      "answers": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Rapid-Fire Pub Trivia",
+      "fact": "Canberra was selected in 1908 as a compromise between Sydney and Melbourne."
+    },
+    {
+      "q": "In South African slang, if someone says 'nou-nou', roughly when do they mean?",
+      "answers": [
+        "Never in their lifetime",
+        "Sometime in the near or distant future",
+        "Right this very millisecond",
+        "Exactly at midnight"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Rapid-Fire Pub Trivia",
+      "fact": "Nou-nou is generally later than 'nou' (now), but sooner than 'later'!"
+    },
+    {
+      "q": "How many strings does a standard acoustic or electric guitar typically have?",
+      "answers": [
+        "4 strings",
+        "5 strings",
+        "6 strings",
+        "7 strings"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Rapid-Fire Pub Trivia",
+      "fact": "Tuned E-A-D-G-B-E."
+    },
+    {
+      "q": "Which planet in our solar system is nicknamed 'The Red Planet'?",
+      "answers": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Mercury"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Rapid-Fire Pub Trivia",
+      "fact": "Iron oxide (rust) on Mars's surface gives it a reddish hue."
+    },
+    {
+      "q": "What is the main spirit used to make a classic Margarita cocktail?",
+      "answers": [
+        "Vodka",
+        "Gin",
+        "Tequila",
+        "White Rum"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Rapid-Fire Pub Trivia",
+      "fact": "Tequila, triple sec, and fresh lime juice, traditionally served with a salted rim."
+    },
+    {
+      "q": "Which South African golfer is nicknamed 'The Big Easy' for his smooth, effortless swing?",
+      "answers": [
+        "Retief Goosen",
+        "Ernie Els",
+        "Louis Oosthuizen",
+        "Charl Schwartzel"
+      ],
+      "correct": 1,
+      "round": "Round 2 · World Cups, Derbies & Golf Legends",
+      "fact": "Ernie Els won four Major championships: two US Opens and two Open Championships."
+    },
+    {
+      "q": "Which legendary South African golfer won nine Major championships and is one of only five players to win the career Grand Slam?",
+      "answers": [
+        "Bobby Locke",
+        "Gary Player",
+        "Ernie Els",
+        "Trevor Immelman"
+      ],
+      "correct": 1,
+      "round": "Round 2 · World Cups, Derbies & Golf Legends",
+      "fact": "Gary Player: 'The Black Knight', with 9 Major victories."
+    },
+    {
+      "q": "In Super Rugby history, which South African franchise won the championship three times (2007, 2009, 2010)?",
+      "answers": [
+        "The Sharks",
+        "The Stormers",
+        "The Bulls",
+        "The Lions"
+      ],
+      "correct": 2,
+      "round": "Round 2 · World Cups, Derbies & Golf Legends",
+      "fact": "The Bulls won thrilling finals under coach Frans Ludeke and captain Victor Matfield."
+    },
+    {
+      "q": "In football (soccer), which two Soweto giants contest the famous 'Soweto Derby'?",
+      "answers": [
+        "Mamelodi Sundowns & SuperSport United",
+        "Kaizer Chiefs & Orlando Pirates",
+        "Moroka Swallows & Jomo Cosmos",
+        "Cape Town City & Stellenbosch FC"
+      ],
+      "correct": 1,
+      "round": "Round 2 · World Cups, Derbies & Golf Legends",
+      "fact": "One of the most fiercely contested derby matches in world soccer, packing FNB Stadium."
+    },
+    {
+      "q": "Which Springbok flyhalf kicked 100% of his goal kicks across the 2023 Rugby World Cup knockout stage?",
+      "answers": [
+        "Manie Libbok",
+        "Handre Pollard",
+        "Elton Jantjies",
+        "Damian Willemse"
+      ],
+      "correct": 1,
+      "round": "Round 2 · World Cups, Derbies & Golf Legends",
+      "fact": "Pollard had ice in his veins, slotting winning penalties against France, England, and New Zealand."
+    },
+    {
+      "q": "In cricket, how many runs are awarded when a batsman hits the ball over the boundary rope on the full without bouncing?",
+      "answers": [
+        "4 runs",
+        "5 runs",
+        "6 runs",
+        "8 runs"
+      ],
+      "correct": 2,
+      "round": "Round 2 · World Cups, Derbies & Golf Legends",
+      "fact": "A maximum: 6 runs on the full."
+    },
+    {
+      "q": "Which famous stadium in Durban was renowned for rugby fans braaiing on 'The Shark Tank' outer fields?",
+      "answers": [
+        "Moses Mabhida Stadium",
+        "Kings Park Stadium",
+        "Chatsworth Stadium",
+        "Sugar Ray Xulu Stadium"
+      ],
+      "correct": 1,
+      "round": "Round 2 · World Cups, Derbies & Golf Legends",
+      "fact": "Home of the Sharks rugby team."
+    },
+    {
+      "q": "Which South African swimmer won the Olympic Gold medal in the 100m breaststroke at the 1996 Atlanta Olympics?",
+      "answers": [
+        "Penny Heyns",
+        "Tatjana Smith (Schoenmaker)",
+        "Ryk Neethling",
+        "Roland Schoeman"
+      ],
+      "correct": 0,
+      "round": "Round 2 · World Cups, Derbies & Golf Legends",
+      "fact": "Penny Heyns made history by winning both the 100m and 200m breaststroke golds in Atlanta."
+    },
+    {
+      "q": "What is the regulation number of holes played in a full round of golf?",
+      "answers": [
+        "9 holes",
+        "14 holes",
+        "18 holes",
+        "21 holes"
+      ],
+      "correct": 2,
+      "round": "Round 2 · World Cups, Derbies & Golf Legends",
+      "fact": "St Andrews in Scotland standardized the 18-hole golf course in 1764."
+    },
+    {
+      "q": "Which country won the inaugural Rugby World Cup in 1987?",
+      "answers": [
+        "Australia",
+        "New Zealand",
+        "France",
+        "England"
+      ],
+      "correct": 1,
+      "round": "Round 2 · World Cups, Derbies & Golf Legends",
+      "fact": "The All Blacks defeated France 29-9 at Eden Park, Auckland."
+    },
+    {
+      "q": "Which legendary British rock band recorded the operatic masterpiece 'Bohemian Rhapsody' in 1975?",
+      "answers": [
+        "Led Zeppelin",
+        "Queen",
+        "The Rolling Stones",
+        "The Who"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Rock Anthems & Legendary Cinema",
+      "fact": "Fronted by Freddie Mercury, on their album A Night at the Opera."
+    },
+    {
+      "q": "In the 1984 sci-fi action film The Terminator, what is Arnold Schwarzenegger's immortal five-word catchphrase?",
+      "answers": [
+        "I will find you",
+        "I'll be back",
+        "Hasta la vista baby",
+        "Get to the chopper"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Rock Anthems & Legendary Cinema",
+      "fact": "'I'll be back' was spoken at the police precinct desk before he drives a car through the front doors."
+    },
+    {
+      "q": "Which South African rock band had huge hits in the late 90s and 2000s with songs like 'Bubblegum On My Sole' and 'Genie'?",
+      "answers": [
+        "Just Jinger",
+        "Springbok Nude Girls",
+        "Prime Circle",
+        "Wonderboom"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Rock Anthems & Legendary Cinema",
+      "fact": "Fronted by Arno Carstens, formed in Stellenbosch in 1994."
+    },
+    {
+      "q": "In the 1994 Disney animated film The Lion King, what Swahili phrase translates literally to 'No worries'?",
+      "answers": [
+        "Jambo Bwana",
+        "Hakuna Matata",
+        "Asante Sana",
+        "Karibu Tena"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Rock Anthems & Legendary Cinema",
+      "fact": "Sung by Timon and Pumbaa."
+    },
+    {
+      "q": "Which Australian hard rock band released the timeless 1980 rock anthem 'Back in Black'?",
+      "answers": [
+        "INXS",
+        "Midnight Oil",
+        "AC/DC",
+        "Silverchair"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Rock Anthems & Legendary Cinema",
+      "fact": "Their first album featuring new singer Brian Johnson following Bon Scott's death."
+    },
+    {
+      "q": "In the Lord of the Rings trilogy, what creature continuously refers to the One Ring as 'My Precious'?",
+      "answers": [
+        "Sauron",
+        "Saruman",
+        "Gollum",
+        "Bilbo Baggins"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Rock Anthems & Legendary Cinema",
+      "fact": "Portrayed by Andy Serkis via groundbreaking motion capture."
+    },
+    {
+      "q": "What British spy's signature cocktail order is a vodka martini, 'shaken, not stirred'?",
+      "answers": [
+        "Jason Bourne",
+        "Austin Powers",
+        "James Bond",
+        "George Smiley"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Rock Anthems & Legendary Cinema",
+      "fact": "Agent 007 created by author Ian Fleming."
+    },
+    {
+      "q": "Which American singer-songwriter released the record-breaking 1982 album Thriller, featuring 'Beat It' and 'Billie Jean'?",
+      "answers": [
+        "Prince",
+        "Lionel Richie",
+        "Michael Jackson",
+        "Stevie Wonder"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Rock Anthems & Legendary Cinema",
+      "fact": "Thriller remains the best-selling studio album of all time."
+    },
+    {
+      "q": "In the 1994 hit movie Forrest Gump, what did Forrest's mama always say life was like?",
+      "answers": [
+        "A bowl of cherries",
+        "A box of chocolates",
+        "A game of baseball",
+        "A river running wild"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Rock Anthems & Legendary Cinema",
+      "fact": "'You never know what you're gonna get.'"
+    },
+    {
+      "q": "Which South African alt-rock band fronted by Francois van Coke created shockwaves in 2003 with their raw Afrikaans punk?",
+      "answers": [
+        "Van Coke Kartel",
+        "Fokofpolisiekar",
+        "Straatligkinders",
+        "Die Heuwels Fantasties"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Rock Anthems & Legendary Cinema",
+      "fact": "Formed in Bellville, Western Cape in 2003."
+    },
+    {
+      "q": "What uniquely South African steakhouse condiment, made with chutney, tomato sauce, and Worcestershire sauce, was invented by Johannesburg chefs in the 1960s?",
+      "answers": [
+        "Chakalaka",
+        "Monkey Gland Sauce",
+        "Prego Sauce",
+        "Tartar Sauce"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Steaks, Sauces & Cellar Masters",
+      "fact": "Created by overseas hotel chefs at the Carlton Hotel in Johannesburg; contains zero actual monkeys!"
+    },
+    {
+      "q": "Which famous wine-producing town in the Western Cape is renowned for its Cape Dutch architecture and prestigious university?",
+      "answers": [
+        "Paarl",
+        "Franschhoek",
+        "Stellenbosch",
+        "Robertson"
+      ],
+      "correct": 2,
+      "round": "Round 4 · Steaks, Sauces & Cellar Masters",
+      "fact": "Founded in 1679 by Simon van der Stel; South Africa's premier wine center."
+    },
+    {
+      "q": "What is the key difference between biltong and American beef jerky?",
+      "answers": [
+        "Biltong is cured in vinegar and air-dried; jerky is typically heat-smoked and dried",
+        "Biltong is only made from pork",
+        "Jerky is never salted",
+        "Biltong is deep-fried"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Steaks, Sauces & Cellar Masters",
+      "fact": "Biltong uses vinegar, salt, and spices, air-drying gently without smoke or artificial cooking."
+    },
+    {
+      "q": "What French term is used for sparkling wines produced in South Africa using the traditional Champagne method?",
+      "answers": [
+        "Prosecco",
+        "Méthode Cap Classique (MCC)",
+        "Cava",
+        "Spumante"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Steaks, Sauces & Cellar Masters",
+      "fact": "MCC refers to bottle-fermented sparkling wine made in South Africa."
+    },
+    {
+      "q": "Which cut of steak is famous for featuring a T-shaped bone separating a strip loin from a smaller tenderloin fillet?",
+      "answers": [
+        "Sirloin",
+        "T-Bone Steak",
+        "Rump Steak",
+        "Tomahawk"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Steaks, Sauces & Cellar Masters",
+      "fact": "A T-bone contains both sirloin and tenderloin fillet on either side of the bone."
+    },
+    {
+      "q": "What sweet dessert, made of a rich spongy cake covered in warm butter-caramel sauce, is a Sunday braai staple in South Africa?",
+      "answers": [
+        "Melktert",
+        "Koeksister",
+        "Malva Pudding",
+        "Jan Ellis Pudding"
+      ],
+      "correct": 2,
+      "round": "Round 4 · Steaks, Sauces & Cellar Masters",
+      "fact": "Contains apricot jam in the batter, soaked in warm sweet cream sauce."
+    },
+    {
+      "q": "In a bar, what spirit forms the alcoholic foundation of an Irish Coffee?",
+      "answers": [
+        "Irish Whiskey",
+        "Scotch Whisky",
+        "Bourbon",
+        "Dark Rum"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Steaks, Sauces & Cellar Masters",
+      "fact": "Hot black coffee, Irish whiskey, sugar, and float of fresh cream."
+    },
+    {
+      "q": "What popular spicy South African vegetable relish consists of grated carrots, peppers, beans, and curry spices?",
+      "answers": [
+        "Atchar",
+        "Chakalaka",
+        "Sambal",
+        "Sheba"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Steaks, Sauces & Cellar Masters",
+      "fact": "Originated in the townships of Johannesburg to accompany pap and braaivleis."
+    },
+    {
+      "q": "Which popular style of beer is characterized by the acronym 'IPA'?",
+      "answers": [
+        "Imperial Pale Ale",
+        "India Pale Ale",
+        "Irish Pilsner Ale",
+        "International Porter Ale"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Steaks, Sauces & Cellar Masters",
+      "fact": "Heavily hopped beer brewed originally in Britain for export to colonial troops in India."
+    },
+    {
+      "q": "What twisted, plaited South African pastry is deep-fried, dipped straight into ice-cold sugar syrup, and eaten cold?",
+      "answers": [
+        "Koeksister",
+        "Vetkoek",
+        "Hertzoggie",
+        "Churro"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Steaks, Sauces & Cellar Masters",
+      "fact": "Sticky, crunchy, sweet heaven! (The Cape Malay version is a spiced doughnut rolled in coconut)."
+    },
+    {
+      "q": "Which five animals traditionally make up Africa's famous 'Big Five'?",
+      "answers": [
+        "Lion, Leopard, Elephant, Rhino, Buffalo",
+        "Lion, Cheetah, Giraffe, Hippo, Zebra",
+        "Leopard, Cheetah, Wild Dog, Elephant, Hippo",
+        "Lion, Elephant, Rhino, Giraffe, Crocodile"
+      ],
+      "correct": 0,
+      "round": "Round 5 · Safari, Wildlife & World Capitals",
+      "fact": "Originally coined by big-game hunters as the five most dangerous animals to hunt on foot."
+    },
+    {
+      "q": "What is the capital city of Canada?",
+      "answers": [
+        "Toronto",
+        "Montreal",
+        "Ottawa",
+        "Vancouver"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Safari, Wildlife & World Capitals",
+      "fact": "Ottawa was chosen by Queen Victoria in 1857 as Canada's capital."
+    },
+    {
+      "q": "In which province is the world-renowned Kruger National Park primarily located?",
+      "answers": [
+        "Limpopo & Mpumalanga",
+        "KwaZulu-Natal & Free State",
+        "North West & Gauteng",
+        "Eastern Cape & Western Cape"
+      ],
+      "correct": 0,
+      "round": "Round 5 · Safari, Wildlife & World Capitals",
+      "fact": "Stretches across both Limpopo and Mpumalanga along the Mozambique border."
+    },
+    {
+      "q": "What spectacular waterfall on the Zambezi River between Zambia and Zimbabwe is known locally as 'Mosi-oa-Tunya' (The Smoke That Thunders)?",
+      "answers": [
+        "Tugela Falls",
+        "Niagara Falls",
+        "Victoria Falls",
+        "Iguazu Falls"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Safari, Wildlife & World Capitals",
+      "fact": "One of the Seven Natural Wonders of the World."
+    },
+    {
+      "q": "What is the highest mountain peak in Africa, located in northeastern Tanzania?",
+      "answers": [
+        "Mount Kenya",
+        "Mount Kilimanjaro",
+        "Table Mountain",
+        "Drakensberg Thabana Ntlenyana"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Safari, Wildlife & World Capitals",
+      "fact": "Stands 5,895 meters above sea level."
+    },
+    {
+      "q": "What is the capital city of France?",
+      "answers": [
+        "Marseille",
+        "Lyon",
+        "Paris",
+        "Nice"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Safari, Wildlife & World Capitals",
+      "fact": "The City of Light, home to the Eiffel Tower and the Louvre."
+    },
+    {
+      "q": "Which mammal is known as the fastest land animal in the world, capable of sprinting over 100 km/h?",
+      "answers": [
+        "Springbok",
+        "Cheetah",
+        "Lion",
+        "Blue Wildebeest"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Safari, Wildlife & World Capitals",
+      "fact": "Cheetahs can accelerate from 0 to 95 km/h in under 3 seconds."
+    },
+    {
+      "q": "Which South African bay along the Garden Route is renowned globally as one of the best land-based whale-watching spots?",
+      "answers": [
+        "Plettenberg Bay",
+        "Hermanus (Walker Bay)",
+        "Saldanha Bay",
+        "Jeffreys Bay"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Safari, Wildlife & World Capitals",
+      "fact": "Southern Right Whales visit Walker Bay in Hermanus from June to November."
+    },
+    {
+      "q": "What is the largest hot desert in the world, stretching across northern Africa?",
+      "answers": [
+        "Kalahari Desert",
+        "Sahara Desert",
+        "Gobi Desert",
+        "Atacama Desert"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Safari, Wildlife & World Capitals",
+      "fact": "Spanning over 9 million square kilometers."
+    },
+    {
+      "q": "What famous road along the Atlantic seaboard of Cape Town is carved into the cliffs between Hout Bay and Noordhoek?",
+      "answers": [
+        "Marine Drive",
+        "Chapman's Peak Drive",
+        "Victoria Road",
+        "Boyes Drive"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Safari, Wildlife & World Capitals",
+      "fact": "Affectionately called 'Chappies', featuring 114 curves over 9 kilometers."
+    },
+    {
+      "q": "How many total kilometers of fence surround the perimeter of the Kruger National Park?",
+      "answers": [
+        "650 km",
+        "850 km",
+        "1,000 km",
+        "1,400 km"
+      ],
+      "correct": 2,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "Approximately 1,000 km of boundary fencing."
+    },
+    {
+      "q": "In what calendar year did South Africa win its second Rugby World Cup in Paris under captain John Smit?",
+      "answers": [
+        "2003",
+        "2007",
+        "2011",
+        "2015"
+      ],
+      "correct": 1,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "20 October 2007: Springboks 15 - England 6."
+    },
+    {
+      "q": "How many total test runs did Jacques Kallis score in his international Test cricket career?",
+      "answers": [
+        "11,953 runs",
+        "12,410 runs",
+        "13,289 runs",
+        "14,050 runs"
+      ],
+      "correct": 2,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "Jacques Kallis scored 13,289 runs in 166 Test matches."
+    }
+  ]
+}

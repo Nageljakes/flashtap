@@ -1,0 +1,128 @@
+{
+  "id": "warmup-general-knowledge",
+  "name": "Warm-Up \u00b7 General Knowledge",
+  "badge": "Crowd pleasers",
+  "description": "Easy mixed trivia to get the room going before the big sets",
+  "questions": [
+    {
+      "q": "What is the capital of Australia?",
+      "answers": [
+        "Sydney",
+        "Canberra",
+        "Melbourne",
+        "Perth"
+      ],
+      "correct": 1,
+      "round": "Crowd Pleasers",
+      "fact": "Canberra was purpose-built as the compromise capital between Sydney and Melbourne."
+    },
+    {
+      "q": "How many hearts does an octopus have?",
+      "answers": [
+        "1",
+        "2",
+        "3",
+        "8"
+      ],
+      "correct": 2,
+      "round": "Crowd Pleasers",
+      "fact": "Two pump blood to the gills, one to the rest of the body."
+    },
+    {
+      "q": "Which planet is closest to the Sun?",
+      "answers": [
+        "Venus",
+        "Earth",
+        "Mercury",
+        "Mars"
+      ],
+      "correct": 2,
+      "round": "Crowd Pleasers",
+      "fact": ""
+    },
+    {
+      "q": "In which year did South Africa win their first Rugby World Cup?",
+      "answers": [
+        "1995",
+        "2007",
+        "2003",
+        "2019"
+      ],
+      "correct": 0,
+      "round": "Crowd Pleasers",
+      "fact": "Francois Pienaar lifted the trophy, with Nelson Mandela in the stands."
+    },
+    {
+      "q": "What is the most consumed beverage in the world after water?",
+      "answers": [
+        "Coffee",
+        "Beer",
+        "Tea",
+        "Cola"
+      ],
+      "correct": 2,
+      "round": "Crowd Pleasers",
+      "fact": ""
+    },
+    {
+      "q": "Which city is South Africa's administrative capital?",
+      "answers": [
+        "Cape Town",
+        "Pretoria",
+        "Bloemfontein",
+        "Johannesburg"
+      ],
+      "correct": 1,
+      "round": "Crowd Pleasers",
+      "fact": "SA has three capitals: executive Pretoria, legislative Cape Town, judicial Bloemfontein."
+    },
+    {
+      "q": "What is the only mammal capable of true flight?",
+      "answers": [
+        "Flying squirrel",
+        "Sugar glider",
+        "Bat",
+        "Colugo"
+      ],
+      "correct": 2,
+      "round": "Crowd Pleasers",
+      "fact": ""
+    },
+    {
+      "q": "How many minutes are there in a full day?",
+      "answers": [
+        "1200",
+        "1440",
+        "1800",
+        "960"
+      ],
+      "correct": 1,
+      "round": "Crowd Pleasers",
+      "fact": ""
+    },
+    {
+      "q": "Which country has the most time zones?",
+      "answers": [
+        "Russia",
+        "USA",
+        "China",
+        "France"
+      ],
+      "correct": 3,
+      "round": "Crowd Pleasers",
+      "fact": "France has 12 thanks to its overseas territories."
+    },
+    {
+      "q": "What is the smallest country in the world by area?",
+      "answers": [
+        "Monaco",
+        "Nauru",
+        "Vatican City",
+        "San Marino"
+      ],
+      "correct": 2,
+      "round": "Crowd Pleasers",
+      "fact": ""
+    }
+  ]
+}

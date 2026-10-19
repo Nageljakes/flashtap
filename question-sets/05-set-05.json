@@ -1,0 +1,644 @@
+{
+  "id": "set-5-champions-chommies",
+  "name": "Set 5: Champions & Chommies",
+  "badge": "Set 5 • Gold & Glory",
+  "description": "Olympic Gold, Motorsport, Iconic Inventions & Braai Customs",
+  "questions": [
+    {
+      "q": "What is the standard unit of currency used in the United Kingdom?",
+      "answers": [
+        "Euro",
+        "British Pound Sterling",
+        "Franc",
+        "Dollar"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Easy Pints & Everyday Smarts",
+      "fact": "Pound Sterling (£)."
+    },
+    {
+      "q": "How many centimeters are there in a standard meter?",
+      "answers": [
+        "10 cm",
+        "100 cm",
+        "1,000 cm",
+        "10,000 cm"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Easy Pints & Everyday Smarts",
+      "fact": "100 centimeters = 1 meter."
+    },
+    {
+      "q": "What is the traditional ingredient that gives beer its natural fizz and alcohol during fermentation?",
+      "answers": [
+        "Yeast",
+        "Hops",
+        "Sugar syrup",
+        "Barley malt"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Easy Pints & Everyday Smarts",
+      "fact": "Yeast consumes sugars and converts them into ethanol and carbon dioxide."
+    },
+    {
+      "q": "Which popular South African draught beer is famous for the advertising slogan 'Champion Men Deserve Champion Beer'?",
+      "answers": [
+        "Castle Lager",
+        "Carling Black Label",
+        "Hansa Pilsener",
+        "Amstel Lager"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Easy Pints & Everyday Smarts",
+      "fact": "Carling Black Label: 'Zamalek' or 'The Black Bull'."
+    },
+    {
+      "q": "How many sides does a standard stop sign have on South African roads?",
+      "answers": [
+        "6 sides (Hexagon)",
+        "8 sides (Octagon)",
+        "10 sides (Decagon)",
+        "12 sides"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Easy Pints & Everyday Smarts",
+      "fact": "An eight-sided octagon."
+    },
+    {
+      "q": "In golf, what is the term used for when a player finishes a hole two strokes over par?",
+      "answers": [
+        "Bogey",
+        "Double Bogey",
+        "Birdie",
+        "Eagle"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Easy Pints & Everyday Smarts",
+      "fact": "One over = Bogey; two over = Double Bogey."
+    },
+    {
+      "q": "What is the common English name for the constellation called the 'Suiderkruis' in Afrikaans?",
+      "answers": [
+        "Orion's Belt",
+        "The Southern Cross",
+        "The Big Dipper",
+        "Ursa Major"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Easy Pints & Everyday Smarts",
+      "fact": "Crux, depicted on flags of Australia, New Zealand, Brazil, and Samoa."
+    },
+    {
+      "q": "Which popular board game challenges players to solve a murder in Tudor Mansion involving Colonel Mustard and Mrs White?",
+      "answers": [
+        "Cluedo",
+        "Battleship",
+        "Risk",
+        "Stratego"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Easy Pints & Everyday Smarts",
+      "fact": "Created in Birmingham, England by Anthony E. Pratt in 1944."
+    },
+    {
+      "q": "What gas makes up approximately 78% of the Earth's atmosphere?",
+      "answers": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Argon"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Easy Pints & Everyday Smarts",
+      "fact": "Nitrogen ~78%, Oxygen ~21%, Argon ~0.9%."
+    },
+    {
+      "q": "Which fruit is dried in the sun to become a raisin?",
+      "answers": [
+        "Plum",
+        "Grape",
+        "Fig",
+        "Apricot"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Easy Pints & Everyday Smarts",
+      "fact": "Sun-dried grapes become raisins (or sultanas)."
+    },
+    {
+      "q": "Which South African motorcycle racer won the Moto3 World Championship in 2016 and now competes for Red Bull KTM Factory Racing in MotoGP?",
+      "answers": [
+        "Brad Binder",
+        "Darryn Binder",
+        "Greg Albertyn",
+        "Giniel de Villiers"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Olympic Gold, Motorsport & Gridiron",
+      "fact": "Brad Binder from Krugersdorp: known for his fearless braking and MotoGP race wins."
+    },
+    {
+      "q": "Which South African swimmer stunned the world by defeating Michael Phelps to win Olympic Gold in the 200m butterfly at the 2012 London Olympics?",
+      "answers": [
+        "Cameron van der Burgh",
+        "Chad le Clos",
+        "Ryk Neethling",
+        "Roland Schoeman"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Olympic Gold, Motorsport & Gridiron",
+      "fact": "Chad le Clos won by 0.05 seconds in a dramatic finish."
+    },
+    {
+      "q": "At which iconic South African motorsport circuit outside Johannesburg was the South African Formula One Grand Prix historically held?",
+      "answers": [
+        "Killarney Raceway",
+        "Kyalami Grand Prix Circuit",
+        "Zwartkops Raceway",
+        "Phakisa Freeway"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Olympic Gold, Motorsport & Gridiron",
+      "fact": "Kyalami hosted the South African Grand Prix from 1967 to 1993."
+    },
+    {
+      "q": "Which South African off-road rally driver won the prestigious Dakar Rally in 2009 driving for Volkswagen?",
+      "answers": [
+        "Giniel de Villiers",
+        "Alfie Cox",
+        "Sarel van der Merwe",
+        "Brian Capper"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Olympic Gold, Motorsport & Gridiron",
+      "fact": "Giniel de Villiers won the 2009 Dakar Rally alongside co-driver Dirk von Zitzewitz."
+    },
+    {
+      "q": "How many gold medals did South African swimming legend Tatjana Smith (Schoenmaker) win across the Tokyo 2020 and Paris 2024 Olympic Games?",
+      "answers": [
+        "1 Gold",
+        "2 Golds",
+        "3 Golds",
+        "4 Golds"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Olympic Gold, Motorsport & Gridiron",
+      "fact": "Gold in 200m breaststroke (Tokyo) and Gold in 100m breaststroke (Paris)."
+    },
+    {
+      "q": "In rugby union, what penalty is awarded against a team when a forward intentionally collapses a scrum?",
+      "answers": [
+        "Free kick",
+        "Full Penalty Kick",
+        "Scrum reset",
+        "Yellow card only"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Olympic Gold, Motorsport & Gridiron",
+      "fact": "Collapsing a scrum is dangerous play resulting in a full penalty kick."
+    },
+    {
+      "q": "Which legendary rally and circuit driver, known affectionately as 'SuperVan', won 11 South African National Rally Championships?",
+      "answers": [
+        "Giniel de Villiers",
+        "Sarel van der Merwe",
+        "Serge Damseaux",
+        "Jan Hettema"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Olympic Gold, Motorsport & Gridiron",
+      "fact": "Sarel van der Merwe: an icon of South African motorsport."
+    },
+    {
+      "q": "In cricket, what is the maximum number of overs a single bowler can bowl in an official 50-over One Day International?",
+      "answers": [
+        "8 overs",
+        "10 overs",
+        "12 overs",
+        "15 overs"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Olympic Gold, Motorsport & Gridiron",
+      "fact": "10 overs per bowler in a 50-over match."
+    },
+    {
+      "q": "Which South African middle-distance runner won Olympic Gold in the women's 800m at both London 2012 and Rio 2016?",
+      "answers": [
+        "Caster Semenya",
+        "Zola Budd",
+        "Elana Meyer",
+        "Sunette Viljoen"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Olympic Gold, Motorsport & Gridiron",
+      "fact": "Caster Semenya dominated the 800m world stage."
+    },
+    {
+      "q": "What are the five colors of the Olympic rings?",
+      "answers": [
+        "Blue, Yellow, Black, Green, Red",
+        "Blue, Red, White, Green, Gold",
+        "Purple, Yellow, Black, Orange, Green",
+        "Red, Blue, White, Yellow, Black"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Olympic Gold, Motorsport & Gridiron",
+      "fact": "Blue, Yellow, Black, Green, and Red on a white background."
+    },
+    {
+      "q": "In the hit 80s TV series The A-Team, what was B.A. Baracus's greatest fear that required Hannibal to drug him before flights?",
+      "answers": [
+        "Spiders",
+        "Flying in airplanes",
+        "Swimming in deep water",
+        "Heights"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Action Heroes, Sci-Fi & TV Sitcoms",
+      "fact": "'I ain't gettin' on no plane, Hannibal!'"
+    },
+    {
+      "q": "Which 1999 sci-fi movie starring Keanu Reeves introduced the iconic slow-motion visual effect known as 'bullet time'?",
+      "answers": [
+        "Speed",
+        "The Matrix",
+        "Point Break",
+        "Constantine"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Action Heroes, Sci-Fi & TV Sitcoms",
+      "fact": "Directed by the Wachowskis, winning 4 Academy Awards."
+    },
+    {
+      "q": "In the sitcom Seinfeld, what holiday was invented by George Costanza's father Frank as an alternative to Christmas?",
+      "answers": [
+        "Festivus",
+        "Costanzamas",
+        "Serenity Now",
+        "Winterpalooza"
+      ],
+      "correct": 0,
+      "round": "Round 3 · Action Heroes, Sci-Fi & TV Sitcoms",
+      "fact": "'Festivus for the rest of us!' Featuring the airing of grievances and feats of strength."
+    },
+    {
+      "q": "Which action star played John Rambo in the First Blood movie series?",
+      "answers": [
+        "Arnold Schwarzenegger",
+        "Sylvester Stallone",
+        "Jean-Claude Van Damme",
+        "Bruce Willis"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Action Heroes, Sci-Fi & TV Sitcoms",
+      "fact": "Sylvester Stallone also co-wrote the screenplay."
+    },
+    {
+      "q": "In Star Wars, what is the name of Han Solo's modified Corellian smuggling spaceship?",
+      "answers": [
+        "Star Destroyer",
+        "Millennium Falcon",
+        "X-Wing",
+        "Slave I"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Action Heroes, Sci-Fi & TV Sitcoms",
+      "fact": "'She made the Kessel Run in less than twelve parsecs.'"
+    },
+    {
+      "q": "Which television secret agent was famous for disarming bombs using a Swiss Army knife, paperclips, and duct tape?",
+      "answers": [
+        "James Bond",
+        "Angus MacGyver",
+        "Ethan Hunt",
+        "Maxwell Smart"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Action Heroes, Sci-Fi & TV Sitcoms",
+      "fact": "Played by Richard Dean Anderson in the 1985 series."
+    },
+    {
+      "q": "In the animated sitcom The Simpsons, what is Homer Simpson's favorite brand of beer?",
+      "answers": [
+        "Duff Beer",
+        "Buzz Cola",
+        "Red Tick Ale",
+        "Fud Beer"
+      ],
+      "correct": 0,
+      "round": "Round 3 · Action Heroes, Sci-Fi & TV Sitcoms",
+      "fact": "Served on tap by Moe Szyslak at Moe's Tavern."
+    },
+    {
+      "q": "Who directed the 1993 epic World War II drama Schindler's List?",
+      "answers": [
+        "James Cameron",
+        "Steven Spielberg",
+        "Martin Scorsese",
+        "Ridley Scott"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Action Heroes, Sci-Fi & TV Sitcoms",
+      "fact": "Won seven Academy Awards including Best Director and Best Picture."
+    },
+    {
+      "q": "In the film Braveheart (1995), what famous word does Mel Gibson's character shout before his execution?",
+      "answers": [
+        "Victory!",
+        "Scotland!",
+        "Freedom!",
+        "Never!"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Action Heroes, Sci-Fi & TV Sitcoms",
+      "fact": "William Wallace shouting 'Freedom!' with his final breath."
+    },
+    {
+      "q": "What British television comedy featured Rowan Atkinson as a bumbling, silent character driving a green Mini Cooper?",
+      "answers": [
+        "Blackadder",
+        "Fawlty Towers",
+        "Mr. Bean",
+        "Only Fools and Horses"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Action Heroes, Sci-Fi & TV Sitcoms",
+      "fact": "First broadcast on ITV in January 1990."
+    },
+    {
+      "q": "What traditional South African bread dough is shaped into round balls and baked directly over the braai grid?",
+      "answers": [
+        "Vetkoek",
+        "Roosterkoek",
+        "Mosbolletjie",
+        "Potbrood"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Meat on the Coals, Sauces & Breweries",
+      "fact": "Roosterkoek is baked on the braai grid until golden and hollow-sounding when tapped."
+    },
+    {
+      "q": "What are skewers of marinated lamb or beef cubes interleaved with dried apricots and onions called in South Africa?",
+      "answers": [
+        "Kebab",
+        "Sosaties",
+        "Satay",
+        "Yakitori"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Meat on the Coals, Sauces & Breweries",
+      "fact": "From Cape Malay tradition: seasoned with curry, tamarind, and turmeric."
+    },
+    {
+      "q": "Which Namibian beer, brewed under the German Purity Law with only malted barley, hops, and water, is famous across South Africa?",
+      "answers": [
+        "Windhoek Lager",
+        "Tafel Lager",
+        "Castle Draught",
+        "Hansa Pilsener"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Meat on the Coals, Sauces & Breweries",
+      "fact": "Brewed by Namibia Breweries Limited in Windhoek since 1920."
+    },
+    {
+      "q": "What is the traditional South African sweet confection made of a tart pastry crust filled with baked custard and dusted with cinnamon?",
+      "answers": [
+        "Koeksister",
+        "Hertzoggie",
+        "Melktert (Milk Tart)",
+        "Malva Pudding"
+      ],
+      "correct": 2,
+      "round": "Round 4 · Meat on the Coals, Sauces & Breweries",
+      "fact": "Melktert: smooth, cinnamon-dusted custard perfection."
+    },
+    {
+      "q": "What is the term used in wine tasting for the aroma profile of an aged wine as opposed to a young wine?",
+      "answers": [
+        "Nose",
+        "Bouquet",
+        "Body",
+        "Tannin"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Meat on the Coals, Sauces & Breweries",
+      "fact": "Aroma relates to the grape variety; bouquet develops with bottle aging."
+    },
+    {
+      "q": "Which cut of pork spare ribs is characterized by meat attached to the lower breastbone, trimmed into a neat rectangular rack?",
+      "answers": [
+        "Baby Back Ribs",
+        "St. Louis Cut / Belly Ribs",
+        "Pork Chops",
+        "Pork Loin"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Meat on the Coals, Sauces & Breweries",
+      "fact": "St. Louis cut ribs are meatier and flatter than baby backs."
+    },
+    {
+      "q": "What popular South African lager, introduced in 1994, is marketed as low-carb and extra cold?",
+      "answers": [
+        "Castle Lite",
+        "Amstel Lite",
+        "Windhoek Light",
+        "Flying Fish"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Meat on the Coals, Sauces & Breweries",
+      "fact": "'Extra Cold' lager with ice-cold thermochromatic packaging."
+    },
+    {
+      "q": "What sweet jam is traditionally spread inside a braaibroodjie to give it a hint of sweetness against the cheese and onion?",
+      "answers": [
+        "Strawberry jam",
+        "Mrs Ball's Chutney or Apricot jam",
+        "Marmalade",
+        "Fig preserve"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Meat on the Coals, Sauces & Breweries",
+      "fact": "Mrs Ball's Chutney or a touch of smooth apricot jam elevates the braaibroodjie."
+    },
+    {
+      "q": "What dark beer style originated in London in the early 18th century as a hearty drink favored by street and river porters?",
+      "answers": [
+        "Stout",
+        "Porter",
+        "Bock",
+        "Amber Ale"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Meat on the Coals, Sauces & Breweries",
+      "fact": "Named after the street and river porters who loaded cargo along the Thames."
+    },
+    {
+      "q": "What spice gives South African Cape Malay curries, bobotie, and yellow rice their distinctive vibrant yellow color?",
+      "answers": [
+        "Saffron",
+        "Turmeric (Borrie)",
+        "Paprika",
+        "Cardamom"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Meat on the Coals, Sauces & Breweries",
+      "fact": "Turmeric (known locally as borrie) imparts warm earthy flavor and rich golden color."
+    },
+    {
+      "q": "At which Cape Town hospital did Professor Christiaan Barnard perform the world's first successful human-to-human heart transplant in 1967?",
+      "answers": [
+        "Tygerberg Hospital",
+        "Groote Schuur Hospital",
+        "Somerset Hospital",
+        "Red Cross Children's Hospital"
+      ],
+      "correct": 1,
+      "round": "Round 5 · World History, Inventions & Discoveries",
+      "fact": "3 December 1967: recipient Louis Washkansky lived for 18 days with the new heart."
+    },
+    {
+      "q": "Which South African coastal engineering invention, a distinctive geometric 20-ton concrete block, is used worldwide to protect breakwaters from ocean waves?",
+      "answers": [
+        "Dolos",
+        "Tetrapod",
+        "Accropode",
+        "Hexaleg"
+      ],
+      "correct": 0,
+      "round": "Round 5 · World History, Inventions & Discoveries",
+      "fact": "Invented in East London in 1963 by Eric Merrifield and Aubrey Kruger."
+    },
+    {
+      "q": "Which South African-born physicist shared the 1979 Nobel Prize in Physiology or Medicine for the development of computer-assisted tomography (CAT scan)?",
+      "answers": [
+        "Max Theiler",
+        "Allan Cormack",
+        "Aaron Klug",
+        "Sydney Brenner"
+      ],
+      "correct": 1,
+      "round": "Round 5 · World History, Inventions & Discoveries",
+      "fact": "Allan Cormack attended the University of Cape Town before conducting research at Tufts University."
+    },
+    {
+      "q": "In what calendar year did Apollo 11 astronaut Neil Armstrong become the first human to step onto the surface of the Moon?",
+      "answers": [
+        "1965",
+        "1967",
+        "1969",
+        "1971"
+      ],
+      "correct": 2,
+      "round": "Round 5 · World History, Inventions & Discoveries",
+      "fact": "20 July 1969: 'That's one small step for man, one giant leap for mankind.'"
+    },
+    {
+      "q": "What ancient trade network linked China and the Mediterranean world for overland silk, spice, and horse trade?",
+      "answers": [
+        "The Amber Road",
+        "The Silk Road",
+        "The Spice Route",
+        "The King's Highway"
+      ],
+      "correct": 1,
+      "round": "Round 5 · World History, Inventions & Discoveries",
+      "fact": "Spanned over 6,400 km across Eurasia."
+    },
+    {
+      "q": "Which British passenger ocean liner sank in the North Atlantic in April 1912 after striking an iceberg?",
+      "answers": [
+        "RMS Lusitania",
+        "RMS Titanic",
+        "SS Britannic",
+        "Queen Mary"
+      ],
+      "correct": 1,
+      "round": "Round 5 · World History, Inventions & Discoveries",
+      "fact": "Sank on its maiden voyage from Southampton to New York City."
+    },
+    {
+      "q": "Which Portuguese explorer became the first European to sail around the southernmost tip of Africa (Cape of Good Hope) in 1488?",
+      "answers": [
+        "Vasco da Gama",
+        "Bartolomeu Dias",
+        "Ferdinand Magellan",
+        "Christopher Columbus"
+      ],
+      "correct": 1,
+      "round": "Round 5 · World History, Inventions & Discoveries",
+      "fact": "Dias named it Cabo das Tormentas (Cape of Storms), later renamed Cape of Good Hope by King John II."
+    },
+    {
+      "q": "In which city is the famous Leaning Tower located?",
+      "answers": [
+        "Florence",
+        "Pisa",
+        "Venice",
+        "Genoa"
+      ],
+      "correct": 1,
+      "round": "Round 5 · World History, Inventions & Discoveries",
+      "fact": "The freestanding bell tower of Pisa Cathedral in Italy."
+    },
+    {
+      "q": "What international wall dividing an iconic European city fell on 9 November 1989, marking the end of the Cold War era?",
+      "answers": [
+        "The Warsaw Wall",
+        "The Berlin Wall",
+        "The Iron Curtain Wall",
+        "The Danube Wall"
+      ],
+      "correct": 1,
+      "round": "Round 5 · World History, Inventions & Discoveries",
+      "fact": "The fall of the Berlin Wall reunited East and West Germany."
+    },
+    {
+      "q": "Which ancient civilization built the colossal stone monument known as the Great Sphinx at Giza?",
+      "answers": [
+        "Ancient Romans",
+        "Ancient Egyptians",
+        "Ancient Greeks",
+        "Babylonians"
+      ],
+      "correct": 1,
+      "round": "Round 5 · World History, Inventions & Discoveries",
+      "fact": "Carved out of limestone during the reign of Pharaoh Khafre (~2500 BC)."
+    },
+    {
+      "q": "How many total days did Nelson Mandela spend imprisoned before his release on 11 February 1990?",
+      "answers": [
+        "7,500 days",
+        "9,000 days",
+        "10,052 days",
+        "12,000 days"
+      ],
+      "correct": 2,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "Mandela spent 27 years, 6 months, and 6 days (10,052 days) in prison."
+    },
+    {
+      "q": "What is the official weight in metric tons of a standard full-size concrete dolos used on harbor breakwaters?",
+      "answers": [
+        "5 tons",
+        "10 tons",
+        "20 tons",
+        "40 tons"
+      ],
+      "correct": 2,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "Standard breakwater dolosse weigh approximately 20 tons each."
+    },
+    {
+      "q": "In what calendar year did the historic Apollo 11 moon landing take place?",
+      "answers": [
+        "1967",
+        "1968",
+        "1969",
+        "1970"
+      ],
+      "correct": 2,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "July 1969."
+    }
+  ]
+}

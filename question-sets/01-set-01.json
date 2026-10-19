@@ -1,0 +1,644 @@
+{
+  "id": "set-1-the-grand-kickoff",
+  "name": "Set 1: The Grand Kickoff",
+  "badge": "Set 1 • Classic Pub Mix",
+  "description": "Rugby, Music, Bar Science & Local Legends",
+  "questions": [
+    {
+      "q": "In rugby union, how many total points is a converted try worth?",
+      "answers": [
+        "5 points",
+        "7 points",
+        "6 points",
+        "8 points"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Bar Warm-Up",
+      "fact": "5 points for the grounding try, plus 2 points for the conversion kick."
+    },
+    {
+      "q": "What popular shooter, famous across South African bars, is made by layering peppermint liqueur with Amarula or Cape Velvet?",
+      "answers": [
+        "Blowjob",
+        "Suitcase",
+        "Springbokkie",
+        "Soweto Toilet"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Bar Warm-Up",
+      "fact": "Layers green and gold in a shooter glass."
+    },
+    {
+      "q": "In the iconic 1986 action film Top Gun, what was Tom Cruise's fighter pilot callsign?",
+      "answers": [
+        "Goose",
+        "Maverick",
+        "Iceman",
+        "Viper"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Bar Warm-Up",
+      "fact": "Pete 'Maverick' Mitchell. Goose was his RIO wingman."
+    },
+    {
+      "q": "In cricket, how many legal balls are bowled in a standard over?",
+      "answers": [
+        "6 balls",
+        "5 balls",
+        "8 balls",
+        "4 balls"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Bar Warm-Up",
+      "fact": "Wides and no-balls do not count towards the 6."
+    },
+    {
+      "q": "What is the only mammal on Earth capable of true, sustained flight?",
+      "answers": [
+        "Flying Squirrel",
+        "Sugar Glider",
+        "Bat",
+        "Flying Lemur"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Bar Warm-Up",
+      "fact": "Flying squirrels and sugar gliders only glide; bats have true powered flight."
+    },
+    {
+      "q": "What fictional city does Batman protect from villains like the Joker and the Penguin?",
+      "answers": [
+        "Metropolis",
+        "Star City",
+        "Gotham City",
+        "Central City"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Bar Warm-Up",
+      "fact": "Superman guards Metropolis; Batman rules Gotham."
+    },
+    {
+      "q": "In website addresses, what do the three letters 'WWW' stand for?",
+      "answers": [
+        "World Wide Web",
+        "Wide World Web",
+        "Web World Wide",
+        "Wireless World Web"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Bar Warm-Up",
+      "fact": "Invented by British computer scientist Tim Berners-Lee in 1989."
+    },
+    {
+      "q": "In the classic board game Monopoly, what colour are the two most expensive properties, Mayfair and Park Lane?",
+      "answers": [
+        "Green",
+        "Red",
+        "Dark Blue",
+        "Yellow"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Bar Warm-Up",
+      "fact": "The ultimate high-rent set on the board."
+    },
+    {
+      "q": "What is the primary chemical element that makes up roughly 78% of the air we breathe?",
+      "answers": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Hydrogen"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Bar Warm-Up",
+      "fact": "Oxygen accounts for about 21%, Nitrogen makes up 78%."
+    },
+    {
+      "q": "What colour is the inner bullseye on a standard regulation pub dartboard?",
+      "answers": [
+        "Green",
+        "Black",
+        "Red",
+        "Yellow"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Bar Warm-Up",
+      "fact": "Outer ring is green (25 points); inner bull is red (50 points)."
+    },
+    {
+      "q": "Which Australian hard rock band gave us legendary pub singalongs like Thunderstruck, Highway to Hell, and Back in Black?",
+      "answers": [
+        "Iron Maiden",
+        "AC/DC",
+        "Def Leppard",
+        "Black Sabbath"
+      ],
+      "correct": 1,
+      "round": "Round 2 · The Beat & The Screen",
+      "fact": "Fronted by Brian Johnson with Angus Young on lead guitar."
+    },
+    {
+      "q": "In the 1984 sci-fi action classic The Terminator, what famous three-word line does Arnold Schwarzenegger deliver at the police station desk?",
+      "answers": [
+        "Hasta la vista",
+        "I'll be back",
+        "Come with me",
+        "Get to chopper"
+      ],
+      "correct": 1,
+      "round": "Round 2 · The Beat & The Screen",
+      "fact": "Delivered right before crashing a car through the front door."
+    },
+    {
+      "q": "Freddie Mercury was the legendary, operatic lead singer of which British rock band?",
+      "answers": [
+        "Queen",
+        "The Who",
+        "Led Zeppelin",
+        "The Rolling Stones"
+      ],
+      "correct": 0,
+      "round": "Round 2 · The Beat & The Screen",
+      "fact": "Brian May on guitar, Roger Taylor on drums, John Deacon on bass."
+    },
+    {
+      "q": "In the smash-hit 90s sitcom Friends, what is the name of the coffee shop where the six friends hang out on the orange couch?",
+      "answers": [
+        "Monk's Diner",
+        "Central Perk",
+        "MacLaren's Pub",
+        "The Beanery"
+      ],
+      "correct": 1,
+      "round": "Round 2 · The Beat & The Screen",
+      "fact": "Featuring Gunther behind the espresso counter."
+    },
+    {
+      "q": "Which American rock band had a massive global hit in 1987 with Sweet Child O' Mine, featuring Slash's iconic opening guitar riff?",
+      "answers": [
+        "Aerosmith",
+        "Bon Jovi",
+        "Guns N' Roses",
+        "Mötley Crüe"
+      ],
+      "correct": 2,
+      "round": "Round 2 · The Beat & The Screen",
+      "fact": "From their diamond-selling debut album Appetite for Destruction."
+    },
+    {
+      "q": "In The Lord of the Rings, what was the original name of the creature who was corrupted by the One Ring and became Gollum?",
+      "answers": [
+        "Bilbo",
+        "Déagol",
+        "Sméagol",
+        "Peregrin"
+      ],
+      "correct": 2,
+      "round": "Round 2 · The Beat & The Screen",
+      "fact": "He killed his cousin Déagol to claim the ring."
+    },
+    {
+      "q": "Michael Jackson's iconic 1983 horror-themed music video featured dancing zombies and narration by Vincent Price. What was the song?",
+      "answers": [
+        "Beat It",
+        "Billie Jean",
+        "Bad",
+        "Thriller"
+      ],
+      "correct": 3,
+      "round": "Round 2 · The Beat & The Screen",
+      "fact": "Directed by John Landis."
+    },
+    {
+      "q": "Who played the Roman general Maximus Decimus Meridius in Ridley Scott's 2000 epic blockbuster Gladiator?",
+      "answers": [
+        "Gerard Butler",
+        "Mel Gibson",
+        "Russell Crowe",
+        "Christian Bale"
+      ],
+      "correct": 2,
+      "round": "Round 2 · The Beat & The Screen",
+      "fact": "Won the Academy Award for Best Actor for the role."
+    },
+    {
+      "q": "Which Norwegian band sang the 1985 synth-pop smash hit Take On Me, famous for its groundbreaking pencil-sketch animation video?",
+      "answers": [
+        "a-ha",
+        "Duran Duran",
+        "Tears for Fears",
+        "Depeche Mode"
+      ],
+      "correct": 0,
+      "round": "Round 2 · The Beat & The Screen",
+      "fact": "Fronted by Morten Harket hitting the famous high F-sharp note."
+    },
+    {
+      "q": "In Quentin Tarantino's Pulp Fiction, what do they call a McDonald's Quarter Pounder with Cheese in Paris?",
+      "answers": [
+        "Le Big Mac",
+        "A Royale with Cheese",
+        "Fromage Deluxe",
+        "Parisian Burger"
+      ],
+      "correct": 1,
+      "round": "Round 2 · The Beat & The Screen",
+      "fact": "Vincent Vega explains it is because of the metric system!"
+    },
+    {
+      "q": "How many Rugby World Cup tournament titles have the Springboks won?",
+      "answers": [
+        "2 titles",
+        "3 titles",
+        "4 titles",
+        "5 titles"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Rugby, Cricket & Sports",
+      "fact": "1995, 2007, 2019, and 2023. The only nation with four titles!"
+    },
+    {
+      "q": "In cricket, what specific term is used when a batsman is dismissed for zero on the very first ball they face?",
+      "answers": [
+        "Diamond Duck",
+        "Golden Duck",
+        "Silver Duck",
+        "Royal Pair"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Rugby, Cricket & Sports",
+      "fact": "A diamond duck is out without facing a ball (e.g. run-out at non-striker's end)."
+    },
+    {
+      "q": "In a rugby union starting lineup, which position wears the number 15 jersey on the pitch?",
+      "answers": [
+        "Flyhalf",
+        "Scrumhalf",
+        "Outside Centre",
+        "Fullback"
+      ],
+      "correct": 3,
+      "round": "Round 3 · Rugby, Cricket & Sports",
+      "fact": "The last line of defense (e.g. Percy Montgomery, Damian Willemse)."
+    },
+    {
+      "q": "Who holds the all-time world record for the highest individual score in a single Test match innings with 400 runs not out?",
+      "answers": [
+        "Sachin Tendulkar",
+        "Brian Lara",
+        "Don Bradman",
+        "Jacques Kallis"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Rugby, Cricket & Sports",
+      "fact": "Scored against England in Antigua in April 2004."
+    },
+    {
+      "q": "Which German racing legend won five consecutive Formula 1 World Championships with Ferrari between 2000 and 2004?",
+      "answers": [
+        "Sebastian Vettel",
+        "Nico Rosberg",
+        "Michael Schumacher",
+        "Ayrton Senna"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Rugby, Cricket & Sports",
+      "fact": "Won 7 world drivers championships in total."
+    },
+    {
+      "q": "In the 1995 Rugby World Cup final at Ellis Park, which Springbok flyhalf kicked the winning drop goal in extra time against the All Blacks?",
+      "answers": [
+        "Jannie de Beer",
+        "Joel Stransky",
+        "Henry Honiball",
+        "Naas Botha"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Rugby, Cricket & Sports",
+      "fact": "Final score was 15-12 in historic extra time."
+    },
+    {
+      "q": "In the 1992 Cricket World Cup, which South African fielder produced the most famous run-out in history by diving horizontal through the air to shatter the stumps against Pakistan?",
+      "answers": [
+        "Herschelle Gibbs",
+        "Gary Kirsten",
+        "Jonty Rhodes",
+        "Hansie Cronje"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Rugby, Cricket & Sports",
+      "fact": "Dismissing Inzamam-ul-Haq in Brisbane."
+    },
+    {
+      "q": "Known as 'The Greatest', which legendary heavyweight boxing champion famously coined the phrase 'Float like a butterfly, sting like a bee'?",
+      "answers": [
+        "Mike Tyson",
+        "Joe Frazier",
+        "Muhammad Ali",
+        "George Foreman"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Rugby, Cricket & Sports",
+      "fact": "Defeated George Foreman in the Rumble in the Jungle."
+    },
+    {
+      "q": "How many major golf championships has Tiger Woods won in his career so far?",
+      "answers": [
+        "12 Majors",
+        "15 Majors",
+        "18 Majors",
+        "20 Majors"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Rugby, Cricket & Sports",
+      "fact": "Second only to Jack Nicklaus with 18."
+    },
+    {
+      "q": "Alongside captain Siya Kolisi, who served as head coach when the Springboks won the 2019 Rugby World Cup in Japan?",
+      "answers": [
+        "Heyneke Meyer",
+        "Jacques Nienaber",
+        "Rassie Erasmus",
+        "Allister Coetzee"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Rugby, Cricket & Sports",
+      "fact": "Johan 'Rassie' Erasmus led the Boks to a 32-12 triumph over England."
+    },
+    {
+      "q": "What is the largest and deepest ocean on Earth, covering more than 30% of the planet's surface?",
+      "answers": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "correct": 3,
+      "round": "Round 4 · Around The World & Bar Science",
+      "fact": "Larger than all Earth's landmass combined."
+    },
+    {
+      "q": "What natural flower cone provides beer with its characteristic bitterness, aroma, and head retention during brewing?",
+      "answers": [
+        "Barley",
+        "Hops",
+        "Malt",
+        "Rye"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Around The World & Bar Science",
+      "fact": "The four main beer ingredients: Water, Malt, Hops, Yeast."
+    },
+    {
+      "q": "In which European capital city would you find the ancient Roman Colosseum?",
+      "answers": [
+        "Athens",
+        "Madrid",
+        "Rome",
+        "Florence"
+      ],
+      "correct": 2,
+      "round": "Round 4 · Around The World & Bar Science",
+      "fact": "Completed in 80 AD under Emperor Titus."
+    },
+    {
+      "q": "How many total bones are in a typical adult human skeleton?",
+      "answers": [
+        "184 bones",
+        "206 bones",
+        "224 bones",
+        "250 bones"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Around The World & Bar Science",
+      "fact": "Babies start with ~270 bones which fuse into 206 as adults."
+    },
+    {
+      "q": "What is the fastest land animal on Earth, capable of sprinting over 100 km/h in short bursts?",
+      "answers": [
+        "Lion",
+        "Cheetah",
+        "Springbok",
+        "Leopard"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Around The World & Bar Science",
+      "fact": "Can accelerate from 0 to 100 km/h in roughly 3 seconds."
+    },
+    {
+      "q": "What is the cardinal, golden rule of cooking a traditional potjiekos once the heavy cast-iron lid is closed over the coals?",
+      "answers": [
+        "Stir every 15 minutes",
+        "Add extra beer constantly",
+        "You never stir the pot",
+        "Remove the lid often"
+      ],
+      "correct": 2,
+      "round": "Round 4 · Around The World & Bar Science",
+      "fact": "The layered ingredients must cook undisturbed."
+    },
+    {
+      "q": "Which planet in our solar system is nicknamed the 'Red Planet' due to iron oxide rust covering its surface?",
+      "answers": [
+        "Venus",
+        "Mars",
+        "Jupiter",
+        "Mercury"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Around The World & Bar Science",
+      "fact": "Fourth planet from the sun."
+    },
+    {
+      "q": "What botanical berry gives Gin its signature required flavor profile?",
+      "answers": [
+        "Elderberry",
+        "Cranberry",
+        "Juniper berry",
+        "Blackberry"
+      ],
+      "correct": 2,
+      "round": "Round 4 · Around The World & Bar Science",
+      "fact": "Without juniper, it legally cannot be called gin."
+    },
+    {
+      "q": "What is the official federal capital city of Australia?",
+      "answers": [
+        "Sydney",
+        "Melbourne",
+        "Brisbane",
+        "Canberra"
+      ],
+      "correct": 3,
+      "round": "Round 4 · Around The World & Bar Science",
+      "fact": "Purpose-built capital chosen as a compromise between Sydney and Melbourne."
+    },
+    {
+      "q": "What three classic fillings make up the holy trinity inside an authentic braaibroodjie alongside cheddar cheese?",
+      "answers": [
+        "Ham, cheese, mustard",
+        "Onion, tomato, chutney",
+        "Bacon, egg, mayo",
+        "Mushroom, pepper, garlic"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Around The World & Bar Science",
+      "fact": "With butter on the outside of the bread for that perfect braai crust."
+    },
+    {
+      "q": "In The Lord of the Rings trilogy, what is the name of the fiery volcano in Mordor where Frodo must cast the One Ring to destroy it?",
+      "answers": [
+        "Erebor",
+        "Mount Doom",
+        "Orthanc",
+        "Caradhras"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Pub Mastermind Decider",
+      "fact": "Also called Orodruin in Elvish."
+    },
+    {
+      "q": "In a standard game of English pub darts, what is the maximum mathematical score a player can achieve in a single turn of three darts?",
+      "answers": [
+        "150",
+        "160",
+        "180",
+        "200"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Pub Mastermind Decider",
+      "fact": "Three treble 20s. TJ: Hit them with a big 'ONE HUNDRED AND EIGHTY!'"
+    },
+    {
+      "q": "In what calendar year did the Berlin Wall fall, initiating the reunification of Germany and end of the Cold War?",
+      "answers": [
+        "1987",
+        "1989",
+        "1991",
+        "1993"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Pub Mastermind Decider",
+      "fact": "November 9, 1989."
+    },
+    {
+      "q": "In modern computer hardware and mobile device cables, what does the abbreviation 'USB' stand for?",
+      "answers": [
+        "Universal System Bridge",
+        "Unified Serial Port",
+        "Universal Serial Bus",
+        "Uniform Standard Bus"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Pub Mastermind Decider",
+      "fact": "Introduced in 1996."
+    },
+    {
+      "q": "Which legendary English rock guitarist was nicknamed 'Slowhand' and played with The Yardbirds, Cream, and recorded solo hits like Layla and Wonderful Tonight?",
+      "answers": [
+        "Jeff Beck",
+        "Jimmy Page",
+        "Eric Clapton",
+        "Mark Knopfler"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Pub Mastermind Decider",
+      "fact": "Inducted three times into the Rock and Roll Hall of Fame."
+    },
+    {
+      "q": "What is the distinctive and flamboyant collective English noun for a group or flock of flamingos?",
+      "answers": [
+        "A Gaggle",
+        "A Flamboyance",
+        "A Murder",
+        "A Colony"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Pub Mastermind Decider",
+      "fact": "A flamboyance of flamingos."
+    },
+    {
+      "q": "What is the name of the deepest surveyed oceanic trench on planet Earth, located in the western Pacific Ocean?",
+      "answers": [
+        "Mariana Trench",
+        "Puerto Rico Trench",
+        "Java Trench",
+        "Tonga Trench"
+      ],
+      "correct": 0,
+      "round": "Round 5 · Pub Mastermind Decider",
+      "fact": "Plunges down nearly 11,000 meters in Challenger Deep."
+    },
+    {
+      "q": "Who directed the iconic Hollywood blockbusters Jaws, Jurassic Park, Raiders of the Lost Ark, and Saving Private Ryan?",
+      "answers": [
+        "James Cameron",
+        "Ridley Scott",
+        "Steven Spielberg",
+        "Martin Scorsese"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Pub Mastermind Decider",
+      "fact": "The most commercially successful director in film history."
+    },
+    {
+      "q": "What three alcoholic ingredients are mixed in equal parts to create a classic Italian Negroni cocktail?",
+      "answers": [
+        "Vodka, Kahlúa, Cream",
+        "Gin, Campari, Sweet Vermouth",
+        "Tequila, Triple Sec, Lime",
+        "Rum, Mint, Soda"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Pub Mastermind Decider",
+      "fact": "1:1:1 ratio, traditionally garnished with an orange peel."
+    },
+    {
+      "q": "South Africa has three official capital cities: Pretoria (Executive) and Cape Town (Legislative). Which city is the Judicial capital?",
+      "answers": [
+        "Durban",
+        "Johannesburg",
+        "Bloemfontein",
+        "Gqeberha"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Pub Mastermind Decider",
+      "fact": "Located in the Free State; seat of the Supreme Court of Appeal."
+    },
+    {
+      "q": "How many meters high is Table Mountain above sea level at its highest point (Maclear's Beacon)?",
+      "answers": [
+        "980 meters",
+        "1,086 meters",
+        "1,220 meters",
+        "1,450 meters"
+      ],
+      "correct": 1,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "Maclear's Beacon is 1,086 meters above sea level."
+    },
+    {
+      "q": "In what calendar year did the original Sony PlayStation console first release in South Africa and Europe?",
+      "answers": [
+        "1993",
+        "1994",
+        "1995",
+        "1997"
+      ],
+      "correct": 2,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "September 1995 in Europe/SA."
+    },
+    {
+      "q": "How many total matches were played across the entire 2023 Rugby World Cup tournament in France?",
+      "answers": [
+        "40 matches",
+        "48 matches",
+        "52 matches",
+        "64 matches"
+      ],
+      "correct": 1,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "40 pool matches + 8 knockout games."
+    }
+  ]
+}

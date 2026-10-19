@@ -1,0 +1,644 @@
+{
+  "id": "set-9-vaal-river-vibes",
+  "name": "Set 9: Vaal River Vibes",
+  "badge": "Set 9 • Vaal Cruisers",
+  "description": "Marathons, Superhero Sagas, Shooters & Mighty Rivers",
+  "questions": [
+    {
+      "q": "In South Africa, what is a 750ml glass bottle of beer commonly called in bar slang?",
+      "answers": [
+        "A dumpy",
+        "A quart",
+        "A pint",
+        "A growler"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Taproom Trivia",
+      "fact": "A 750ml bottle is traditionally known as a 'quart' (or 'large')."
+    },
+    {
+      "q": "How many seconds are in five full minutes?",
+      "answers": [
+        "250 seconds",
+        "300 seconds",
+        "350 seconds",
+        "400 seconds"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Taproom Trivia",
+      "fact": "5 x 60 = 300 seconds."
+    },
+    {
+      "q": "What is the primary spirit used to make a classic Cuba Libre cocktail?",
+      "answers": [
+        "Vodka",
+        "Rum",
+        "Gin",
+        "Bourbon"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Taproom Trivia",
+      "fact": "Rum, cola, and fresh lime juice."
+    },
+    {
+      "q": "Which bird is the national bird of South Africa?",
+      "answers": [
+        "Ostrich",
+        "Blue Crane",
+        "Secretary Bird",
+        "Fish Eagle"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Taproom Trivia",
+      "fact": "The elegant Blue Crane (Anthropoides paradiseus)."
+    },
+    {
+      "q": "How many players are on a standard basketball court for one team during play?",
+      "answers": [
+        "4 players",
+        "5 players",
+        "6 players",
+        "7 players"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Taproom Trivia",
+      "fact": "5 players per team on the court."
+    },
+    {
+      "q": "What is the capital city of Ireland?",
+      "answers": [
+        "Belfast",
+        "Cork",
+        "Dublin",
+        "Galway"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Taproom Trivia",
+      "fact": "Dublin: home of St. James's Gate Brewery (Guinness)."
+    },
+    {
+      "q": "What is the common name for the dry meat snack made by stuffing sheep or beef casing with seasoned ground meat and drying it?",
+      "answers": [
+        "Boerewors",
+        "Droëwors",
+        "Salami",
+        "Chorizo"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Taproom Trivia",
+      "fact": "Droëwors."
+    },
+    {
+      "q": "What color is the middle stripe on the national flag of Germany?",
+      "answers": [
+        "Black",
+        "Red",
+        "Gold (Yellow)",
+        "White"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Taproom Trivia",
+      "fact": "Black, Red, Gold from top to bottom."
+    },
+    {
+      "q": "In pool or billiards, what ball is traditionally solid black with the number 8?",
+      "answers": [
+        "The 1-ball",
+        "The 8-ball",
+        "The cue ball",
+        "The 9-ball"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Taproom Trivia",
+      "fact": "The 8-ball is the black ball potted last to win."
+    },
+    {
+      "q": "What is the traditional name for the morning alcoholic beverage made with tomato juice, vodka, Worcestershire sauce, and Tabasco?",
+      "answers": [
+        "Screwdriver",
+        "Bloody Mary",
+        "Mimosa",
+        "Tequila Sunrise"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Taproom Trivia",
+      "fact": "Classic hangover remedy cocktail."
+    },
+    {
+      "q": "Between which two KwaZulu-Natal cities is the world-famous Comrades Marathon run annually over approximately 89 kilometers?",
+      "answers": [
+        "Durban & Pietermaritzburg",
+        "Durban & Richards Bay",
+        "Newcastle & Ladysmith",
+        "Margate & Durban"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Athletics, Marathons & Water Sports",
+      "fact": "The world's largest and oldest ultramarathon, alternating between Up Run and Down Run."
+    },
+    {
+      "q": "Which South African running legend won the Comrades Marathon a record nine times between 1981 and 1992?",
+      "answers": [
+        "Shaun Meiklejohn",
+        "Bruce Fordyce",
+        "Nick Bester",
+        "Ludwick Mamabolo"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Athletics, Marathons & Water Sports",
+      "fact": "Bruce Fordyce: the undisputed king of the Comrades Marathon."
+    },
+    {
+      "q": "Which South African sprinter shattered Michael Johnson's 17-year-old world record to win 400m Olympic Gold in Rio 2016 in 43.03 seconds from lane 8?",
+      "answers": [
+        "Akani Simbine",
+        "Wayde van Niekerk",
+        "Anaso Jobodwana",
+        "Clarence Munyai"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Athletics, Marathons & Water Sports",
+      "fact": "Wayde van Niekerk's mind-blowing 43.03 run from the outside lane in Rio."
+    },
+    {
+      "q": "What is the standard official length of a full marathon race in kilometers?",
+      "answers": [
+        "40.0 km",
+        "41.5 km",
+        "42.195 km",
+        "45.0 km"
+      ],
+      "correct": 2,
+      "round": "Round 2 · Athletics, Marathons & Water Sports",
+      "fact": "42.195 km (26 miles 385 yards), standardized at the 1908 London Olympics."
+    },
+    {
+      "q": "Which South African marathon race held in Cape Town every Easter weekend is famed as 'The World's Most Beautiful Marathon'?",
+      "answers": [
+        "Cape Peninsula Marathon",
+        "Two Oceans Marathon",
+        "Sanlam Cape Town Marathon",
+        "Gun Run"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Athletics, Marathons & Water Sports",
+      "fact": "56 km ultramarathon over Chapman's Peak and Constantia Nek."
+    },
+    {
+      "q": "Which South African male swimmer won Olympic Gold in the 100m breaststroke at the 2012 London Olympics in world record time?",
+      "answers": [
+        "Cameron van der Burgh",
+        "Chad le Clos",
+        "Ryk Neethling",
+        "Darian Townsend"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Athletics, Marathons & Water Sports",
+      "fact": "Cameron van der Burgh touched the wall in 58.46 seconds."
+    },
+    {
+      "q": "In rugby union, which position on the pitch wears the number 9 jersey?",
+      "answers": [
+        "Flyhalf",
+        "Scrumhalf",
+        "Fullback",
+        "Inside Centre"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Athletics, Marathons & Water Sports",
+      "fact": "Scrumhalf wears number 9; flyhalf wears number 10."
+    },
+    {
+      "q": "Which famous canoe marathon is held annually on the Msunduzi and Mngeni Rivers in KwaZulu-Natal over three gruelling days?",
+      "answers": [
+        "Fish River Canoe Marathon",
+        "Dusi Canoe Marathon",
+        "Berg River Marathon",
+        "Breede River Marathon"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Athletics, Marathons & Water Sports",
+      "fact": "Founded in 1951 by Ian Player, paddling and portaging between Pietermaritzburg and Durban."
+    },
+    {
+      "q": "Which country won the FIFA Men's World Cup in Qatar in December 2022, captained by Lionel Messi?",
+      "answers": [
+        "France",
+        "Brazil",
+        "Argentina",
+        "Croatia"
+      ],
+      "correct": 2,
+      "round": "Round 2 · Athletics, Marathons & Water Sports",
+      "fact": "Argentina defeated France in a thrilling penalty shootout."
+    },
+    {
+      "q": "In cricket, how many runs are scored if a batter hits the ball and runs between the wickets three times without the ball crossing the boundary?",
+      "answers": [
+        "2 runs",
+        "3 runs",
+        "4 runs",
+        "6 runs"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Athletics, Marathons & Water Sports",
+      "fact": "Each completed run across the pitch equals 1 run."
+    },
+    {
+      "q": "In the Marvel Cinematic Universe, what is the real identity of Iron Man?",
+      "answers": [
+        "Bruce Banner",
+        "Steve Rogers",
+        "Tony Stark",
+        "Peter Parker"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Sci-Fi, Superheroes & Hollywood",
+      "fact": "Played by Robert Downey Jr."
+    },
+    {
+      "q": "In Star Wars, who is revealed to be Luke Skywalker's father in The Empire Strikes Back?",
+      "answers": [
+        "Obi-Wan Kenobi",
+        "Darth Vader (Anakin Skywalker)",
+        "Emperor Palpatine",
+        "Grand Moff Tarkin"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Sci-Fi, Superheroes & Hollywood",
+      "fact": "'No, I am your father.'"
+    },
+    {
+      "q": "Which 1985 adventure film starred Michael J. Fox as high school student Marty McFly travelling back to 1955?",
+      "answers": [
+        "The Goonies",
+        "Back to the Future",
+        "Ferris Bueller's Day Off",
+        "Ghostbusters"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Sci-Fi, Superheroes & Hollywood",
+      "fact": "Directed by Robert Zemeckis."
+    },
+    {
+      "q": "What fictional African country is ruled by King T'Challa in Marvel's Black Panther?",
+      "answers": [
+        "Zamunda",
+        "Wakanda",
+        "Genovia",
+        "Latveria"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Sci-Fi, Superheroes & Hollywood",
+      "fact": "'Wakanda Forever!' Rich in the alien metal vibranium."
+    },
+    {
+      "q": "Who directed the 1994 cult masterpiece Pulp Fiction?",
+      "answers": [
+        "Quentin Tarantino",
+        "David Fincher",
+        "Guy Ritchie",
+        "Stanley Kubrick"
+      ],
+      "correct": 0,
+      "round": "Round 3 · Sci-Fi, Superheroes & Hollywood",
+      "fact": "Won the Palme d'Or at Cannes in 1994."
+    },
+    {
+      "q": "In the Batman universe, what is the name of the fictional city protected by the Caped Crusader?",
+      "answers": [
+        "Metropolis",
+        "Star City",
+        "Gotham City",
+        "Central City"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Sci-Fi, Superheroes & Hollywood",
+      "fact": "Metropolis is Superman's home; Gotham belongs to Batman."
+    },
+    {
+      "q": "Which actor played Indiana Jones in Raiders of the Lost Ark (1981)?",
+      "answers": [
+        "Sean Connery",
+        "Harrison Ford",
+        "Tom Selleck",
+        "Kurt Russell"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Sci-Fi, Superheroes & Hollywood",
+      "fact": "Harrison Ford wielded the fedora and whip."
+    },
+    {
+      "q": "In the Harry Potter series, what platform at King's Cross station does the Hogwarts Express depart from?",
+      "answers": [
+        "Platform 7½",
+        "Platform 9¾",
+        "Platform 10½",
+        "Platform 12"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Sci-Fi, Superheroes & Hollywood",
+      "fact": "Hidden behind the barrier between platforms 9 and 10."
+    },
+    {
+      "q": "What British rock band wrote and performed the iconic soundtrack to the 1986 film Highlander, including 'Princes of the Universe' and 'Who Wants to Live Forever'?",
+      "answers": [
+        "Queen",
+        "Def Leppard",
+        "Iron Maiden",
+        "Pink Floyd"
+      ],
+      "correct": 0,
+      "round": "Round 3 · Sci-Fi, Superheroes & Hollywood",
+      "fact": "Included on Queen's 1986 album A Kind of Magic."
+    },
+    {
+      "q": "What is the name of the green ogre who lives in a swamp alongside a talking Donkey in DreamWorks' hit animated film?",
+      "answers": [
+        "Sulley",
+        "Shrek",
+        "Fiona",
+        "Gru"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Sci-Fi, Superheroes & Hollywood",
+      "fact": "Voiced by Mike Myers (with Eddie Murphy as Donkey)."
+    },
+    {
+      "q": "What South African shooter is served as a double shot of Klipdrift brandy accompanied by a chaser can of Passion Fruit soda?",
+      "answers": [
+        "Springbokkie",
+        "Suitcase",
+        "Soweto Toilet",
+        "Ferrari"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Cocktails, Shooters & Snacks",
+      "fact": "A 'Suitcase': shot of Klipdrift followed by Passion Fruit soda."
+    },
+    {
+      "q": "What shooter is made by layering peppermint green liqueur with cream liqueur (Amarula)?",
+      "answers": [
+        "Springbokkie",
+        "B-52",
+        "Slippery Nipple",
+        "Jelly Baby"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Cocktails, Shooters & Snacks",
+      "fact": "The national shot of South Africa: green and gold in a glass."
+    },
+    {
+      "q": "What triangular pastry snack filled with curried potatoes, peas, or spicy mince is beloved at South African parties?",
+      "answers": [
+        "Spring roll",
+        "Samosa",
+        "Empanada",
+        "Pastry puff"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Cocktails, Shooters & Snacks",
+      "fact": "Crispy golden fried samosas."
+    },
+    {
+      "q": "What cocktail is made with white rum, coconut cream, and pineapple juice, garnished with a pineapple wedge?",
+      "answers": [
+        "Mai Tai",
+        "Piña Colada",
+        "Daiquiri",
+        "Bahama Mama"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Cocktails, Shooters & Snacks",
+      "fact": "National drink of Puerto Rico since 1978."
+    },
+    {
+      "q": "Which brand of South African cider was launched in 1996 with a famous dry taste and lemon wedge in the neck?",
+      "answers": [
+        "Hunter's Dry",
+        "Savanna Dry",
+        "Strongbow",
+        "Bernini"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Cocktails, Shooters & Snacks",
+      "fact": "Savanna Dry: 'It's dry, but you can drink it.'"
+    },
+    {
+      "q": "What popular bar snack consists of seasoned pork skin deep-fried until crisp and crackling?",
+      "answers": [
+        "Pork Crackling / Scratchings",
+        "Droëwors",
+        "Cabanossi",
+        "Brawn"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Cocktails, Shooters & Snacks",
+      "fact": "Crispy salted pork scratchings."
+    },
+    {
+      "q": "What Italian bitter liqueur, vibrant red in color, is the key ingredient in a Negroni cocktail alongside gin and sweet vermouth?",
+      "answers": [
+        "Aperol",
+        "Campari",
+        "Cynar",
+        "Fernet-Branca"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Cocktails, Shooters & Snacks",
+      "fact": "Equal parts Campari, sweet red vermouth, and gin."
+    },
+    {
+      "q": "What is the classic Cape Malay dish made of spiced minced meat baked with an egg custard topping and bay leaves?",
+      "answers": [
+        "Bobotie",
+        "Bredie",
+        "Denningvleis",
+        "Gesmoor"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Cocktails, Shooters & Snacks",
+      "fact": "South Africa's national dish, fragrant with curry spices and raisins."
+    },
+    {
+      "q": "In a bar, what term is used for draught beer served directly from the tap into a glass pitcher built for sharing at the table?",
+      "answers": [
+        "Growler",
+        "Pitcher / Jug",
+        "Yard of Ale",
+        "Stein"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Cocktails, Shooters & Snacks",
+      "fact": "A beer jug or pitcher, typically 1.5 to 2 liters."
+    },
+    {
+      "q": "What spicy tomato cocktail mix originated in Calgary, Canada, made with clam broth and tomato juice?",
+      "answers": [
+        "Bloody Mary",
+        "Caesar (Bloody Caesar)",
+        "Michelada",
+        "Red Eye"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Cocktails, Shooters & Snacks",
+      "fact": "Made with Mott's Clamato juice."
+    },
+    {
+      "q": "What major South African river forms the provincial boundary between Gauteng and the Free State, feeding the Vaal Dam?",
+      "answers": [
+        "Limpopo River",
+        "Vaal River",
+        "Orange River",
+        "Tugela River"
+      ],
+      "correct": 1,
+      "round": "Round 5 · World Rivers, Lakes & Mountains",
+      "fact": "'Vaal' is Dutch for drab or pale, referring to the grayish silt color of the water."
+    },
+    {
+      "q": "What is the largest lake in Africa by surface area, shared by Uganda, Kenya, and Tanzania?",
+      "answers": [
+        "Lake Tanganyika",
+        "Lake Victoria",
+        "Lake Malawi",
+        "Lake Kariba"
+      ],
+      "correct": 1,
+      "round": "Round 5 · World Rivers, Lakes & Mountains",
+      "fact": "Spanning over 68,000 square kilometers, it is the main source of the White Nile."
+    },
+    {
+      "q": "What is the highest mountain peak in the world above sea level, located on the border between Nepal and China?",
+      "answers": [
+        "K2",
+        "Mount Everest (Sagarmatha)",
+        "Kangchenjunga",
+        "Lhotse"
+      ],
+      "correct": 1,
+      "round": "Round 5 · World Rivers, Lakes & Mountains",
+      "fact": "Stands 8,848.86 meters above sea level in the Himalayas."
+    },
+    {
+      "q": "Which major river flows through London before emptying into the North Sea?",
+      "answers": [
+        "River Severn",
+        "River Thames",
+        "River Mersey",
+        "River Trent"
+      ],
+      "correct": 1,
+      "round": "Round 5 · World Rivers, Lakes & Mountains",
+      "fact": "The River Thames flows past the Houses of Parliament and Tower Bridge."
+    },
+    {
+      "q": "What South African town in the Free State is located right on the banks of the Vaal River and is famous for art galleries, breweries, and antique shops?",
+      "answers": [
+        "Parys",
+        "Sasolburg",
+        "Kroonstad",
+        "Frankfort"
+      ],
+      "correct": 0,
+      "round": "Round 5 · World Rivers, Lakes & Mountains",
+      "fact": "Parys on the Vaal: a bustling weekend getaway."
+    },
+    {
+      "q": "What is the capital city of Norway?",
+      "answers": [
+        "Stockholm",
+        "Helsinki",
+        "Oslo",
+        "Copenhagen"
+      ],
+      "correct": 2,
+      "round": "Round 5 · World Rivers, Lakes & Mountains",
+      "fact": "Oslo: situated at the head of the Oslofjord."
+    },
+    {
+      "q": "What is the largest ocean on Earth, covering more surface area than all of the world's landmasses combined?",
+      "answers": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Pacific Ocean",
+        "Arctic Ocean"
+      ],
+      "correct": 2,
+      "round": "Round 5 · World Rivers, Lakes & Mountains",
+      "fact": "Covering over 165 million square kilometers."
+    },
+    {
+      "q": "Which mountain range stretches through Switzerland, France, Italy, Austria, and Germany?",
+      "answers": [
+        "The Pyrenees",
+        "The Alps",
+        "The Urals",
+        "The Andes"
+      ],
+      "correct": 1,
+      "round": "Round 5 · World Rivers, Lakes & Mountains",
+      "fact": "Highest peak is Mont Blanc (4,808m)."
+    },
+    {
+      "q": "What South African town in the Western Cape is world-famous for its dramatic red rock cliffs and rock-climbing routes?",
+      "answers": [
+        "Montagu",
+        "Clanwilliam",
+        "Oudtshoorn",
+        "Prince Albert"
+      ],
+      "correct": 0,
+      "round": "Round 5 · World Rivers, Lakes & Mountains",
+      "fact": "Montagu on Route 62: a climbing and hot springs haven."
+    },
+    {
+      "q": "What is the capital city of New Zealand?",
+      "answers": [
+        "Auckland",
+        "Christchurch",
+        "Wellington",
+        "Queenstown"
+      ],
+      "correct": 2,
+      "round": "Round 5 · World Rivers, Lakes & Mountains",
+      "fact": "Wellington is the world's southernmost sovereign capital city."
+    },
+    {
+      "q": "What is the official world record time set by Wayde van Niekerk in the 400m sprint in Rio 2016 in seconds?",
+      "answers": [
+        "42.95 seconds",
+        "43.03 seconds",
+        "43.18 seconds",
+        "43.45 seconds"
+      ],
+      "correct": 1,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "43.03 seconds on 14 August 2016."
+    },
+    {
+      "q": "Approximately how many kilometers long is the full length of the Vaal River from its source near Breyten to its confluence with the Orange River?",
+      "answers": [
+        "750 km",
+        "950 km",
+        "1,120 km",
+        "1,400 km"
+      ],
+      "correct": 2,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "Approximately 1,120 km in length."
+    },
+    {
+      "q": "In what calendar year was the first ever Comrades Marathon run between Pietermaritzburg and Durban?",
+      "answers": [
+        "1910",
+        "1921",
+        "1932",
+        "1945"
+      ],
+      "correct": 1,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "24 May 1921, founded by Vic Clapham."
+    }
+  ]
+}

@@ -1,0 +1,644 @@
+{
+  "id": "set-6-highveld-hustle",
+  "name": "Set 6: Highveld Hustle",
+  "badge": "Set 6 • Highveld Legends",
+  "description": "Cricket Centuries, 90s Grunge, Fast Food Empires & Ancient Wonders",
+  "questions": [
+    {
+      "q": "How many cards are in a standard deck of playing cards (excluding jokers)?",
+      "answers": [
+        "48 cards",
+        "50 cards",
+        "52 cards",
+        "54 cards"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Counter Chat & Fun Trivia",
+      "fact": "4 suits of 13 cards each = 52 cards."
+    },
+    {
+      "q": "What color is the gemstone known as an emerald?",
+      "answers": [
+        "Red",
+        "Blue",
+        "Green",
+        "Yellow"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Counter Chat & Fun Trivia",
+      "fact": "Emeralds are a green variety of beryl."
+    },
+    {
+      "q": "In bowling, what term describes scoring three consecutive strikes in a row?",
+      "answers": [
+        "Hat-trick",
+        "Turkey",
+        "Triple",
+        "Clover"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Counter Chat & Fun Trivia",
+      "fact": "A turkey: three strikes in a row."
+    },
+    {
+      "q": "What South African fast-food brand is famous for the flame-grilled 'King Steer Burger' and seasoned hand-cut slap chips?",
+      "answers": [
+        "Wimpy",
+        "Steers",
+        "Spur",
+        "RocoMamas"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Counter Chat & Fun Trivia",
+      "fact": "Founded in 1960 by George Halamandaris."
+    },
+    {
+      "q": "Which mammal is the only one capable of true, sustained flight?",
+      "answers": [
+        "Flying Squirrel",
+        "Bat",
+        "Sugar Glider",
+        "Lemur"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Counter Chat & Fun Trivia",
+      "fact": "Bats possess webbed wings for true powered flight."
+    },
+    {
+      "q": "What is the capital city of Spain?",
+      "answers": [
+        "Barcelona",
+        "Seville",
+        "Madrid",
+        "Valencia"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Counter Chat & Fun Trivia",
+      "fact": "Madrid, located in the geographical center of Spain."
+    },
+    {
+      "q": "How many meters is a standard Olympic swimming pool in length?",
+      "answers": [
+        "25 meters",
+        "50 meters",
+        "100 meters",
+        "200 meters"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Counter Chat & Fun Trivia",
+      "fact": "50 meters in length (long course)."
+    },
+    {
+      "q": "What popular breakfast egg dish, baked over a tomato and onion spicy sauce in a pan, is known as 'Shakshuka'?",
+      "answers": [
+        "Poached eggs in spicy tomato relish",
+        "Omelette filled with mushrooms",
+        "Fried eggs on toast",
+        "Scrambled eggs with cheese"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Counter Chat & Fun Trivia",
+      "fact": "Middle Eastern and North African dish of eggs gently poached in spiced tomato sauce."
+    },
+    {
+      "q": "What is the common name for the voice box in the human neck containing the vocal cords?",
+      "answers": [
+        "Pharynx",
+        "Larynx",
+        "Trachea",
+        "Esophagus"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Counter Chat & Fun Trivia",
+      "fact": "The larynx houses the vocal folds."
+    },
+    {
+      "q": "Which South African television soap opera set around the mining town of The Deep aired for over two decades on SABC3?",
+      "answers": [
+        "Generations",
+        "Isidingo",
+        "Egoli: Plek van Goud",
+        "7de Laan"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Counter Chat & Fun Trivia",
+      "fact": "Isidingo: The Need (1998-2020), set at the Horizon Deep mine."
+    },
+    {
+      "q": "In the famous '438 Game' at the Wanderers in 2006, South Africa chased down Australia's 434. Who hit the winning boundary four over mid-off?",
+      "answers": [
+        "Herschelle Gibbs",
+        "Mark Boucher",
+        "Jacques Kallis",
+        "Justin Ontong"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Cricket Centuries & Rugby Hat-Tricks",
+      "fact": "Mark Boucher lofted Brett Lee for four to seal the highest successful ODI run chase in history (438/9)."
+    },
+    {
+      "q": "Who scored an astonishing 175 off 111 balls for South Africa in that exact same 438 game?",
+      "answers": [
+        "Graeme Smith",
+        "Herschelle Gibbs",
+        "AB de Villiers",
+        "Shaun Pollock"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Cricket Centuries & Rugby Hat-Tricks",
+      "fact": "Herschelle Gibbs played one of the most explosive one-day innings ever witnessed."
+    },
+    {
+      "q": "Which South African cricket superstar holds the world record for the fastest ever ODI century, reaching 100 off just 31 balls against the West Indies?",
+      "answers": [
+        "Jacques Kallis",
+        "AB de Villiers",
+        "David Miller",
+        "Quinton de Kock"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Cricket Centuries & Rugby Hat-Tricks",
+      "fact": "AB de Villiers: 149 off 44 balls at the Wanderers on 18 January 2015."
+    },
+    {
+      "q": "Which Springbok lock forward, famous for dominating the lineouts, was named Man of the Match in the 2007 Rugby World Cup Final?",
+      "answers": [
+        "Bakkies Botha",
+        "Victor Matfield",
+        "Johann Muller",
+        "Albert van den Berg"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Cricket Centuries & Rugby Hat-Tricks",
+      "fact": "Victor Matfield's mastery of the lineout choked England's possession throughout the final."
+    },
+    {
+      "q": "Who was the legendary South African cricket captain who famously batted with a broken hand at the SCG against Australia in 2009?",
+      "answers": [
+        "Hansie Cronje",
+        "Graeme Smith",
+        "Shaun Pollock",
+        "Faf du Plessis"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Cricket Centuries & Rugby Hat-Tricks",
+      "fact": "Graeme Smith walked out to bat at number 11 with a broken left hand and damaged elbow to try and save the Test."
+    },
+    {
+      "q": "In tennis, what Grand Slam tournament is played on traditional grass courts in London every July?",
+      "answers": [
+        "Roland Garros",
+        "Wimbledon",
+        "The US Open",
+        "The Australian Open"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Cricket Centuries & Rugby Hat-Tricks",
+      "fact": "The Championships, Wimbledon: the oldest tennis tournament in the world."
+    },
+    {
+      "q": "Which South African rugby prop was nicknamed 'The Beast' by roaring crowds at Kings Park and around the world?",
+      "answers": [
+        "Tendai Mtawarira",
+        "Os du Randt",
+        "Trevor Nyakane",
+        "Frans Malherbe"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Cricket Centuries & Rugby Hat-Tricks",
+      "fact": "'BEEEEAAAST!' 117 caps and 2019 World Cup champion."
+    },
+    {
+      "q": "What is the maximum break of points possible in a standard frame of snooker without fouls?",
+      "answers": [
+        "120",
+        "147",
+        "155",
+        "160"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Cricket Centuries & Rugby Hat-Tricks",
+      "fact": "15 reds with 15 blacks (120 points) plus the 6 colors (27 points) = 147."
+    },
+    {
+      "q": "Which South African long jumper won the Olympic silver medal in Beijing 2008 and world gold in Berlin 2009?",
+      "answers": [
+        "Luvo Manyonga",
+        "Khotso Mokoena",
+        "Ruswahl Samaai",
+        "Akani Simbine"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Cricket Centuries & Rugby Hat-Tricks",
+      "fact": "Khotso Mokoena won South Africa's only medal at the 2008 Beijing Olympics."
+    },
+    {
+      "q": "In rugby league or union, how many points are awarded for an unconverted try in modern rugby union?",
+      "answers": [
+        "3 points",
+        "4 points",
+        "5 points",
+        "6 points"
+      ],
+      "correct": 2,
+      "round": "Round 2 · Cricket Centuries & Rugby Hat-Tricks",
+      "fact": "Raised from 4 points to 5 points in 1992."
+    },
+    {
+      "q": "Which Seattle grunge band released the genre-defining 1991 album Nevermind, featuring 'Smells Like Teen Spirit'?",
+      "answers": [
+        "Pearl Jam",
+        "Soundgarden",
+        "Nirvana",
+        "Alice in Chains"
+      ],
+      "correct": 2,
+      "round": "Round 3 · 90s Nostalgia, Vinyl & Billboard Hits",
+      "fact": "Fronted by Kurt Cobain, with Krist Novoselic and Dave Grohl."
+    },
+    {
+      "q": "Which multi-racial South African band fronted by Claire Johnston had massive 1989/1990 hits with 'Special Star' and 'Dance Some More'?",
+      "answers": [
+        "Juluka",
+        "Mango Groove",
+        "Clout",
+        "Bright Blue"
+      ],
+      "correct": 1,
+      "round": "Round 3 · 90s Nostalgia, Vinyl & Billboard Hits",
+      "fact": "Mango Groove blended big band swing, marabi, and kwela pop."
+    },
+    {
+      "q": "What British rock band brothers Liam and Noel Gallagher led during the Britpop era with hits like 'Wonderwall' and 'Don't Look Back in Anger'?",
+      "answers": [
+        "Blur",
+        "Oasis",
+        "The Verve",
+        "Pulp"
+      ],
+      "correct": 1,
+      "round": "Round 3 · 90s Nostalgia, Vinyl & Billboard Hits",
+      "fact": "Their 1995 album (What's the Story) Morning Glory? sold over 22 million copies."
+    },
+    {
+      "q": "Which pop diva sang the mega-selling theme song 'My Heart Will Go On' for the movie Titanic?",
+      "answers": [
+        "Whitney Houston",
+        "Mariah Carey",
+        "Celine Dion",
+        "Barbra Streisand"
+      ],
+      "correct": 2,
+      "round": "Round 3 · 90s Nostalgia, Vinyl & Billboard Hits",
+      "fact": "Composed by James Horner, winning the Oscar for Best Original Song."
+    },
+    {
+      "q": "What Swedish pop duo consisting of Marie Fredriksson and Per Gessle scored monster hits with 'It Must Have Been Love' and 'Joyride'?",
+      "answers": [
+        "Ace of Base",
+        "Roxette",
+        "The Cardigans",
+        "Army of Lovers"
+      ],
+      "correct": 1,
+      "round": "Round 3 · 90s Nostalgia, Vinyl & Billboard Hits",
+      "fact": "Roxette had four US Billboard number-one singles."
+    },
+    {
+      "q": "Which American hip hop group released the 1992 dance party anthem 'Jump Around'?",
+      "answers": [
+        "Cypress Hill",
+        "House of Pain",
+        "Beastie Boys",
+        "Run-DMC"
+      ],
+      "correct": 1,
+      "round": "Round 3 · 90s Nostalgia, Vinyl & Billboard Hits",
+      "fact": "Produced by DJ Muggs."
+    },
+    {
+      "q": "In 1994, which American punk rock trio released the smash hit album Dookie featuring 'Basket Case'?",
+      "answers": [
+        "The Offspring",
+        "Blink-182",
+        "Green Day",
+        "Sum 41"
+      ],
+      "correct": 2,
+      "round": "Round 3 · 90s Nostalgia, Vinyl & Billboard Hits",
+      "fact": "Billie Joe Armstrong, Mike Dirnt, and Tré Cool."
+    },
+    {
+      "q": "Which South African band had a giant hit in 1987 with the anti-conscription ballad 'Weeping', featuring the melody of 'Nkosi Sikelel' iAfrika'?",
+      "answers": [
+        "Bright Blue",
+        "eVoid",
+        "Cinema",
+        "Petit Cheval"
+      ],
+      "correct": 0,
+      "round": "Round 3 · 90s Nostalgia, Vinyl & Billboard Hits",
+      "fact": "Written by Dan Heymann, featuring Basil Coetzee on saxophone."
+    },
+    {
+      "q": "Who released the hit 1999 Latin pop anthem 'Livin' la Vida Loca'?",
+      "answers": [
+        "Enrique Iglesias",
+        "Ricky Martin",
+        "Marc Anthony",
+        "Chayanne"
+      ],
+      "correct": 1,
+      "round": "Round 3 · 90s Nostalgia, Vinyl & Billboard Hits",
+      "fact": "Ignited the global Latin pop explosion."
+    },
+    {
+      "q": "Which American rock band fronted by Anthony Kiedis and Flea released the 1991 hit album Blood Sugar Sex Magik containing 'Under the Bridge'?",
+      "answers": [
+        "Foo Fighters",
+        "Red Hot Chili Peppers",
+        "Jane's Addiction",
+        "Incubus"
+      ],
+      "correct": 1,
+      "round": "Round 3 · 90s Nostalgia, Vinyl & Billboard Hits",
+      "fact": "Produced by Rick Rubin."
+    },
+    {
+      "q": "Which South African family steakhouse franchise is famous for its Native American-themed decor, kids' play areas, and signature basting sauce?",
+      "answers": [
+        "Dros",
+        "Spur Steak Ranches",
+        "Cattle Baron",
+        "Mike's Kitchen"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Fast Food Empires & Secret Recipes",
+      "fact": "Founded by Allen Ambor in Newlands, Cape Town in 1967."
+    },
+    {
+      "q": "What is the famous secret ingredient blend count famously advertised on Colonel Sanders' Kentucky Fried Chicken recipe?",
+      "answers": [
+        "7 herbs and spices",
+        "11 herbs and spices",
+        "13 herbs and spices",
+        "15 herbs and spices"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Fast Food Empires & Secret Recipes",
+      "fact": "The Colonel's secret blend of 11 herbs and spices kept in a safe in Louisville, Kentucky."
+    },
+    {
+      "q": "What spicy Portuguese-style chicken franchise was founded in Rosettenville, Johannesburg in 1987 by Fernando Duarte and Robbie Brozin?",
+      "answers": [
+        "Barcelos",
+        "Galito's",
+        "Nando's",
+        "Mochachos"
+      ],
+      "correct": 2,
+      "round": "Round 4 · Fast Food Empires & Secret Recipes",
+      "fact": "Named after Fernando's son Nando; now operating in over 30 countries."
+    },
+    {
+      "q": "What is the distinctive bread bun used in South African cuisine that is deep-fried from yeasted dough and often filled with curried mince?",
+      "answers": [
+        "Roosterkoek",
+        "Vetkoek (Amagwinya)",
+        "Mosbolletjie",
+        "Potbrood"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Fast Food Empires & Secret Recipes",
+      "fact": "Crispy golden outside, soft steamy dough inside, stuffed with curried mince."
+    },
+    {
+      "q": "Which cut of beef, famous in South American churrasco and increasingly popular at SA braais, has a thick fat cap and is called the rump cap?",
+      "answers": [
+        "Tomahawk",
+        "Picanha",
+        "Flank Steak",
+        "Flat Iron"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Fast Food Empires & Secret Recipes",
+      "fact": "Picanha (sirloin cap / rump cap): seasoned with coarse rock salt and skewered over coals."
+    },
+    {
+      "q": "In a bar, what non-alcoholic cocktail made with ginger ale, a dash of grenadine, and a maraschino cherry is named after a child movie star?",
+      "answers": [
+        "Roy Rogers",
+        "Shirley Temple",
+        "Arnold Palmer",
+        "Virgin Mary"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Fast Food Empires & Secret Recipes",
+      "fact": "Invented at Chasen's in Beverly Hills for the young actress."
+    },
+    {
+      "q": "What is the primary flavor profile of the classic South African liqueur Van Der Hum?",
+      "answers": [
+        "Cape Naartjie / Tangerine",
+        "Wild Peach",
+        "Spearmint",
+        "Marula"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Fast Food Empires & Secret Recipes",
+      "fact": "Van Der Hum is flavored with Cape naartjie peels, brandy, and spices."
+    },
+    {
+      "q": "What popular burger topping consists of thinly sliced beef cured and dried, crumbled over the melted cheese?",
+      "answers": [
+        "Bacon bits",
+        "Biltong shavings",
+        "Pork crackling",
+        "Droëwors coins"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Fast Food Empires & Secret Recipes",
+      "fact": "The biltong burger: a pub classic across South Africa."
+    },
+    {
+      "q": "Which Mexican distilled spirit must be produced specifically within the Mexican state of Jalisco and designated regions, unlike general Mezcal?",
+      "answers": [
+        "Tequila",
+        "Pisco",
+        "Cachaça",
+        "Sotol"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Fast Food Empires & Secret Recipes",
+      "fact": "All Tequilas are Mezcals, but only those made from blue agave in Jalisco (and limited municipalities) are Tequila."
+    },
+    {
+      "q": "What famous brand of hot sauce originated on Avery Island, Louisiana, and is aged in white oak whiskey barrels?",
+      "answers": [
+        "Frank's RedHot",
+        "Sriracha",
+        "Tabasco",
+        "Cholula"
+      ],
+      "correct": 2,
+      "round": "Round 4 · Fast Food Empires & Secret Recipes",
+      "fact": "Created by Edmund McIlhenny in 1868."
+    },
+    {
+      "q": "Which of the original Seven Wonders of the Ancient World is the only one that still largely stands intact today?",
+      "answers": [
+        "Colossus of Rhodes",
+        "Great Pyramid of Giza",
+        "Lighthouse of Alexandria",
+        "Hanging Gardens of Babylon"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Wonders of the Ancient & Modern World",
+      "fact": "Built around 2560 BC for Pharaoh Khufu; survived for over 4,500 years."
+    },
+    {
+      "q": "Approximately how old are the rocks that make up Table Mountain in Cape Town?",
+      "answers": [
+        "5 million years old",
+        "60 million years old",
+        "600 million years old",
+        "2 billion years old"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Wonders of the Ancient & Modern World",
+      "fact": "Table Mountain's sandstone and granite base dates back over 500-600 million years, making it six times older than the Himalayas."
+    },
+    {
+      "q": "In which city stands the colossal Roman amphitheater known as the Colosseum, completed in 80 AD?",
+      "answers": [
+        "Athens",
+        "Rome",
+        "Naples",
+        "Verona"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Wonders of the Ancient & Modern World",
+      "fact": "The Flavian Amphitheatre, capable of holding up to 80,000 spectators."
+    },
+    {
+      "q": "What is the deepest known location in the world's oceans, plunging nearly 11,000 meters down in the western Pacific?",
+      "answers": [
+        "Puerto Rico Trench",
+        "Mariana Trench (Challenger Deep)",
+        "Java Trench",
+        "Tonga Trench"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Wonders of the Ancient & Modern World",
+      "fact": "Challenger Deep reaches approximately 10,994 meters below sea level."
+    },
+    {
+      "q": "Which ivory-white marble mausoleum on the Yamuna river in Agra, India was commissioned in 1631 by Mughal Emperor Shah Jahan?",
+      "answers": [
+        "Amber Palace",
+        "Taj Mahal",
+        "Red Fort",
+        "Hawa Mahal"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Wonders of the Ancient & Modern World",
+      "fact": "Built to house the tomb of his favorite wife, Mumtaz Mahal."
+    },
+    {
+      "q": "What is the longest river in the world by traditional geographic consensus?",
+      "answers": [
+        "Amazon River",
+        "Nile River",
+        "Yangtze River",
+        "Mississippi River"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Wonders of the Ancient & Modern World",
+      "fact": "Flowing roughly 6,650 km through northeastern Africa."
+    },
+    {
+      "q": "In which South American country would you find the ancient Incan citadel of Machu Picchu perched high in the Andes?",
+      "answers": [
+        "Chile",
+        "Colombia",
+        "Peru",
+        "Bolivia"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Wonders of the Ancient & Modern World",
+      "fact": "Built around 1450 AD above the Sacred Valley."
+    },
+    {
+      "q": "What is the capital city of Germany, reunited after the fall of the Wall in 1989?",
+      "answers": [
+        "Munich",
+        "Frankfurt",
+        "Berlin",
+        "Hamburg"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Wonders of the Ancient & Modern World",
+      "fact": "Berlin is the largest city in Germany by population and area."
+    },
+    {
+      "q": "What colossal suspension bridge in San Francisco, painted in 'International Orange', opened to traffic in 1937?",
+      "answers": [
+        "Brooklyn Bridge",
+        "Golden Gate Bridge",
+        "Bay Bridge",
+        "Manhattan Bridge"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Wonders of the Ancient & Modern World",
+      "fact": "Spans the Golden Gate strait connecting San Francisco to Marin County."
+    },
+    {
+      "q": "Which South African coastal road boasts the world's highest commercial bungee jump located at Bloukrans Bridge?",
+      "answers": [
+        "N1",
+        "N2 Garden Route",
+        "N3",
+        "R62"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Wonders of the Ancient & Modern World",
+      "fact": "Bloukrans Bridge Bungee: 216 meters above the Bloukrans River on the N2."
+    },
+    {
+      "q": "How many total runs were scored by both teams combined in the historic 438 cricket match between Australia and South Africa at the Wanderers in 2006?",
+      "answers": [
+        "820 runs",
+        "872 runs",
+        "910 runs",
+        "950 runs"
+      ],
+      "correct": 1,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "Australia 434 + South Africa 438 = 872 runs in 99.5 overs."
+    },
+    {
+      "q": "How many meters high is the Bloukrans Bridge bungee jump above the river?",
+      "answers": [
+        "160 meters",
+        "180 meters",
+        "216 meters",
+        "250 meters"
+      ],
+      "correct": 2,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "216 meters (709 feet)."
+    },
+    {
+      "q": "In what calendar year did AB de Villiers score his 31-ball world record century against the West Indies at the Wanderers?",
+      "answers": [
+        "2013",
+        "2014",
+        "2015",
+        "2016"
+      ],
+      "correct": 2,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "18 January 2015."
+    }
+  ]
+}

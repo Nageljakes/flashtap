@@ -1,0 +1,644 @@
+{
+  "id": "set-10-the-masters-grand-finale",
+  "name": "Set 10: The Masters Grand Finale",
+  "badge": "Set 10 • Grand Finale",
+  "description": "Springbok Hall of Fame, Classic Rock Titans, Master Steaks & World Frontiers",
+  "questions": [
+    {
+      "q": "How many hours are there in three full days?",
+      "answers": [
+        "48 hours",
+        "60 hours",
+        "72 hours",
+        "84 hours"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Ultimate Bar Warm-Up",
+      "fact": "3 x 24 = 72 hours."
+    },
+    {
+      "q": "What is the common term in South African slang for a pickup truck?",
+      "answers": [
+        "Ute",
+        "Bakkie",
+        "Truckie",
+        "Cruiser"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Ultimate Bar Warm-Up",
+      "fact": "A bakkie: South Africa's favorite vehicle."
+    },
+    {
+      "q": "What color is the center circle in the Japanese national flag?",
+      "answers": [
+        "Red",
+        "White",
+        "Gold",
+        "Black"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Ultimate Bar Warm-Up",
+      "fact": "A red disc representing the rising sun on a white field."
+    },
+    {
+      "q": "In golf, what is the term for a score of one over par on a single hole?",
+      "answers": [
+        "Birdie",
+        "Bogey",
+        "Eagle",
+        "Albatross"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Ultimate Bar Warm-Up",
+      "fact": "One over par is a bogey."
+    },
+    {
+      "q": "Which fruit is famous for having its seeds on the outside of its skin?",
+      "answers": [
+        "Raspberry",
+        "Strawberry",
+        "Blackberry",
+        "Fig"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Ultimate Bar Warm-Up",
+      "fact": "Strawberries carry roughly 200 seed-like achenes on the outer skin."
+    },
+    {
+      "q": "What is the capital city of Greece?",
+      "answers": [
+        "Athens",
+        "Sparta",
+        "Rhodes",
+        "Heraklion"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Ultimate Bar Warm-Up",
+      "fact": "Athens."
+    },
+    {
+      "q": "How many players are on the field for one team during an Australian Rules Football match?",
+      "answers": [
+        "11",
+        "15",
+        "18",
+        "21"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Ultimate Bar Warm-Up",
+      "fact": "18 players on the field per team in Aussie Rules (AFL)."
+    },
+    {
+      "q": "What popular South African tea is caffeine-free and made from the leaves of the indigenous Aspalathus linearis plant in the Cederberg?",
+      "answers": [
+        "Honeybush",
+        "Rooibos",
+        "Chamomile",
+        "Buchu"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Ultimate Bar Warm-Up",
+      "fact": "Rooibos (red bush tea), indigenous to the Cederberg mountains."
+    },
+    {
+      "q": "What is the currency of Mexico?",
+      "answers": [
+        "Real",
+        "Peso",
+        "Sol",
+        "Bolivar"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Ultimate Bar Warm-Up",
+      "fact": "Mexican Peso ($)."
+    },
+    {
+      "q": "In a game of pub darts, what is the value of the green outer bullseye ring?",
+      "answers": [
+        "20 points",
+        "25 points",
+        "30 points",
+        "50 points"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Ultimate Bar Warm-Up",
+      "fact": "Outer green bull = 25 points; inner red bull = 50 points."
+    },
+    {
+      "q": "Which beloved Springbok scrumhalf scored 38 test tries in 89 appearances, famously tackling Jonah Lomu in the 1995 final?",
+      "answers": [
+        "Fourie du Preez",
+        "Joost van der Westhuizen",
+        "Faf de Klerk",
+        "Ricky Januarie"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Springbok Legends & Rugby Hall of Fame",
+      "fact": "Joost van der Westhuizen: World Rugby Hall of Fame legend."
+    },
+    {
+      "q": "Who is the only Springbok prop forward to win two Rugby World Cups twelve years apart, winning in both 1995 and 2007?",
+      "answers": [
+        "Balie Swart",
+        "Os du Randt",
+        "Tendai Mtawarira",
+        "Frans Malherbe"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Springbok Legends & Rugby Hall of Fame",
+      "fact": "Jacobus Petrus 'Os' du Randt: a giant of South African rugby."
+    },
+    {
+      "q": "Which Springbok flanker won the World Rugby Player of the Year award in 2019 after devastating performances in Japan?",
+      "answers": [
+        "Pieter-Steph du Toit",
+        "Duane Vermeulen",
+        "Kwagga Smith",
+        "Francois Louw"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Springbok Legends & Rugby Hall of Fame",
+      "fact": "Pieter-Steph du Toit: 'The Malmesbury Missile'."
+    },
+    {
+      "q": "What South African scrumhalf became an internet sensation for his blond locks, South African flag speedo, and fearless confrontation with giant locks?",
+      "answers": [
+        "Cobus Reinach",
+        "Jaden Hendrikse",
+        "Faf de Klerk",
+        "Grant Williams"
+      ],
+      "correct": 2,
+      "round": "Round 2 · Springbok Legends & Rugby Hall of Fame",
+      "fact": "Faf de Klerk, celebrated double World Cup winning scrumhalf."
+    },
+    {
+      "q": "Who was the Springbok captain when South Africa won their second World Cup in Paris in 2007?",
+      "answers": [
+        "Victor Matfield",
+        "John Smit",
+        "Percy Montgomery",
+        "Bobby Skinstad"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Springbok Legends & Rugby Hall of Fame",
+      "fact": "John Smit captained the Springboks in a record 83 test matches."
+    },
+    {
+      "q": "Which South African winger was named World Rugby Breakthrough Player of the Year in 2018, famous for his stepping and sidestep?",
+      "answers": [
+        "Makazole Mapimpi",
+        "Cheslin Kolbe",
+        "Aphiwe Dyantyi",
+        "Kurt-Lee Arendse"
+      ],
+      "correct": 2,
+      "round": "Round 2 · Springbok Legends & Rugby Hall of Fame",
+      "fact": "Aphiwe Dyantyi won the award in 2018 after scoring 6 tries in his debut season."
+    },
+    {
+      "q": "Which legendary Springbok flyhalf was known as 'The King' and scored all 27 points in a single match against the All Blacks in 1999?",
+      "answers": [
+        "Henry Honiball",
+        "Jannie de Beer",
+        "Naas Botha",
+        "Braam van Straaten"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Springbok Legends & Rugby Hall of Fame",
+      "fact": "Jannie de Beer kicked a world record five drop goals against England in the 1999 World Cup quarter-final."
+    },
+    {
+      "q": "Which iconic lock forward from the Northern Transvaal was famous for kicking 50-meter penalties with a straight toe-poke style and also playing flank and lock?",
+      "answers": [
+        "Frik du Preez",
+        "Moaner van Heerden",
+        "Louis Moolman",
+        "Burger Geldenhuys"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Springbok Legends & Rugby Hall of Fame",
+      "fact": "Frik du Preez: named South Africa's rugby player of the 20th century."
+    },
+    {
+      "q": "In rugby union, what is the maximum number of substitutions allowed from the bench in a modern test match?",
+      "answers": [
+        "5 replacements",
+        "7 replacements",
+        "8 replacements",
+        "10 replacements"
+      ],
+      "correct": 2,
+      "round": "Round 2 · Springbok Legends & Rugby Hall of Fame",
+      "fact": "8 players on the bench (the famous Springbok 'Bomb Squad')."
+    },
+    {
+      "q": "At which stadium in Yokohama, Japan did the Springboks defeat England 32-12 to win the 2019 Rugby World Cup?",
+      "answers": [
+        "Tokyo Stadium",
+        "International Stadium Yokohama (Nissan Stadium)",
+        "Shizuoka Stadium",
+        "Hanazono Stadium"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Springbok Legends & Rugby Hall of Fame",
+      "fact": "International Stadium Yokohama on 2 November 2019."
+    },
+    {
+      "q": "Which British rock band released the 1973 progressive rock masterpiece The Dark Side of the Moon?",
+      "answers": [
+        "The Who",
+        "Led Zeppelin",
+        "Pink Floyd",
+        "Genesis"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Classic Rock, Pop & Soundtrack Icons",
+      "fact": "Spent over 950 weeks on the US Billboard 200 chart."
+    },
+    {
+      "q": "Which British rock band fronted by Mark Knopfler had massive 1985 hits with 'Money for Nothing' and 'Sultans of Swing'?",
+      "answers": [
+        "The Police",
+        "Dire Straits",
+        "Fleetwood Mac",
+        "Supertramp"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Classic Rock, Pop & Soundtrack Icons",
+      "fact": "Their album Brothers in Arms was one of the first CD releases to sell over a million copies."
+    },
+    {
+      "q": "Who released the hit 1971 folk-rock song 'American Pie' recounting 'the day the music died'?",
+      "answers": [
+        "Don McLean",
+        "Bob Dylan",
+        "James Taylor",
+        "Neil Young"
+      ],
+      "correct": 0,
+      "round": "Round 3 · Classic Rock, Pop & Soundtrack Icons",
+      "fact": "Refers to the 1959 plane crash that killed Buddy Holly, Ritchie Valens, and the Big Bopper."
+    },
+    {
+      "q": "Which Anglo-American rock band released the legendary 1977 album Rumours featuring 'Go Your Own Way' and 'Dreams'?",
+      "answers": [
+        "Fleetwood Mac",
+        "Eagles",
+        "Heart",
+        "The Pretenders"
+      ],
+      "correct": 0,
+      "round": "Round 3 · Classic Rock, Pop & Soundtrack Icons",
+      "fact": "Stevie Nicks, Lindsey Buckingham, Mick Fleetwood, Christine McVie, and John McVie."
+    },
+    {
+      "q": "Which British singer-songwriter composed the musical score and songs for Disney's 1994 animated movie The Lion King, including 'Can You Feel the Love Tonight'?",
+      "answers": [
+        "Phil Collins",
+        "Elton John",
+        "Paul McCartney",
+        "Sting"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Classic Rock, Pop & Soundtrack Icons",
+      "fact": "Elton John (music) with lyrics by Tim Rice."
+    },
+    {
+      "q": "In the hit song 'Hotel California' by the Eagles, what is the famous final line of the chorus?",
+      "answers": [
+        "You can never leave",
+        "You can check out any time you like, but you can never leave",
+        "Welcome to the Hotel California",
+        "Such a lovely place"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Classic Rock, Pop & Soundtrack Icons",
+      "fact": "'You can check out any time you like, but you can never leave!'"
+    },
+    {
+      "q": "What British heavy metal band fronted by Bruce Dickinson is famous for mascot Eddie and anthems like 'The Trooper' and 'Run to the Hills'?",
+      "answers": [
+        "Judas Priest",
+        "Iron Maiden",
+        "Black Sabbath",
+        "Motorhead"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Classic Rock, Pop & Soundtrack Icons",
+      "fact": "Iron Maiden, formed in East London in 1975 by Steve Harris."
+    },
+    {
+      "q": "Which South African female singer achieved international stardom in the 1980s with hits like 'Special Star' or collaborated with Sipho Mabuse on 'Burn Out'?",
+      "answers": [
+        "Brenda Fassie",
+        "Miriam Makeba",
+        "Yvonne Chaka Chaka",
+        "PJ Powers"
+      ],
+      "correct": 3,
+      "round": "Round 3 · Classic Rock, Pop & Soundtrack Icons",
+      "fact": "PJ Powers ('Thandeka') fronted Hotline with hits like 'Jabulani'."
+    },
+    {
+      "q": "Which American band featured Kurt Cobain, Krist Novoselic, and Dave Grohl?",
+      "answers": [
+        "Pearl Jam",
+        "Soundgarden",
+        "Nirvana",
+        "Alice in Chains"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Classic Rock, Pop & Soundtrack Icons",
+      "fact": "Pioneered the worldwide grunge explosion."
+    },
+    {
+      "q": "Which British rock icon released 'Space Oddity' in 1969 introducing the astronaut Major Tom?",
+      "answers": [
+        "David Bowie",
+        "Marc Bolan",
+        "Peter Gabriel",
+        "Rod Stewart"
+      ],
+      "correct": 0,
+      "round": "Round 3 · Classic Rock, Pop & Soundtrack Icons",
+      "fact": "David Bowie's breakthrough single released days before Apollo 11 moon landing."
+    },
+    {
+      "q": "What is the culinary term for aging beef in a temperature- and humidity-controlled room for several weeks to intensify flavor and tenderize the meat?",
+      "answers": [
+        "Wet aging",
+        "Dry aging",
+        "Brining",
+        "Curing"
+      ],
+      "correct": 1,
+      "round": "Round 4 · The Ultimate Feast & Beverage Masterclass",
+      "fact": "Dry aging allows natural enzymes to break down muscle fibers while moisture evaporates, concentrating beef flavor."
+    },
+    {
+      "q": "What is the famous South African dry white wine grape variety that is locally known as 'Steen'?",
+      "answers": [
+        "Sauvignon Blanc",
+        "Chenin Blanc",
+        "Chardonnay",
+        "Viognier"
+      ],
+      "correct": 1,
+      "round": "Round 4 · The Ultimate Feast & Beverage Masterclass",
+      "fact": "South Africa has more Chenin Blanc planted than any other country in the world."
+    },
+    {
+      "q": "What cut of steak is a thick cut of sirloin or ribeye served on a long, Frenched rib bone resembling a native axe?",
+      "answers": [
+        "T-bone",
+        "Porterhouse",
+        "Tomahawk",
+        "Chateaubriand"
+      ],
+      "correct": 2,
+      "round": "Round 4 · The Ultimate Feast & Beverage Masterclass",
+      "fact": "A bone-in ribeye with at least 12-15 cm of intact rib bone."
+    },
+    {
+      "q": "What famous brand of South African potstill brandy won the Worldwide Best Brandy trophy multiple times at the International Wine & Spirit Competition?",
+      "answers": [
+        "KWV 10 / 15 / 20 Year Old",
+        "Klipdrift Export",
+        "Wellington",
+        "Commando"
+      ],
+      "correct": 0,
+      "round": "Round 4 · The Ultimate Feast & Beverage Masterclass",
+      "fact": "KWV's potstill brandies from Paarl have consistently swept global awards."
+    },
+    {
+      "q": "What is the French culinary term for finely minced raw beef or game seasoned with capers, shallots, Worcestershire sauce, and topped with a raw egg yolk?",
+      "answers": [
+        "Carpaccio",
+        "Steak Tartare",
+        "Bresaola",
+        "Ceviche"
+      ],
+      "correct": 1,
+      "round": "Round 4 · The Ultimate Feast & Beverage Masterclass",
+      "fact": "Steak Tartare: classic bistro fare."
+    },
+    {
+      "q": "Which South African coastal town is renowned for its annual Crayfish (West Coast Rock Lobster) Festival and open-air beach strandkombuis restaurants?",
+      "answers": [
+        "Paternoster",
+        "Lamberts Bay",
+        "Langebaan",
+        "Elands Bay"
+      ],
+      "correct": 1,
+      "round": "Round 4 · The Ultimate Feast & Beverage Masterclass",
+      "fact": "Lamberts Bay and Paternoster are the heartland of West Coast seafood."
+    },
+    {
+      "q": "What is the sweet fortified Portuguese wine from the Douro Valley that is traditionally aged in wooden casks and served as a digestif?",
+      "answers": [
+        "Sherry",
+        "Port",
+        "Madeira",
+        "Marsala"
+      ],
+      "correct": 1,
+      "round": "Round 4 · The Ultimate Feast & Beverage Masterclass",
+      "fact": "Tawny or Ruby Port, often paired with blue cheese."
+    },
+    {
+      "q": "What popular South African sweet confection consists of shredded coconut baked in caramelized brown sugar and rolled into patties?",
+      "answers": [
+        "Hertzoggie",
+        "Klappertert / Coconut Ice",
+        "Fudge",
+        "Toffee"
+      ],
+      "correct": 1,
+      "round": "Round 4 · The Ultimate Feast & Beverage Masterclass",
+      "fact": "Traditional South African coconut ice or klapperys."
+    },
+    {
+      "q": "What is the main type of wood traditionally used in barrels to age fine whiskey and red wine?",
+      "answers": [
+        "Pine",
+        "Oak",
+        "Cedar",
+        "Maple"
+      ],
+      "correct": 1,
+      "round": "Round 4 · The Ultimate Feast & Beverage Masterclass",
+      "fact": "French and American white oak impart vanilla, tannin, and spice notes."
+    },
+    {
+      "q": "In braai culture, what is the best way to test whether your coals are at the perfect medium-heat for chops and boerewors?",
+      "answers": [
+        "If the grid turns glowing red",
+        "Hold your open palm about 10 cm above the grid: you can comfortably hold it for 5-7 seconds",
+        "Pour a cup of water over the coals",
+        "If white smoke stops completely"
+      ],
+      "correct": 1,
+      "round": "Round 4 · The Ultimate Feast & Beverage Masterclass",
+      "fact": "The classic hand test: 5-7 seconds indicates medium heat; 3-4 seconds is high heat."
+    },
+    {
+      "q": "Which South African mountain pass connects Oudtshoorn in the Klein Karoo to Prince Albert in the Great Karoo, engineered by Thomas Bain in the 1880s?",
+      "answers": [
+        "Swartberg Pass",
+        "Tradouw Pass",
+        "Cogmanskloof",
+        "Swartruggens Pass"
+      ],
+      "correct": 0,
+      "round": "Round 5 · Global Frontiers & Epic Discoveries",
+      "fact": "The Swartberg Pass: a national monument and masterpiece of 19th-century dry-stone walling."
+    },
+    {
+      "q": "What is the largest country in the world by total land area?",
+      "answers": [
+        "Canada",
+        "China",
+        "Russia",
+        "United States"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Global Frontiers & Epic Discoveries",
+      "fact": "Covering over 17 million square kilometers across two continents."
+    },
+    {
+      "q": "In which city is the famous Sydney Opera House located?",
+      "answers": [
+        "Melbourne",
+        "Sydney",
+        "Brisbane",
+        "Perth"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Global Frontiers & Epic Discoveries",
+      "fact": "Designed by Danish architect Jørn Utzon on Bennelong Point in Sydney Harbour."
+    },
+    {
+      "q": "What massive astronomical radio telescope array located in the Karoo near Carnarvon is part of the international Square Kilometre Array (SKA)?",
+      "answers": [
+        "SALT (Southern African Large Telescope)",
+        "MeerKAT",
+        "Hartebeesthoek",
+        "Boyden Observatory"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Global Frontiers & Epic Discoveries",
+      "fact": "MeerKAT consists of 64 dish antennas peering deep into the early universe."
+    },
+    {
+      "q": "What is the highest mountain peak in North America, located in the Alaska Range?",
+      "answers": [
+        "Mount Logan",
+        "Mount Denali (Mount McKinley)",
+        "Mount Whitney",
+        "Mount Rainier"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Global Frontiers & Epic Discoveries",
+      "fact": "Stands 6,190 meters above sea level."
+    },
+    {
+      "q": "Which canal connects the Atlantic Ocean and the Pacific Ocean across Central America, saving ships an 8,000-mile detour around Cape Horn?",
+      "answers": [
+        "Suez Canal",
+        "Panama Canal",
+        "Kiel Canal",
+        "Erie Canal"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Global Frontiers & Epic Discoveries",
+      "fact": "Opened in August 1914; features a series of gravity-fed water locks."
+    },
+    {
+      "q": "What is the capital city of Argentina?",
+      "answers": [
+        "Santiago",
+        "Buenos Aires",
+        "Montevideo",
+        "Lima"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Global Frontiers & Epic Discoveries",
+      "fact": "Buenos Aires: situated on the western shore of the Río de la Plata."
+    },
+    {
+      "q": "What international laboratory near Geneva, Switzerland houses the 27-kilometer Large Hadron Collider particle accelerator?",
+      "answers": [
+        "NASA",
+        "CERN",
+        "ESA",
+        "Fermilab"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Global Frontiers & Epic Discoveries",
+      "fact": "The European Organization for Nuclear Research (CERN), birthplace of the World Wide Web."
+    },
+    {
+      "q": "Which South African national park in the Eastern Cape was proclaimed in 1931 to save the remaining eleven Eastern Cape elephants from extinction?",
+      "answers": [
+        "Addo Elephant National Park",
+        "Mountain Zebra National Park",
+        "Karoo National Park",
+        "Tsitsikamma"
+      ],
+      "correct": 0,
+      "round": "Round 5 · Global Frontiers & Epic Discoveries",
+      "fact": "Now home to over 600 elephants, lions, buffalo, and black rhino."
+    },
+    {
+      "q": "What is the official language of Brazil?",
+      "answers": [
+        "Spanish",
+        "Portuguese",
+        "French",
+        "Italian"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Global Frontiers & Epic Discoveries",
+      "fact": "Brazil is the only Portuguese-speaking country in the Americas."
+    },
+    {
+      "q": "How many total dish antennas make up the MeerKAT radio telescope array in the Northern Cape?",
+      "answers": [
+        "32 dishes",
+        "48 dishes",
+        "64 dishes",
+        "80 dishes"
+      ],
+      "correct": 2,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "64 interconnected dish antennas."
+    },
+    {
+      "q": "In what calendar year did the Swartberg Pass officially open to traffic?",
+      "answers": [
+        "1865",
+        "1876",
+        "1888",
+        "1902"
+      ],
+      "correct": 2,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "Opened on 10 January 1888."
+    },
+    {
+      "q": "How many test tries did Joost van der Westhuizen score in his international rugby career for the Springboks?",
+      "answers": [
+        "32 tries",
+        "38 tries",
+        "44 tries",
+        "50 tries"
+      ],
+      "correct": 1,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "38 tries in 89 test matches."
+    }
+  ]
+}

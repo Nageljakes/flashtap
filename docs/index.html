@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>⚡ FlashTap — the phone-party quiz for DJs and events</title>
+  <meta name="description" content="Self-hosted LAN party quiz: guests scan a QR code on the big screen, vote for the question set, and tap answers as fast as they can. Built by Jaxtech.">
+  <style>
+    :root {
+      --bg: #140f2b;
+      --bg2: #2b1f56;
+      --gold: #ffd60a;
+      --ink: #f2f0ff;
+      --dim: #b6aed1;
+      --accent: #7c5cff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI Variable", "Segoe UI", system-ui, -apple-system, sans-serif;
+      color: var(--ink);
+      background: radial-gradient(90vmax 70vmax at 70% -10%, var(--bg2), var(--bg) 55%);
+      min-height: 100vh;
+    }
+    main { max-width: 1080px; margin: 0 auto; padding: 48px 24px 80px; }
+    .brand { display: flex; align-items: center; gap: 18px; }
+    .brand img { width: 84px; height: 84px; border-radius: 20px; box-shadow: 0 16px 40px rgba(0,0,0,.5); }
+    h1 { font-size: clamp(40px, 6vw, 64px); margin: 0; letter-spacing: -1px; color: var(--gold); }
+    .tagline { color: var(--dim); font-size: clamp(17px, 2.4vw, 22px); font-weight: 600; margin-top: 10px; }
+    .cta {
+      display: inline-block;
+      margin-top: 26px;
+      padding: 16px 34px;
+      border-radius: 999px;
+      background: linear-gradient(180deg, #ffe14d, var(--gold));
+      color: #1b1035;
+      font-weight: 900;
+      font-size: 19px;
+      text-decoration: none;
+      box-shadow: 0 10px 30px rgba(255, 214, 10, .25);
+      transition: transform .12s;
+    }
+    .cta:hover { transform: translateY(-2px); }
+    .cta.ghost { background: transparent; color: var(--ink); border: 2px solid rgba(255,255,255,.25); box-shadow: none; margin-left: 12px; }
+    .steps { margin: 56px 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; }
+    .step { background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12); border-radius: 18px; padding: 22px; }
+    .step b { display: block; color: var(--gold); margin-bottom: 6px; font-size: 17px; }
+    .step p { margin: 0; color: var(--dim); line-height: 1.55; font-size: 15px; }
+    h2 { margin-top: 64px; font-size: clamp(26px, 4vw, 34px); }
+    .shots { margin-top: 26px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+    .shots figure {
+      margin: 0;
+      background: rgba(0,0,0,.25);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 16px;
+      overflow: hidden;
+    }
+    .shots img { width: 100%; display: block; }
+    .shots figcaption { padding: 10px 14px; font-size: 13.5px; color: var(--dim); font-weight: 700; }
+    code, .mono { font-family: ui-monospace, Consolas, monospace; }
+    pre {
+      background: rgba(0,0,0,.35);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 14px;
+      padding: 16px 18px;
+      overflow-x: auto;
+      color: #d8d3f2;
+    }
+    footer {
+      border-top: 1px solid rgba(255,255,255,.12);
+      margin-top: 80px;
+      padding-top: 28px;
+      color: var(--dim);
+      font-size: 14.5px;
+      line-height: 1.7;
+    }
+    footer a { color: var(--gold); text-decoration: none; font-weight: 800; }
+    .mini { color: var(--dim); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">
+      <img src="icon.png" alt="FlashTap logo">
+      <div>
+        <h1>⚡ FlashTap</h1>
+        <div class="tagline">The phone-party quiz for DJs, venues and event nights — fastest tap wins.</div>
+      </div>
+    </div>
+
+    <a class="cta" href="https://github.com/Nageljakes/flashtap/releases/latest">⬇ Download for Windows</a>
+    <a class="cta ghost" href="https://github.com/Nageljakes/flashtap">Source on GitHub</a>
+
+    <section class="steps">
+      <div class="step"><b>1 · Host sets up</b><p>Click the FlashTap logo on the big screen: DJ/company name, venue, branch and tonight's prizes.</p></div>
+      <div class="step"><b>2 · Players scan</b><p>Phones scan the QR on the big screen and type their name. 2–100 players, one LAN, no accounts.</p></div>
+      <div class="step"><b>3 · Everyone votes</b><p>Players vote the question set up (Pop? Science? World?). Most votes wins — host locks it in.</p></div>
+      <div class="step"><b>4 · Fastest finger wins</b><p>Tap the right answer quickest for up to 1000 points. 👍 ❤️ reactions fly across the big screen.</p></div>
+    </section>
+
+    <h2>What it looks like</h2>
+    <div class="shots">
+      <figure><img src="img/02-host-lobby.png" alt="Host lobby with QR code, DJ and venue branding"><figcaption>Host lobby — QR, venue branding & scrolling ticker</figcaption></figure>
+      <figure><img src="img/04-host-voting.png" alt="Host voting screen with three question sets"><figcaption>Players vote the set up on the big screen</figcaption></figure>
+      <figure><img src="img/09-host-reveal.png" alt="Host reveal screen with fastest player banner"><figcaption>Reveal — fastest banner, fun fact & answer spread</figcaption></figure>
+      <figure><img src="img/11-host-final.png" alt="Final podium with confetti and prizes"><figcaption>Podium, confetti & tonight's prizes</figcaption></figure>
+      <figure><img src="img/05-client-voting.png" alt="Phone voting screen"><figcaption>On the phone — tap your pick</figcaption></figure>
+      <figure><img src="img/08-client-question.png" alt="Phone question screen with four answer tiles"><figcaption>Round in progress on the phone</figcaption></figure>
+    </div>
+
+    <h2>Run it yourself</h2>
+    <pre>git clone https://github.com/Nageljakes/flashtap.git
+cd flashtap
+npm install
+npm start          # players: http://&lt;lan-ip&gt;:3000 · host: /host</pre>
+    <p class="mono mini" style="color: var(--dim)">Windows PCs: grab the installer from <span class="mono">Releases</span> — it starts the server and opens the host window automatically (F11 for fullscreen).</p>
+
+    <footer>
+      ⚡ Built by <a href="https://nageljakes.github.io/jaxtechweb/">Jaxtech</a> ·
+      Question sets from <a href="https://github.com/Nageljakes/quiznight">quiznight</a> ·
+      Venue & prize model from <a href="https://github.com/Nageljakes/bingo">bingo</a><br>
+      <span class="mini">FlashTap hosts games on your own network — phones join over Wi-Fi, nothing leaves the venue.</span>
+    </footer>
+  </main>
+</body>
+</html>

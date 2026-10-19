@@ -1,0 +1,644 @@
+{
+  "id": "set-4-the-biltong-brandy-classic",
+  "name": "Set 4: The Biltong & Brandy Classic",
+  "badge": "Set 4 • Taproom Master",
+  "description": "Currie Cup, Classic Rock, Kitchen Secrets & World Wonders",
+  "questions": [
+    {
+      "q": "In the game of snooker or pool, what color is the cue ball?",
+      "answers": [
+        "Red",
+        "Yellow",
+        "White",
+        "Black"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Taproom Warm-Up & General Quizzing",
+      "fact": "The cue ball is white."
+    },
+    {
+      "q": "How many players are on the field for one team in a standard association football (soccer) match?",
+      "answers": [
+        "9 players",
+        "10 players",
+        "11 players",
+        "12 players"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Taproom Warm-Up & General Quizzing",
+      "fact": "10 outfield players plus 1 goalkeeper."
+    },
+    {
+      "q": "What spirit is traditionally the base of a classic Mojito cocktail?",
+      "answers": [
+        "White Rum",
+        "Gin",
+        "Vodka",
+        "Brandy"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Taproom Warm-Up & General Quizzing",
+      "fact": "White rum muddled with fresh mint, lime juice, sugar, and club soda."
+    },
+    {
+      "q": "How many degrees are there in a standard right angle?",
+      "answers": [
+        "45 degrees",
+        "90 degrees",
+        "180 degrees",
+        "360 degrees"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Taproom Warm-Up & General Quizzing",
+      "fact": "A right angle is exactly 90 degrees."
+    },
+    {
+      "q": "Which fast food chain is famous for the catchphrase 'Finger Lickin' Good'?",
+      "answers": [
+        "McDonald's",
+        "KFC",
+        "Nando's",
+        "Steers"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Taproom Warm-Up & General Quizzing",
+      "fact": "Kentucky Fried Chicken, founded by Colonel Harland Sanders."
+    },
+    {
+      "q": "What is the hardest natural substance known on Earth?",
+      "answers": [
+        "Titanium",
+        "Diamond",
+        "Granite",
+        "Quartz"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Taproom Warm-Up & General Quizzing",
+      "fact": "Diamond rates 10 on the Mohs scale of mineral hardness."
+    },
+    {
+      "q": "What is the term for a score of one under par on a golf hole?",
+      "answers": [
+        "Eagle",
+        "Birdie",
+        "Bogey",
+        "Albatross"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Taproom Warm-Up & General Quizzing",
+      "fact": "One under par = Birdie. Two under par = Eagle."
+    },
+    {
+      "q": "What popular South African maize meal porridge is a mandatory staple at a braai?",
+      "answers": [
+        "Pap",
+        "Samp",
+        "Couscous",
+        "Polenta"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Taproom Warm-Up & General Quizzing",
+      "fact": "Mieliepap: crumbly stywepap or smooth slappap served with sheba tomato relish."
+    },
+    {
+      "q": "What is the capital city of Italy?",
+      "answers": [
+        "Milan",
+        "Florence",
+        "Rome",
+        "Venice"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Taproom Warm-Up & General Quizzing",
+      "fact": "Rome: The Eternal City."
+    },
+    {
+      "q": "In bowling, what term is used when you knock down all 10 pins with your first roll?",
+      "answers": [
+        "Spare",
+        "Strike",
+        "Split",
+        "Turkey"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Taproom Warm-Up & General Quizzing",
+      "fact": "Marked as an 'X' on the scoreboard."
+    },
+    {
+      "q": "What prestigious gold trophy has been awarded to the champions of South African provincial rugby since 1892?",
+      "answers": [
+        "The Super 14 Trophy",
+        "The Currie Cup",
+        "The Webb Ellis Cup",
+        "The Lion Cup"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Super Rugby, Currie Cup & Ashes Clashes",
+      "fact": "Donated by Sir Donald Currie in 1889 to the touring British Isles team."
+    },
+    {
+      "q": "Which cricket ground in Centurion, Pretoria is famous for its grass banks and Boxing Day test matches?",
+      "answers": [
+        "SuperSport Park",
+        "Wanderers Stadium",
+        "Kingsmead",
+        "St George's Park"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Super Rugby, Currie Cup & Ashes Clashes",
+      "fact": "SuperSport Park Centurion, fortress of the Titans."
+    },
+    {
+      "q": "Which South African rugby legend was named IRB International Player of the Year in 2004?",
+      "answers": [
+        "Bryan Habana",
+        "Schalk Burger",
+        "Victor Matfield",
+        "Percy Montgomery"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Super Rugby, Currie Cup & Ashes Clashes",
+      "fact": "Schalk Burger won IRB World Player of the Year in 2004 for his incredible loose forward play."
+    },
+    {
+      "q": "In cricket, how many wickets must a bowler take on consecutive deliveries to achieve a 'hat-trick'?",
+      "answers": [
+        "2 wickets",
+        "3 wickets",
+        "4 wickets",
+        "5 wickets"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Super Rugby, Currie Cup & Ashes Clashes",
+      "fact": "Three wickets on three consecutive balls."
+    },
+    {
+      "q": "Which South African flyhalf scored all of South Africa's 15 points in the 2007 Rugby World Cup final in Paris?",
+      "answers": [
+        "Percy Montgomery & Francois Steyn",
+        "Butch James",
+        "Morne Steyn",
+        "Handre Pollard"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Super Rugby, Currie Cup & Ashes Clashes",
+      "fact": "Percy Montgomery kicked 4 penalties (12 pts) and Francois Steyn slotted a 50m penalty (3 pts)."
+    },
+    {
+      "q": "What is the famous nickname of the South African national netball team?",
+      "answers": [
+        "The Proteas (Spar Proteas)",
+        "The Banyana",
+        "The Springbokkies",
+        "The Gazelles"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Super Rugby, Currie Cup & Ashes Clashes",
+      "fact": "The SPAR Proteas represent South Africa in international netball."
+    },
+    {
+      "q": "Which South African winger set the joint record for the most tries scored in Rugby World Cup history (15 tries, tied with Jonah Lomu)?",
+      "answers": [
+        "Cheslin Kolbe",
+        "Breyton Paulse",
+        "Bryan Habana",
+        "JP Pietersen"
+      ],
+      "correct": 2,
+      "round": "Round 2 · Super Rugby, Currie Cup & Ashes Clashes",
+      "fact": "Habana scored 8 tries in 2007, 2 in 2011, and 5 in 2015."
+    },
+    {
+      "q": "Which test cricket ground in Port Elizabeth (Gqeberha) is world-famous for its brass band playing in the stands?",
+      "answers": [
+        "St George's Park",
+        "Kingsmead",
+        "Newlands",
+        "Mangaung Oval"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Super Rugby, Currie Cup & Ashes Clashes",
+      "fact": "The St George's Park Brass Band has entertained test crowds for decades."
+    },
+    {
+      "q": "What is the nickname of the national men's soccer team of South Africa?",
+      "answers": [
+        "Bafana Bafana",
+        "Banyana Banyana",
+        "AmaGlug-glug",
+        "The Indomitable Lions"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Super Rugby, Currie Cup & Ashes Clashes",
+      "fact": "'The Boys, The Boys' in Zulu."
+    },
+    {
+      "q": "Which Formula One team did South African driver Jody Scheckter drive for when he won the F1 World Championship in 1979?",
+      "answers": [
+        "McLaren",
+        "Ferrari",
+        "Williams",
+        "Lotus"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Super Rugby, Currie Cup & Ashes Clashes",
+      "fact": "Scheckter won the 1979 Drivers' Championship driving the Ferrari 312T4."
+    },
+    {
+      "q": "Which American rock band had a massive global hit in 1982 with the song 'Africa'?",
+      "answers": [
+        "Foreigner",
+        "Toto",
+        "Journey",
+        "Boston"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Radio Hits, One-Hit Wonders & Golden Oldies",
+      "fact": "'I bless the rains down in Africa...' released on the Toto IV album."
+    },
+    {
+      "q": "Who sang the iconic 1984 pop anthem 'Summer of '69'?",
+      "answers": [
+        "Bruce Springsteen",
+        "Bryan Adams",
+        "Tom Petty",
+        "John Mellencamp"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Radio Hits, One-Hit Wonders & Golden Oldies",
+      "fact": "Canadian rocker Bryan Adams from his album Reckless."
+    },
+    {
+      "q": "What legendary British singer and songwriter was born Farrokh Bulsara in Zanzibar?",
+      "answers": [
+        "David Bowie",
+        "Elton John",
+        "Freddie Mercury",
+        "George Michael"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Radio Hits, One-Hit Wonders & Golden Oldies",
+      "fact": "Freddie Mercury of Queen, born in Stone Town, Zanzibar in 1946."
+    },
+    {
+      "q": "Which South African music legend was affectionately known as 'The White Zulu' and co-founded the bands Juluka and Savuka?",
+      "answers": [
+        "Johnny Clegg",
+        "Sipho Mchunu",
+        "David Kramer",
+        "PJ Powers"
+      ],
+      "correct": 0,
+      "round": "Round 3 · Radio Hits, One-Hit Wonders & Golden Oldies",
+      "fact": "Johnny Clegg OBE, creator of 'Asimbonanga' and 'Scatterlings of Africa'."
+    },
+    {
+      "q": "Which Swedish pop group won the Eurovision Song Contest in 1974 with the song 'Waterloo'?",
+      "answers": [
+        "Roxette",
+        "ABBA",
+        "Ace of Base",
+        "A-ha"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Radio Hits, One-Hit Wonders & Golden Oldies",
+      "fact": "Agnetha, Björn, Benny, and Anni-Frid."
+    },
+    {
+      "q": "In the 1980 hit song 'Don't Stop Believin'', which American band tells the story of a small-town girl and a city boy?",
+      "answers": [
+        "REO Speedwagon",
+        "Journey",
+        "Kansas",
+        "Chicago"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Radio Hits, One-Hit Wonders & Golden Oldies",
+      "fact": "Featuring Steve Perry's soaring lead vocals."
+    },
+    {
+      "q": "What was the title of South African singer Kurt Darren's mega-hit Afrikaans party anthem released in 2002 that had everyone doing the line-dance?",
+      "answers": [
+        "Kaptein",
+        "Meisie Meisie",
+        "Loslappie",
+        "Hemel Op Tafelberg"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Radio Hits, One-Hit Wonders & Golden Oldies",
+      "fact": "'Meisie Meisie' became an absolute countrywide craze at weddings and bars."
+    },
+    {
+      "q": "Which British band released the critically acclaimed 1997 album OK Computer featuring 'Karma Police'?",
+      "answers": [
+        "Oasis",
+        "Blur",
+        "Radiohead",
+        "Pulp"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Radio Hits, One-Hit Wonders & Golden Oldies",
+      "fact": "Fronted by Thom Yorke."
+    },
+    {
+      "q": "Which American rock icon was known as 'The Boss' and released the 1984 smash hit album Born in the U.S.A.?",
+      "answers": [
+        "Bob Dylan",
+        "Bruce Springsteen",
+        "Neil Young",
+        "Billy Joel"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Radio Hits, One-Hit Wonders & Golden Oldies",
+      "fact": "Bruce Springsteen and the E Street Band."
+    },
+    {
+      "q": "What hit 1991 Metallica song begins with James Hetfield whispering 'Say your prayers, little one'?",
+      "answers": [
+        "Nothing Else Matters",
+        "Master of Puppets",
+        "Enter Sandman",
+        "The Unforgiven"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Radio Hits, One-Hit Wonders & Golden Oldies",
+      "fact": "Lead single from Metallica's legendary self-titled 'Black Album'."
+    },
+    {
+      "q": "What is the primary agricultural grain used to produce traditional single malt Scotch whisky?",
+      "answers": [
+        "Wheat",
+        "Corn (Maize)",
+        "Malted Barley",
+        "Rye"
+      ],
+      "correct": 2,
+      "round": "Round 4 · Bar Snacks, Spirits & Kitchen Myths",
+      "fact": "By law, single malt Scotch must be made exclusively from 100% malted barley."
+    },
+    {
+      "q": "Which famous South African brandy has an export gold medal label depicting a clock face set to 8:20?",
+      "answers": [
+        "Richelieu",
+        "Klipdrift Export",
+        "Oude Meester",
+        "Viceroy"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Bar Snacks, Spirits & Kitchen Myths",
+      "fact": "Klipdrift Export: 'Met eish, ja!' The clock on the label is famously set at 8:20."
+    },
+    {
+      "q": "What plant does authentic Tequila have to be distilled from?",
+      "answers": [
+        "Blue Agave",
+        "Cactus",
+        "Sugar Cane",
+        "Yucca"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Bar Snacks, Spirits & Kitchen Myths",
+      "fact": "Specifically Blue Weber Agave in the designated state of Jalisco, Mexico."
+    },
+    {
+      "q": "Which famous street-food loaf stuffed with hot slap chips, polony or steak, and sauce originated in Cape Town's Athlone area?",
+      "answers": [
+        "Bunny Chow",
+        "Gatsby",
+        "Vetkoek Burger",
+        "Dagwood"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Bar Snacks, Spirits & Kitchen Myths",
+      "fact": "The Gatsby: a giant foot-long crusty roll stuffed with chips and meat, built to share."
+    },
+    {
+      "q": "What Durban Indian street-food delicacy consists of a hollowed-out quarter loaf of white bread filled with spicy curry?",
+      "answers": [
+        "Roti Roll",
+        "Samosa",
+        "Bunny Chow",
+        "Biryani"
+      ],
+      "correct": 2,
+      "round": "Round 4 · Bar Snacks, Spirits & Kitchen Myths",
+      "fact": "Originated in Durban in the 1940s among Indian migrant laborers."
+    },
+    {
+      "q": "In South Africa, what is the colloquial term for small, thin, dry strips of biltong often flavored with chili?",
+      "answers": [
+        "Cabanossi",
+        "Snapsticks / Chilli Sticks",
+        "Crackling",
+        "Jerky"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Bar Snacks, Spirits & Kitchen Myths",
+      "fact": "Snapsticks: thin dried strips that snap when bent."
+    },
+    {
+      "q": "What is the botanical herb that gives absinthe and ouzo their distinctive aniseed / licorice flavor?",
+      "answers": [
+        "Coriander",
+        "Aniseed / Star Anise",
+        "Rosemary",
+        "Tarragon"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Bar Snacks, Spirits & Kitchen Myths",
+      "fact": "Aniseed contains anethole, which turns cloudy (the louche effect) when water is added."
+    },
+    {
+      "q": "What type of pastry is used to create traditional South African baked custard melktert (milk tart)?",
+      "answers": [
+        "Puff pastry or sweet shortcrust",
+        "Filo pastry",
+        "Choux pastry",
+        "Sourdough"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Bar Snacks, Spirits & Kitchen Myths",
+      "fact": "Dusting ground cinnamon on top of the baked custard is non-negotiable!"
+    },
+    {
+      "q": "Which South African craft gin distillery in the Karoo town of Richmond is famous for distilling botanicals from indigenous fynbos and wild juniper?",
+      "answers": [
+        "Inverroche",
+        "Musgrave",
+        "KWV",
+        "Wilderer"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Bar Snacks, Spirits & Kitchen Myths",
+      "fact": "Inverroche pioneered the use of Cape fynbos in craft gin production."
+    },
+    {
+      "q": "What is the name of the German beer purity law dating back to 1516 that limited beer ingredients to water, barley, and hops?",
+      "answers": [
+        "Reinheitsgebot",
+        "Oktoberfest Verordnung",
+        "Biergesetz",
+        "Braumeister Regel"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Bar Snacks, Spirits & Kitchen Myths",
+      "fact": "The Bavarian Reinheitsgebot of 1516."
+    },
+    {
+      "q": "What is the name of the colossal green canyon along Mpumalanga's Panorama Route, recognized as the third largest canyon on Earth?",
+      "answers": [
+        "Fish River Canyon",
+        "Blyde River Canyon",
+        "Oribi Gorge",
+        "Sundays River Gorge"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Famous Landmarks, Oceans & Road Trips",
+      "fact": "Famous for the Three Rondavels and God's Window."
+    },
+    {
+      "q": "What ocean lies directly to the east of South Africa, carrying the warm Agulhas Current down the coastline?",
+      "answers": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Pacific Ocean",
+        "Southern Ocean"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Famous Landmarks, Oceans & Road Trips",
+      "fact": "The warm Indian Ocean washes the KwaZulu-Natal and Eastern Cape shores."
+    },
+    {
+      "q": "Which massive meteorite impact crater, located near Parys in the Free State, is the oldest and largest verified impact crater on Earth?",
+      "answers": [
+        "Tswaing Crater",
+        "Vredefort Dome",
+        "Barringer Crater",
+        "Chicxulub Crater"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Famous Landmarks, Oceans & Road Trips",
+      "fact": "A UNESCO World Heritage Site formed over 2 billion years ago."
+    },
+    {
+      "q": "What is the official judicial capital of South Africa, where the Supreme Court of Appeal is located?",
+      "answers": [
+        "Pretoria",
+        "Cape Town",
+        "Bloemfontein",
+        "Johannesburg"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Famous Landmarks, Oceans & Road Trips",
+      "fact": "Bloemfontein (Judicial), Pretoria (Administrative), Cape Town (Legislative)."
+    },
+    {
+      "q": "What is the largest island in the world that is not a continent?",
+      "answers": [
+        "Madagascar",
+        "Greenland",
+        "Borneo",
+        "New Guinea"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Famous Landmarks, Oceans & Road Trips",
+      "fact": "Greenland covers over 2.1 million square kilometers."
+    },
+    {
+      "q": "Which mountain range forms the border between France and Spain?",
+      "answers": [
+        "The Alps",
+        "The Pyrenees",
+        "The Carpathians",
+        "The Apennines"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Famous Landmarks, Oceans & Road Trips",
+      "fact": "The Pyrenees stretch between the Bay of Biscay and the Mediterranean Sea."
+    },
+    {
+      "q": "What famous island in Table Bay was used as a maximum-security prison where Nelson Mandela spent 18 of his 27 years in captivity?",
+      "answers": [
+        "Seal Island",
+        "Dassen Island",
+        "Robben Island",
+        "Marion Island"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Famous Landmarks, Oceans & Road Trips",
+      "fact": "'Robben' means seals in Dutch. Now a UNESCO World Heritage site."
+    },
+    {
+      "q": "Which South African province is the largest in geographic land area?",
+      "answers": [
+        "Eastern Cape",
+        "Northern Cape",
+        "Western Cape",
+        "Free State"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Famous Landmarks, Oceans & Road Trips",
+      "fact": "The Northern Cape accounts for nearly 31% of South Africa's total land area."
+    },
+    {
+      "q": "What is the capital city of Japan?",
+      "answers": [
+        "Kyoto",
+        "Osaka",
+        "Tokyo",
+        "Hiroshima"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Famous Landmarks, Oceans & Road Trips",
+      "fact": "Tokyo is the world's most populous metropolitan area."
+    },
+    {
+      "q": "What major dam on the Orange River is the largest reservoir dam in South Africa by water volume?",
+      "answers": [
+        "Vaal Dam",
+        "Gariep Dam",
+        "Vanderkloof Dam",
+        "Hartbeespoort Dam"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Famous Landmarks, Oceans & Road Trips",
+      "fact": "Formerly the Hendrik Verwoerd Dam, holding over 5.3 billion cubic meters of water."
+    },
+    {
+      "q": "In what calendar year did the Vredefort asteroid hit Earth?",
+      "answers": [
+        "500 million years ago",
+        "1.2 billion years ago",
+        "2.02 billion years ago",
+        "3.5 billion years ago"
+      ],
+      "correct": 2,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "Estimated at 2.023 billion years ago."
+    },
+    {
+      "q": "How many total test matches did Percy Montgomery play for the Springboks?",
+      "answers": [
+        "88 caps",
+        "102 caps",
+        "110 caps",
+        "124 caps"
+      ],
+      "correct": 1,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "Montgomery was the first Springbok in history to reach 100 test caps."
+    },
+    {
+      "q": "What is the maximum water capacity of Gariep Dam in billions of cubic meters?",
+      "answers": [
+        "2.5 billion m³",
+        "5.3 billion m³",
+        "8.1 billion m³",
+        "12.0 billion m³"
+      ],
+      "correct": 1,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "Gariep Dam holds approximately 5.34 billion cubic meters."
+    }
+  ]
+}

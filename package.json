@@ -1,0 +1,73 @@
+{
+  "name": "flashtap",
+  "version": "1.0.0",
+  "description": "FlashTap — local-network party quiz for DJs and event hosts: QR join, question-set voting, fastest-finger scoring, live reactions on the big screen",
+  "type": "module",
+  "main": "electron/main.cjs",
+  "author": "Jaxtech (Nageljakes)",
+  "homepage": "https://nageljakes.github.io/flashtap/",
+  "scripts": {
+    "start": "node server.js",
+    "app": "electron .",
+    "build:win": "electron-builder --win",
+    "smoke": "node scripts/smoke.mjs",
+    "demo": "node scripts/demo.mjs",
+    "icon": "node scripts/make-icon.mjs",
+    "import-quiznight": "node scripts/import-quiznight.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "electron": "^34.0.0",
+    "electron-builder": "^26.0.12",
+    "socket.io-client": "^4.8.1"
+  },
+  "build": {
+    "appId": "com.jaxtech.flastap",
+    "productName": "FlashTap",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "electron/**/*",
+      "public/**/*",
+      "question-sets/**/*",
+      "data/**/*",
+      "server.js",
+      "package.json"
+    ],
+    "asar": false,
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "FlashTap",
+      "runAfterFinish": true,
+      "deleteAppDataOnUninstall": false
+    }
+  },
+  "allowScripts": {
+    "electron@34.5.8": true,
+    "electron-winstaller@5.4.0": true
+  }
+}

@@ -1,0 +1,644 @@
+{
+  "id": "set-2-braai-bokke-beer",
+  "name": "Set 2: Braai, Bokke & Beer",
+  "badge": "Set 2 • Bokke & Braai",
+  "description": "Springbok Rugby, Braai Lore, 80s/90s Cult Movies & Local Roads",
+  "questions": [
+    {
+      "q": "In standard South African bar pouring measurements, how many milliliters is a single tot of spirits?",
+      "answers": [
+        "20 ml",
+        "25 ml",
+        "30 ml",
+        "35 ml"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Bar & Pub Warm-Up",
+      "fact": "A standard SA single tot is 25ml; a double tot is 50ml."
+    },
+    {
+      "q": "Which iconic South African beer has been brewed since 1895 and is known as 'The taste that stood the test of time'?",
+      "answers": [
+        "Black Label",
+        "Windhoek Lager",
+        "Castle Lager",
+        "Hansa Pilsener"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Bar & Pub Warm-Up",
+      "fact": "Founded by Charles Glass during the Johannesburg gold rush in 1895."
+    },
+    {
+      "q": "In a standard game of pub darts, what is the highest score possible with a single dart?",
+      "answers": [
+        "50 (Bullseye)",
+        "60 (Treble 20)",
+        "57 (Treble 19)",
+        "100"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Bar & Pub Warm-Up",
+      "fact": "Treble 20 equals 60 points, which is higher than a 50-point red bullseye."
+    },
+    {
+      "q": "What spicy, carbonated ginger soft drink beloved across South Africa comes with the famous tagline 'Kwenzekani'?",
+      "answers": [
+        "Schweppes Ginger Ale",
+        "Stoney Ginger Beer",
+        "Fanta Pineapple",
+        "Sparletta Iron Brew"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Bar & Pub Warm-Up",
+      "fact": "Famous for its punchy fiery ginger bite."
+    },
+    {
+      "q": "How many total players are on the field for one team during a rugby union match?",
+      "answers": [
+        "11 players",
+        "13 players",
+        "15 players",
+        "16 players"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Bar & Pub Warm-Up",
+      "fact": "15 players on the pitch: 8 forwards and 7 backs."
+    },
+    {
+      "q": "What is the traditional name for the dried, spiced beef or game sausage cured in vinegar and coriander?",
+      "answers": [
+        "Boerewors",
+        "Droëwors",
+        "Cabanossi",
+        "Brawn"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Bar & Pub Warm-Up",
+      "fact": "Droëwors is literally dried sausage, made thin to dry quickly without spoiling."
+    },
+    {
+      "q": "In the hit comedy sitcom Friends, what is the name of the Greenwich Village coffee shop?",
+      "answers": [
+        "Daily Grind",
+        "Central Perk",
+        "Java Hut",
+        "Monk's Diner"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Bar & Pub Warm-Up",
+      "fact": "Managed by Gunther on the famous orange sofa."
+    },
+    {
+      "q": "Which letter on a standard computer QWERTY keyboard is the only vowel not located on the top row of letters?",
+      "answers": [
+        "E",
+        "I",
+        "A",
+        "U"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Bar & Pub Warm-Up",
+      "fact": "The top letter row has Q-W-E-R-T-Y-U-I-O-P. The letter A is on the home row."
+    },
+    {
+      "q": "What number does the Roman numeral 'L' stand for?",
+      "answers": [
+        "50",
+        "100",
+        "500",
+        "1000"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Bar & Pub Warm-Up",
+      "fact": "L = 50, C = 100, D = 500, M = 1000."
+    },
+    {
+      "q": "What animal is depicted on the front of the South African 2-Rand coin in the old circulation series?",
+      "answers": [
+        "Kudu",
+        "Wildebeest",
+        "Springbok",
+        "Rhino"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Bar & Pub Warm-Up",
+      "fact": "The R2 coin featured the Kudu bull with majestic spiral horns."
+    },
+    {
+      "q": "Who was the captain who led the Springboks to Rugby World Cup victories in both 2019 and 2023?",
+      "answers": [
+        "Duane Vermeulen",
+        "Eben Etzebeth",
+        "Siya Kolisi",
+        "Handre Pollard"
+      ],
+      "correct": 2,
+      "round": "Round 2 · Green & Gold Rugby & Proteas Icons",
+      "fact": "Siya Kolisi became only the second captain in rugby history to lift the Webb Ellis Cup twice (after Richie McCaw)."
+    },
+    {
+      "q": "What nickname is given to South Africa's national men's cricket team?",
+      "answers": [
+        "The Black Caps",
+        "The Proteas",
+        "The Baggy Greens",
+        "The Lions"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Green & Gold Rugby & Proteas Icons",
+      "fact": "Named after the King Protea, South Africa's national flower."
+    },
+    {
+      "q": "At which historic Johannesburg stadium did Joel Stransky kick the winning drop goal in the 1995 Rugby World Cup final?",
+      "answers": [
+        "FNB Stadium",
+        "Wanderers Stadium",
+        "Ellis Park",
+        "Loftus Versfeld"
+      ],
+      "correct": 2,
+      "round": "Round 2 · Green & Gold Rugby & Proteas Icons",
+      "fact": "Ellis Park on 24 June 1995: Springboks defeated the All Blacks 15-12 in extra time."
+    },
+    {
+      "q": "Which South African all-rounder holds the record for scoring over 13,000 Test runs and taking 292 Test wickets?",
+      "answers": [
+        "Shaun Pollock",
+        "Jacques Kallis",
+        "Lance Klusener",
+        "Hansie Cronje"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Green & Gold Rugby & Proteas Icons",
+      "fact": "Regarded by many as the greatest all-rounder in cricket history."
+    },
+    {
+      "q": "How many total Rugby World Cup titles have the Springboks won (up to 2023)?",
+      "answers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 2,
+      "round": "Round 2 · Green & Gold Rugby & Proteas Icons",
+      "fact": "1995, 2007, 2019, and 2023 (the first nation to win 4 titles)."
+    },
+    {
+      "q": "Who was the first Springbok player to score a try in a Rugby World Cup final, doing so against England in 2019?",
+      "answers": [
+        "Cheslin Kolbe",
+        "Makazole Mapimpi",
+        "Lukhanyo Am",
+        "Damian de Allende"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Green & Gold Rugby & Proteas Icons",
+      "fact": "Mapimpi scored in the 66th minute after a chip and gather from Lukhanyo Am."
+    },
+    {
+      "q": "What is the name of the iconic home stadium of the Blue Bulls in Pretoria?",
+      "answers": [
+        "Kings Park",
+        "Newlands",
+        "Loftus Versfeld",
+        "Free State Stadium"
+      ],
+      "correct": 2,
+      "round": "Round 2 · Green & Gold Rugby & Proteas Icons",
+      "fact": "Named after Robert Owen Loftus Versfeld, the pioneer of organized sports in Pretoria."
+    },
+    {
+      "q": "In cricket, what term is used when a batter is dismissed without scoring on the very first ball they face?",
+      "answers": [
+        "Silver duck",
+        "Golden duck",
+        "Diamond duck",
+        "Pair"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Green & Gold Rugby & Proteas Icons",
+      "fact": "A golden duck is out on the first ball. A diamond duck is out without facing a ball (e.g. run out)."
+    },
+    {
+      "q": "Which Springbok coach and Director of Rugby became legendary for using colored disco lights on the stadium roof for tactical communication?",
+      "answers": [
+        "Jake White",
+        "Heyneke Meyer",
+        "Peter de Villiers",
+        "Rassie Erasmus"
+      ],
+      "correct": 3,
+      "round": "Round 2 · Green & Gold Rugby & Proteas Icons",
+      "fact": "Rassie used green, amber, and red lights from the coaching box to signal strategic plays."
+    },
+    {
+      "q": "Which South African fast bowler was nicknamed the 'Phalaborwa Express' for his blistering pace?",
+      "answers": [
+        "Dale Steyn",
+        "Makhaya Ntini",
+        "Kagiso Rabada",
+        "Morne Morkel"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Green & Gold Rugby & Proteas Icons",
+      "fact": "Dale Steyn hailed from Phalaborwa in Limpopo and was the world's number 1 Test bowler for years."
+    },
+    {
+      "q": "In the 1988 action movie Die Hard, what is the name of the Los Angeles skyscraper seized by Hans Gruber?",
+      "answers": [
+        "Empire Tower",
+        "Nakatomi Plaza",
+        "Century City Center",
+        "Omni Corp Plaza"
+      ],
+      "correct": 1,
+      "round": "Round 3 · 80s, 90s & Cult Cinema Legends",
+      "fact": "Filmed in the actual Fox Plaza building in Century City, Los Angeles."
+    },
+    {
+      "q": "In Pulp Fiction (1994), what does Vincent Vega tell Jules Winnfield the French call a Quarter Pounder with Cheese?",
+      "answers": [
+        "Le Big Mac",
+        "Royale with Cheese",
+        "Fromage Deluxe",
+        "Le Double Burger"
+      ],
+      "correct": 1,
+      "round": "Round 3 · 80s, 90s & Cult Cinema Legends",
+      "fact": "'Because of the metric system!' Royale with Cheese."
+    },
+    {
+      "q": "In the Back to the Future films, what sports car was modified by Doc Brown into a time-travel machine?",
+      "answers": [
+        "Pontiac Firebird",
+        "Chevrolet Corvette",
+        "DeLorean DMC-12",
+        "Ford Mustang"
+      ],
+      "correct": 2,
+      "round": "Round 3 · 80s, 90s & Cult Cinema Legends",
+      "fact": "'If you're gonna build a time machine into a car, why not do it with some style?'"
+    },
+    {
+      "q": "Who played the role of Maximus Decimus Meridius in the 2000 epic blockbuster Gladiator?",
+      "answers": [
+        "Mel Gibson",
+        "Gerard Butler",
+        "Russell Crowe",
+        "Christian Bale"
+      ],
+      "correct": 2,
+      "round": "Round 3 · 80s, 90s & Cult Cinema Legends",
+      "fact": "Crowe won the Academy Award for Best Actor for his role."
+    },
+    {
+      "q": "In The Matrix (1999), what color pill does Morpheus offer Neo if he wants to see how deep the rabbit hole goes?",
+      "answers": [
+        "Blue pill",
+        "Red pill",
+        "Green pill",
+        "Yellow pill"
+      ],
+      "correct": 1,
+      "round": "Round 3 · 80s, 90s & Cult Cinema Legends",
+      "fact": "Red pill shows the truth of reality; the blue pill lets you wake up in bed believing whatever you want."
+    },
+    {
+      "q": "Which legendary rock band released the monster 1987 hit 'Sweet Child O' Mine' featuring Slash's opening guitar riff?",
+      "answers": [
+        "Bon Jovi",
+        "Guns N' Roses",
+        "Motley Crue",
+        "Aerosmith"
+      ],
+      "correct": 1,
+      "round": "Round 3 · 80s, 90s & Cult Cinema Legends",
+      "fact": "From their diamond-certified debut album Appetite for Destruction."
+    },
+    {
+      "q": "In Jurassic Park (1993), what prehistoric insect trapped in fossilized tree sap provided dinosaur DNA?",
+      "answers": [
+        "Dragonfly",
+        "Beetle",
+        "Mosquito",
+        "Wasp"
+      ],
+      "correct": 2,
+      "round": "Round 3 · 80s, 90s & Cult Cinema Legends",
+      "fact": "A fossilized blood-sucking mosquito preserved in amber."
+    },
+    {
+      "q": "What was the highest-grossing film of the 1990s worldwide, directed by James Cameron?",
+      "answers": [
+        "Jurassic Park",
+        "The Lion King",
+        "Titanic",
+        "Armageddon"
+      ],
+      "correct": 2,
+      "round": "Round 3 · 80s, 90s & Cult Cinema Legends",
+      "fact": "Released in 1997, Titanic earned over $2 billion globally and won 11 Oscars."
+    },
+    {
+      "q": "Which hit 1980 South African comedy film followed a Kalahari Bushman journeying to throw a Coca-Cola bottle off the end of the earth?",
+      "answers": [
+        "The Gods Must Be Crazy",
+        "Lipstiek Dipstiek",
+        "There's a Zulu On My Stoep",
+        "Oh Schucks...! Here Comes UNTAG"
+      ],
+      "correct": 0,
+      "round": "Round 3 · 80s, 90s & Cult Cinema Legends",
+      "fact": "Starring N!xau Toma, it became an international cult sensation and box office phenomenon."
+    },
+    {
+      "q": "Who voiced the wise old mandrill shaman Rafiki in Disney's animated 1994 masterpiece The Lion King?",
+      "answers": [
+        "James Earl Jones",
+        "John Kani",
+        "Robert Guillaume",
+        "Morgan Freeman"
+      ],
+      "correct": 2,
+      "round": "Round 3 · 80s, 90s & Cult Cinema Legends",
+      "fact": "Robert Guillaume voiced Rafiki in the original 1994 animation (John Kani voiced him in the 2019 remake)."
+    },
+    {
+      "q": "Which whole seed spice is toasted and coarsely crushed as the indispensable core seasoning in traditional boerewors?",
+      "answers": [
+        "Cumin seed",
+        "Coriander seed",
+        "Fennel seed",
+        "Mustard seed"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Braai Master, Biltong & Craft Brews",
+      "fact": "Toasted coriander seeds ground with salt, pepper, and nutmeg give boerewors its signature flavor."
+    },
+    {
+      "q": "Which prime beef cut from the hindquarter is most commonly sliced into large slabs for making traditional biltong?",
+      "answers": [
+        "Ribeye",
+        "Silverside",
+        "Brisket",
+        "Chuck"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Braai Master, Biltong & Craft Brews",
+      "fact": "Silverside (and topside) is lean with a consistent grain, ideal for hang-drying."
+    },
+    {
+      "q": "What famous cream liqueur is made using the fruit of the African Marula tree, also loved by elephants?",
+      "answers": [
+        "Cape Velvet",
+        "Amarula",
+        "Kahlua",
+        "Baileys"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Braai Master, Biltong & Craft Brews",
+      "fact": "Amarula Cream Liqueur has been produced in South Africa since 1989."
+    },
+    {
+      "q": "Which invasive Australian acacia wood is prized by Western Cape braai masters for producing blistering hot, long-burning coals?",
+      "answers": [
+        "Pine",
+        "Rooikrans",
+        "Bluegum",
+        "Jacaranda"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Braai Master, Biltong & Craft Brews",
+      "fact": "Acacia cyclops (Rooikrans) burns clean and forms intense, long-lasting coals."
+    },
+    {
+      "q": "What essential ingredient in beer brewing imparts crisp bitterness and floral aroma to balance malt sweetness?",
+      "answers": [
+        "Barley",
+        "Yeast",
+        "Hops",
+        "Wheat"
+      ],
+      "correct": 2,
+      "round": "Round 4 · Braai Master, Biltong & Craft Brews",
+      "fact": "Hop cones contain alpha acids for bitterness and essential oils for aroma."
+    },
+    {
+      "q": "What is the classic South African sandwich called that is toasted over open braai coals with cheddar cheese, tomato, and onion?",
+      "answers": [
+        "Roosterkoek",
+        "Braaibroodjie",
+        "Vetkoek",
+        "Gatsby"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Braai Master, Biltong & Craft Brews",
+      "fact": "The holy grail of braai side dishes! Best with a swipe of chutney."
+    },
+    {
+      "q": "Which unique South African red wine cultivar was created in 1925 at Stellenbosch University by crossing Pinot Noir with Cinsault?",
+      "answers": [
+        "Shiraz",
+        "Cabernet Sauvignon",
+        "Pinotage",
+        "Merlot"
+      ],
+      "correct": 2,
+      "round": "Round 4 · Braai Master, Biltong & Craft Brews",
+      "fact": "Developed by Professor Abraham Izak Perold in 1925."
+    },
+    {
+      "q": "What is widely regarded as the golden rule of cooking a traditional South African potjiekos?",
+      "answers": [
+        "Add extra water every 10 minutes",
+        "Stir the pot vigorously every 15 minutes",
+        "Never stir the layers once the lid is closed",
+        "Cook on maximum roaring fire"
+      ],
+      "correct": 2,
+      "round": "Round 4 · Braai Master, Biltong & Craft Brews",
+      "fact": "Layers of meat, root veggies, and soft greens steam together in their own juices without stirring."
+    },
+    {
+      "q": "What dark carbonated beverage is the universal, undisputed pairing for Klipdrift or Richelieu brandy in South Africa?",
+      "answers": [
+        "Pepsi",
+        "Coca-Cola",
+        "Cream Soda",
+        "Tonic Water"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Braai Master, Biltong & Craft Brews",
+      "fact": "Klippies & Coke: South Africa's unofficial national highball."
+    },
+    {
+      "q": "What spicy Portuguese-inspired sauce made from crushed African bird's eye chilies is a staple on grilled chicken and chops?",
+      "answers": [
+        "Chimichurri",
+        "Peri-Peri",
+        "Hollandaise",
+        "Monkey Gland"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Braai Master, Biltong & Craft Brews",
+      "fact": "Peri-peri (Pili pili in Swahili) derives from the African bird's eye chili."
+    },
+    {
+      "q": "Which famous mountain pass with steep gravel switchbacks and 4x4 climbs connects Underberg in KZN to the kingdom of Lesotho?",
+      "answers": [
+        "Swartberg Pass",
+        "Sani Pass",
+        "Outeniqua Pass",
+        "Chapman's Peak"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Mzansi Places, Roads & Milestones",
+      "fact": "Rises to 2,876m altitude; home to the famous Highest Pub in Africa at the top."
+    },
+    {
+      "q": "Which South African coastal city is historically nicknamed 'The Friendly City'?",
+      "answers": [
+        "East London",
+        "Durban",
+        "Gqeberha (Port Elizabeth)",
+        "George"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Mzansi Places, Roads & Milestones",
+      "fact": "Also known as the Windy City or Die Baai."
+    },
+    {
+      "q": "What is the longest river in South Africa, flowing over 2,200 km before emptying into the Atlantic Ocean at Alexander Bay?",
+      "answers": [
+        "Vaal River",
+        "Limpopo River",
+        "Orange River (Gariep)",
+        "Tugela River"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Mzansi Places, Roads & Milestones",
+      "fact": "Rises in the Drakensberg mountains and traverses the width of the country."
+    },
+    {
+      "q": "In which province would you find the picturesque trout fishing and whiskey-tasting town of Dullstroom?",
+      "answers": [
+        "Free State",
+        "Mpumalanga",
+        "Limpopo",
+        "North West"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Mzansi Places, Roads & Milestones",
+      "fact": "Perched high on the Steenkampsberg plateau in Mpumalanga."
+    },
+    {
+      "q": "What is the designated route number of the major national highway connecting Johannesburg to Cape Town via the Karoo?",
+      "answers": [
+        "N2",
+        "N3",
+        "N1",
+        "N4"
+      ],
+      "correct": 2,
+      "round": "Round 5 · Mzansi Places, Roads & Milestones",
+      "fact": "The N1 runs from Cape Town through Bloemfontein, Joburg, and Pretoria all the way to Beitbridge."
+    },
+    {
+      "q": "In what year did South Africa host the FIFA World Cup, kicking off with Siphiwe Tshabalala's thunderous opening goal?",
+      "answers": [
+        "2006",
+        "2010",
+        "2014",
+        "2018"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Mzansi Places, Roads & Milestones",
+      "fact": "11 June 2010 at Soccer City (FNB Stadium)."
+    },
+    {
+      "q": "Which national park on the northern border of South Africa contains the ancient golden rhinoceros archaeological site?",
+      "answers": [
+        "Golden Gate Highlands",
+        "Mapungubwe National Park",
+        "Marakele National Park",
+        "Addo Elephant Park"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Mzansi Places, Roads & Milestones",
+      "fact": "Mapungubwe was a thriving southern African kingdom in the 13th century."
+    },
+    {
+      "q": "What is the official currency of neighboring Namibia, which is pegged 1:1 with the South African Rand?",
+      "answers": [
+        "Pula",
+        "Namibian Dollar",
+        "Lilangeni",
+        "Metical"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Mzansi Places, Roads & Milestones",
+      "fact": "The Namibian Dollar trades at parity (1:1) with the South African Rand."
+    },
+    {
+      "q": "What famous rocky promontory at the south-western tip of the Cape Peninsula is often mistakenly thought to be the southernmost point of Africa?",
+      "answers": [
+        "Cape Agulhas",
+        "Cape of Good Hope",
+        "Robben Island",
+        "Doringbaai"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Mzansi Places, Roads & Milestones",
+      "fact": "Cape Agulhas is the true southernmost point; Cape of Good Hope is the south-westernmost point."
+    },
+    {
+      "q": "In which South African town would you find the world's largest man-made hole excavated by pick and shovel during the diamond rush?",
+      "answers": [
+        "Welkom",
+        "Kimberley",
+        "Jagersfontein",
+        "Cullinan"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Mzansi Places, Roads & Milestones",
+      "fact": "The Big Hole (Groot Gat) in Kimberley yielded 2,720 kilograms of diamonds."
+    },
+    {
+      "q": "What was the combined final score of both teams in the 1995 Rugby World Cup final between South Africa and New Zealand?",
+      "answers": [
+        "24 points",
+        "27 points",
+        "30 points",
+        "33 points"
+      ],
+      "correct": 1,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "South Africa 15 - New Zealand 12. Total = 27 points."
+    },
+    {
+      "q": "Approximately how many kilometers long is the famous Garden Route coastal driving stretch from Mossel Bay to Storms River?",
+      "answers": [
+        "200 km",
+        "300 km",
+        "420 km",
+        "550 km"
+      ],
+      "correct": 1,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "Approximately 300 km of scenic coastline."
+    },
+    {
+      "q": "In what calendar year did SAB open the original Castle Brewery in central Johannesburg?",
+      "answers": [
+        "1886",
+        "1895",
+        "1902",
+        "1910"
+      ],
+      "correct": 1,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "1895 by brewmaster Charles Glass."
+    }
+  ]
+}

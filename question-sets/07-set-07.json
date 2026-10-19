@@ -1,0 +1,644 @@
+{
+  "id": "set-7-durban-to-dullstroom",
+  "name": "Set 7: Durban to Dullstroom",
+  "badge": "Set 7 • Road Trippers",
+  "description": "Ball Sports, Potjiekos Secrets, 2000s Hits & Mountain Ranges",
+  "questions": [
+    {
+      "q": "In a standard game of darts, what color is the narrow outer ring that awards double points?",
+      "answers": [
+        "Red and Green",
+        "Blue and Yellow",
+        "Black and White",
+        "Purple and Orange"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Opening Round & Brain Warmers",
+      "fact": "Alternates between red and green on standard London bristle boards."
+    },
+    {
+      "q": "What is the chemical symbol for table salt?",
+      "answers": [
+        "H2O",
+        "NaCl",
+        "CO2",
+        "KCl"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Opening Round & Brain Warmers",
+      "fact": "Sodium chloride (NaCl)."
+    },
+    {
+      "q": "How many degrees are there in a full circle?",
+      "answers": [
+        "180 degrees",
+        "270 degrees",
+        "360 degrees",
+        "400 degrees"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Opening Round & Brain Warmers",
+      "fact": "A complete rotation is 360 degrees."
+    },
+    {
+      "q": "Which South African craft gin botanical gives pink gin its blush tint and floral flavor?",
+      "answers": [
+        "Rose water / Hibiscus",
+        "Rooibos",
+        "Strawberry syrup",
+        "Pink peppercorn only"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Opening Round & Brain Warmers",
+      "fact": "Hibiscus flowers or rose pelargonium impart natural pink hue."
+    },
+    {
+      "q": "What is the capital city of Portugal?",
+      "answers": [
+        "Porto",
+        "Lisbon",
+        "Faro",
+        "Braga"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Opening Round & Brain Warmers",
+      "fact": "Lisbon, located at the mouth of the Tagus River."
+    },
+    {
+      "q": "How many days are in the month of September?",
+      "answers": [
+        "28 days",
+        "29 days",
+        "30 days",
+        "31 days"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Opening Round & Brain Warmers",
+      "fact": "'Thirty days hath September, April, June, and November...'"
+    },
+    {
+      "q": "In automotive engines, what does 'RPM' stand for?",
+      "answers": [
+        "Rate Per Minute",
+        "Revolutions Per Minute",
+        "Rotations Per Meter",
+        "Road Power Measure"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Opening Round & Brain Warmers",
+      "fact": "Measures crankshaft rotational speed."
+    },
+    {
+      "q": "What famous board game challenges players to sink each other's aircraft carriers and submarines on a coordinate grid?",
+      "answers": [
+        "Battleship",
+        "Sub Hunter",
+        "Risk",
+        "Mastermind"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Opening Round & Brain Warmers",
+      "fact": "'You sank my battleship!'"
+    },
+    {
+      "q": "Which primary color mixed with red makes orange?",
+      "answers": [
+        "Blue",
+        "Yellow",
+        "Green",
+        "White"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Opening Round & Brain Warmers",
+      "fact": "Red + Yellow = Orange."
+    },
+    {
+      "q": "What is the common term in South Africa for a small, enclosed backyard barbecue space with a built-in chimney?",
+      "answers": [
+        "Braai room / Lapa",
+        "Stoep",
+        "Gazebo",
+        "Boma"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Opening Round & Brain Warmers",
+      "fact": "A dedicated braai room or lapa is the social center of any South African home."
+    },
+    {
+      "q": "What was the final score in the 2023 Rugby World Cup Final when South Africa defeated New Zealand in Paris?",
+      "answers": [
+        "12 - 11",
+        "15 - 12",
+        "32 - 12",
+        "19 - 16"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Ball Sports, Tournaments & Stadiums",
+      "fact": "Springboks 12 - All Blacks 11 at Stade de France on 28 October 2023."
+    },
+    {
+      "q": "In golf, what is the term for scoring three under par on a single hole (or a hole-in-one on a par 4)?",
+      "answers": [
+        "Eagle",
+        "Albatross (Double Eagle)",
+        "Condor",
+        "Bogey"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Ball Sports, Tournaments & Stadiums",
+      "fact": "An albatross is three strokes under par."
+    },
+    {
+      "q": "Which South African cricket captain led the Proteas to the number 1 Test ranking in the world in 2012 by beating England at Lord's?",
+      "answers": [
+        "Hansie Cronje",
+        "Shaun Pollock",
+        "Graeme Smith",
+        "AB de Villiers"
+      ],
+      "correct": 2,
+      "round": "Round 2 · Ball Sports, Tournaments & Stadiums",
+      "fact": "Graeme Smith captained South Africa to historic series victories in England and Australia."
+    },
+    {
+      "q": "What is the name of the stadium in Bloemfontein that serves as the home ground of the Free State Cheetahs?",
+      "answers": [
+        "Free State Stadium (Toyota Stadium)",
+        "Griqua Park",
+        "Outeniqua Park",
+        "Buffalo City Stadium"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Ball Sports, Tournaments & Stadiums",
+      "fact": "Toyota Stadium in Bloemfontein."
+    },
+    {
+      "q": "In rugby union, what is the minimum distance the ball must travel forward from a kickoff restart before it can be played?",
+      "answers": [
+        "5 meters",
+        "10 meters",
+        "15 meters",
+        "22 meters"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Ball Sports, Tournaments & Stadiums",
+      "fact": "The kickoff must cross the receiving team's 10-meter line."
+    },
+    {
+      "q": "Which South African female golfer won the Women's British Open at Sunningdale in 2007?",
+      "answers": [
+        "Lee-Anne Pace",
+        "Ashleigh Buhai",
+        "Paula Reto",
+        "Sally Little"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Ball Sports, Tournaments & Stadiums",
+      "fact": "Ashleigh Buhai later won the Women's Open in 2022 at Muirfield."
+    },
+    {
+      "q": "Which famous Springbok lock was known for his legendary punch during a test match against New Zealand and his ferocious partnership with Victor Matfield?",
+      "answers": [
+        "Bakkies Botha",
+        "Mark Andrews",
+        "Eben Etzebeth",
+        "Lood de Jager"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Ball Sports, Tournaments & Stadiums",
+      "fact": "Bakkies Botha: one of the most physically intimidating enforcers in rugby history."
+    },
+    {
+      "q": "In soccer, what is the name of the prestigious European club tournament won by Real Madrid a record 15 times?",
+      "answers": [
+        "UEFA Europa League",
+        "UEFA Champions League",
+        "Copa Libertadores",
+        "FIFA Club World Cup"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Ball Sports, Tournaments & Stadiums",
+      "fact": "Formerly the European Cup."
+    },
+    {
+      "q": "Which iconic South African lock forward became the most-capped Springbok player of all time in 2024, surpassing Victor Matfield's 127 caps?",
+      "answers": [
+        "Pieter-Steph du Toit",
+        "Eben Etzebeth",
+        "Franco Mostert",
+        "Siya Kolisi"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Ball Sports, Tournaments & Stadiums",
+      "fact": "Eben Etzebeth won his 128th cap against Argentina in Nelspruit in September 2024."
+    },
+    {
+      "q": "In cricket, what color ball is traditionally used in day-night Test matches played under floodlights?",
+      "answers": [
+        "Red ball",
+        "White ball",
+        "Pink ball",
+        "Yellow ball"
+      ],
+      "correct": 2,
+      "round": "Round 2 · Ball Sports, Tournaments & Stadiums",
+      "fact": "The pink ball maintains visibility under lights while retaining red-ball durability."
+    },
+    {
+      "q": "Who directed the 1972 mafia masterpiece The Godfather?",
+      "answers": [
+        "Martin Scorsese",
+        "Francis Ford Coppola",
+        "Brian De Palma",
+        "Sergio Leone"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Cinema Trivia & Screen Legends",
+      "fact": "Adapted from Mario Puzo's bestselling novel."
+    },
+    {
+      "q": "In the film Forrest Gump, what college football team did Forrest play for under coach Bear Bryant?",
+      "answers": [
+        "Alabama Crimson Tide",
+        "LSU Tigers",
+        "Georgia Bulldogs",
+        "Florida Gators"
+      ],
+      "correct": 0,
+      "round": "Round 3 · Cinema Trivia & Screen Legends",
+      "fact": "'Run, Forrest, run!' for the University of Alabama."
+    },
+    {
+      "q": "Which actor portrayed the eccentric pirate Captain Jack Sparrow in Pirates of the Caribbean?",
+      "answers": [
+        "Orlando Bloom",
+        "Johnny Depp",
+        "Geoffrey Rush",
+        "Colin Farrell"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Cinema Trivia & Screen Legends",
+      "fact": "Johnny Depp earned an Oscar nomination for The Curse of the Black Pearl."
+    },
+    {
+      "q": "In the 1993 thriller The Fugitive, who played the wrongfully convicted Dr. Richard Kimble?",
+      "answers": [
+        "Tommy Lee Jones",
+        "Harrison Ford",
+        "Kevin Costner",
+        "Michael Douglas"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Cinema Trivia & Screen Legends",
+      "fact": "'I didn't kill my wife!' / 'I don't care!'"
+    },
+    {
+      "q": "Which 1994 prison drama starring Tim Robbins and Morgan Freeman is currently the top-rated movie of all time on IMDb?",
+      "answers": [
+        "The Green Mile",
+        "The Shawshank Redemption",
+        "Pulp Fiction",
+        "Goodfellas"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Cinema Trivia & Screen Legends",
+      "fact": "Based on a Stephen King novella."
+    },
+    {
+      "q": "In The Lord of the Rings, what is the fictional volcanic mountain in Mordor where the One Ring was forged?",
+      "answers": [
+        "Mount Doom (Orodruin)",
+        "Lonely Mountain",
+        "Caradhras",
+        "Orthanc"
+      ],
+      "correct": 0,
+      "round": "Round 3 · Cinema Trivia & Screen Legends",
+      "fact": "Where Frodo Baggins must cast the Ring into the fires."
+    },
+    {
+      "q": "Who played the eccentric British detective Sherlock Holmes in Guy Ritchie's 2009 action-mystery film?",
+      "answers": [
+        "Benedict Cumberbatch",
+        "Robert Downey Jr.",
+        "Jude Law",
+        "Christian Bale"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Cinema Trivia & Screen Legends",
+      "fact": "Robert Downey Jr. won a Golden Globe for the performance."
+    },
+    {
+      "q": "In the hit comedy Anchorman, what is the full name of Will Ferrell's mustachioed 1970s news anchor?",
+      "answers": [
+        "Brian Fontana",
+        "Ron Burgundy",
+        "Champ Kind",
+        "Brick Tamland"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Cinema Trivia & Screen Legends",
+      "fact": "'Stay classy, San Diego.'"
+    },
+    {
+      "q": "Which 1986 film starred Tom Cruise as naval aviator Maverick and featured Kenny Loggins' hit 'Danger Zone'?",
+      "answers": [
+        "Days of Thunder",
+        "Top Gun",
+        "Iron Eagle",
+        "Cocktail"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Cinema Trivia & Screen Legends",
+      "fact": "Directed by Tony Scott."
+    },
+    {
+      "q": "Which South African actor played the brutal villain Sharlto Copley's sidekick or featured as Wikus van de Merwe in District 9 (2009)?",
+      "answers": [
+        "Arnold Vosloo",
+        "Sharlto Copley",
+        "Neil Blomkamp",
+        "Fana Mokoena"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Cinema Trivia & Screen Legends",
+      "fact": "Sharlto Copley starred as Wikus van de Merwe in Neill Blomkamp's breakout sci-fi hit."
+    },
+    {
+      "q": "What material is a traditional three-legged South African potjie pot made of?",
+      "answers": [
+        "Stainless steel",
+        "Cast iron",
+        "Copper",
+        "Aluminum"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Potjiekos Secrets & Braai Etiquette",
+      "fact": "Heavy cast iron retains and distributes gentle, even heat."
+    },
+    {
+      "q": "What is the process called of treating a new or rusty cast iron potjie pot with oil and heat to build a non-stick protective patina?",
+      "answers": [
+        "Curing / Seasoning",
+        "Glazing",
+        "Tempering",
+        "Galvanizing"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Potjiekos Secrets & Braai Etiquette",
+      "fact": "Coating with fat or oil and baking it creates a polymerized protective layer."
+    },
+    {
+      "q": "What popular South African dry snack is made from thin curls of seasoned beef dried until crunchy and brittle?",
+      "answers": [
+        "Biltong powder",
+        "Biltong shavings / chips",
+        "Crackling",
+        "Chicharrón"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Potjiekos Secrets & Braai Etiquette",
+      "fact": "Thin biltong shavings are a favorite bar snack."
+    },
+    {
+      "q": "In a potjie, in what order should ingredients traditionally be layered from bottom to top?",
+      "answers": [
+        "Soft greens at bottom, meat in middle, potatoes on top",
+        "Meat and onions at bottom, hard root vegetables middle, soft greens and mushrooms on top",
+        "Vegetables at bottom, meat on top",
+        "Everything mixed into a stew before lighting coals"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Potjiekos Secrets & Braai Etiquette",
+      "fact": "Meat browns on bottom, potatoes cook in rising steam, soft greens stay intact on top."
+    },
+    {
+      "q": "What traditional Cape sweet-and-sour pickle made from green curried mangoes is served with curry and braais?",
+      "answers": [
+        "Chutney",
+        "Atchar",
+        "Sambal",
+        "Piccalilli"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Potjiekos Secrets & Braai Etiquette",
+      "fact": "Mango atchar packed in spiced mustard oil."
+    },
+    {
+      "q": "Which famous Scottish whiskey region is renowned for producing heavily peated, smoky single malts like Laphroaig, Ardbeg, and Lagavulin?",
+      "answers": [
+        "Speyside",
+        "Islay",
+        "Highlands",
+        "Lowlands"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Potjiekos Secrets & Braai Etiquette",
+      "fact": "The Isle of Islay is legendary for its pungent, peaty maritime whiskies."
+    },
+    {
+      "q": "What South African biscuit is baked twice so that it becomes dry, hard, and perfect for dunking into hot coffee or rooibos tea?",
+      "answers": [
+        "Hertzoggie",
+        "Ouma Rusk (Beskuit)",
+        "Shortbread",
+        "Ginger snap"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Potjiekos Secrets & Braai Etiquette",
+      "fact": "Ouma Rusks: 'Dunk a friend, dunk an Ouma!'"
+    },
+    {
+      "q": "What French term describes cooking meat very slowly in its own rendered fat at low temperature?",
+      "answers": [
+        "Confit",
+        "Braise",
+        "Flambé",
+        "Sous vide"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Potjiekos Secrets & Braai Etiquette",
+      "fact": "Duck confit is the classic example."
+    },
+    {
+      "q": "Which South African craft cider brand produced in the Elgin Valley is named after the sound of apples being crushed?",
+      "answers": [
+        "Hunter's Dry",
+        "Savanna Dry",
+        "Cluver & Jack",
+        "Sxollie"
+      ],
+      "correct": 2,
+      "round": "Round 4 · Potjiekos Secrets & Braai Etiquette",
+      "fact": "Pioneered by Paul Cluver and Bruce Jack."
+    },
+    {
+      "q": "What is the common braai etiquette regarding who is permitted to turn the meat on the grid?",
+      "answers": [
+        "Anyone holding a beer",
+        "Strictly the Braaimaster only",
+        "The host's mother-in-law",
+        "The guest who brought the tongs"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Potjiekos Secrets & Braai Etiquette",
+      "fact": "Never touch another man's tongs or turn another man's meat without express permission!"
+    },
+    {
+      "q": "What is the highest mountain range in Southern Africa, whose name means 'Dragon Mountains' in Afrikaans?",
+      "answers": [
+        "Swartberg",
+        "Drakensberg (uKhahlamba)",
+        "Magaliesberg",
+        "Cederberg"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Famous Landmarks & Great Explorers",
+      "fact": "uKhahlamba means 'Barrier of Spears' in Zulu; Drakensberg means Dragon Mountains."
+    },
+    {
+      "q": "Which natural curved cliff face in the Northern Drakensberg rises over 1,200 meters high and stretches five kilometers long?",
+      "answers": [
+        "Sentinel Peak",
+        "The Amphitheatre",
+        "Cathedral Peak",
+        "Giant's Castle"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Famous Landmarks & Great Explorers",
+      "fact": "Home to the Tugela Falls, which plunge down the face of the Amphitheatre."
+    },
+    {
+      "q": "What man-made canal in Egypt connects the Mediterranean Sea to the Red Sea, opening a direct maritime route to Asia?",
+      "answers": [
+        "Panama Canal",
+        "Suez Canal",
+        "Corinth Canal",
+        "Kiel Canal"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Famous Landmarks & Great Explorers",
+      "fact": "Opened in November 1869, eliminating the need to sail around Africa."
+    },
+    {
+      "q": "Which South African coastal road is world-famous for its cliffside curves, connecting Gordon's Bay to Rooi-Els along False Bay?",
+      "answers": [
+        "Chapman's Peak",
+        "Clarence Drive (R44)",
+        "Marine Drive",
+        "Boyes Drive"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Famous Landmarks & Great Explorers",
+      "fact": "Clarence Drive (R44) hugs the steep sea cliffs along False Bay."
+    },
+    {
+      "q": "What is the tallest building in the world today, located in Dubai, United Arab Emirates?",
+      "answers": [
+        "Shanghai Tower",
+        "Burj Khalifa",
+        "Taipei 101",
+        "One World Trade Center"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Famous Landmarks & Great Explorers",
+      "fact": "Stands 828 meters (2,717 feet) tall."
+    },
+    {
+      "q": "What is the official currency of the United States of America?",
+      "answers": [
+        "US Dollar",
+        "Pound",
+        "Peso",
+        "Franc"
+      ],
+      "correct": 0,
+      "round": "Round 5 · Famous Landmarks & Great Explorers",
+      "fact": "USD ($)."
+    },
+    {
+      "q": "Which famous explorer led the 1519 Spanish expedition that achieved the first circumnavigation of the Earth?",
+      "answers": [
+        "Christopher Columbus",
+        "Ferdinand Magellan",
+        "Marco Polo",
+        "James Cook"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Famous Landmarks & Great Explorers",
+      "fact": "Magellan was killed in the Philippines; Juan Sebastián Elcano completed the voyage."
+    },
+    {
+      "q": "What is the capital city of Kenya?",
+      "answers": [
+        "Mombasa",
+        "Nairobi",
+        "Kisumu",
+        "Nakuru"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Famous Landmarks & Great Explorers",
+      "fact": "Nairobi: nicknamed the 'Green City in the Sun'."
+    },
+    {
+      "q": "What body of water separates the United Kingdom from the European mainland at France?",
+      "answers": [
+        "The North Sea",
+        "The English Channel",
+        "The Irish Sea",
+        "The Baltic Sea"
+      ],
+      "correct": 1,
+      "round": "Round 5 · Famous Landmarks & Great Explorers",
+      "fact": "Connected beneath the seabed by the Channel Tunnel."
+    },
+    {
+      "q": "Which South African mountain range just north of Pretoria and Johannesburg is one of the oldest geological formations on Earth?",
+      "answers": [
+        "Magaliesberg",
+        "Waterberg",
+        "Soutpansberg",
+        "Witwatersrand"
+      ],
+      "correct": 0,
+      "round": "Round 5 · Famous Landmarks & Great Explorers",
+      "fact": "The Magaliesberg is nearly 2.4 billion years old."
+    },
+    {
+      "q": "What is the total overall drop height of Tugela Falls in the Drakensberg in meters?",
+      "answers": [
+        "750 meters",
+        "840 meters",
+        "948 meters",
+        "1,120 meters"
+      ],
+      "correct": 2,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "948 meters (or 983m in recent re-surveys), widely recognized as the second highest (or highest) waterfall in the world."
+    },
+    {
+      "q": "How many test caps did Victor Matfield earn for the Springboks in his legendary rugby career?",
+      "answers": [
+        "110 caps",
+        "120 caps",
+        "127 caps",
+        "135 caps"
+      ],
+      "correct": 2,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "127 caps between 2001 and 2015."
+    },
+    {
+      "q": "In what calendar year did the Suez Canal officially open for navigation?",
+      "answers": [
+        "1848",
+        "1869",
+        "1885",
+        "1902"
+      ],
+      "correct": 1,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "Opened 17 November 1869."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "beerbox_midrand",
+    "venueName": "BEERBOX PUB & GRILL",
+    "shortName": "Beerbox",
+    "branch": "Midrand",
+    "djName": "TJ Entertainment",
+    "themeColor": "#F59E0B",
+    "tagline": "Live Pub Entertainment & Craft Drafts",
+    "ticker": "BEERBOX MIDRAND • 2-FOR-1 CRAFT DRAFTS UNTIL 8PM • R500 BAR TAB GRAND PRIZE • DELICIOUS BURGERS & CRISPY WINGS • ENJOY LIVE PUB BINGO NIGHT!",
+    "prizes": {
+      "stage1": "1 Line = Round of Shooters or Free Draft",
+      "stage2": "2 Lines = Pitcher of Beer & Snack Platter",
+      "stage3": "Full House = R500 Beerbox Bar Tab & Trophy"
+    }
+  },
+  {
+    "id": "thirsty_fox",
+    "venueName": "THE THIRSTY FOX PUB & GRILL",
+    "shortName": "Thirsty Fox",
+    "branch": "Fourways",
+    "djName": "TJ Entertainment",
+    "themeColor": "#EF4444",
+    "tagline": "The Ultimate Neighborhood Sports Bar & Pub",
+    "ticker": "THE THIRSTY FOX FOURWAYS • THIRSTY THURSDAY BINGO NIGHT • R1,000 FOX TAB GRAND PRIZE • 500G T-BONE SPECIAL • SHOUT BINGO LOUD!",
+    "prizes": {
+      "stage1": "1 Line = Round of Jagermeister / Shooters",
+      "stage2": "2 Lines = Craft Bucket (5 Beers) & Loaded Nachos",
+      "stage3": "Full House = R1,000 Fox Bar Tab & Winner Cap"
+    }
+  },
+  {
+    "id": "hudsons_hazelwood",
+    "venueName": "HUDSONS THE BURGER JOINT",
+    "shortName": "Hudsons",
+    "branch": "Hazelwood",
+    "djName": "TJ Entertainment",
+    "themeColor": "#10B981",
+    "tagline": "Craft Burgers, Shakes & Rocking Beats",
+    "ticker": "HUDSONS HAZELWOOD • HALF-PRICE APPETIZERS DURING BINGO • R750 HUDSONS VOUCHER • ROCK 'N ROLL MUSIC BINGO • SING ALONG WITH THE DJ!",
+    "prizes": {
+      "stage1": "1 Line = 2 Craft Beers on Tap",
+      "stage2": "2 Lines = 2 Gourmet Burgers Combo",
+      "stage3": "Full House = R750 Hudsons Voucher & Merchandise"
+    }
+  },
+  {
+    "id": "capital_craft",
+    "venueName": "CAPITAL CRAFT BEER ACADEMY",
+    "shortName": "Capital Craft",
+    "branch": "Menlo Park",
+    "djName": "TJ Entertainment",
+    "themeColor": "#8B5CF6",
+    "tagline": "Over 40 Artisanal Craft Beers On Tap",
+    "ticker": "CAPITAL CRAFT MENLO PARK • OVER 40 INDEPENDENT CRAFT BREWS ON TAP • SMOKED BRISKET & BURGERS • CRAFT BEER HAMPER GRAND PRIZE!",
+    "prizes": {
+      "stage1": "1 Line = Craft Tasting Flight (4 Beers)",
+      "stage2": "2 Lines = Smoked Pulled Pork Platter & 2 Pints",
+      "stage3": "Full House = Craft Brewer Hamper (12 Beers) & R500 Tab"
+    }
+  }
+]

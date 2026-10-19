@@ -1,0 +1,644 @@
+{
+  "id": "set-8-karoo-nights-cold-pints",
+  "name": "Set 8: Karoo Nights & Cold Pints",
+  "badge": "Set 8 • Karoo Legends",
+  "description": "Cricket Icons, Classic Sitcoms, Smoked Meats & Historic Battles",
+  "questions": [
+    {
+      "q": "What is the standard metric boiling point of water at sea level?",
+      "answers": [
+        "90°C",
+        "95°C",
+        "100°C",
+        "105°C"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Clever Pints Trivia",
+      "fact": "100°C (212°F) at standard atmospheric pressure."
+    },
+    {
+      "q": "In a deck of cards, how many Queens are there in total?",
+      "answers": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Clever Pints Trivia",
+      "fact": "One Queen in each of Hearts, Diamonds, Clubs, and Spades."
+    },
+    {
+      "q": "What color jersey is awarded to the overall leader of the Tour de France cycling race?",
+      "answers": [
+        "Green Jersey",
+        "Polka Dot Jersey",
+        "Yellow Jersey (Maillot Jaune)",
+        "White Jersey"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Clever Pints Trivia",
+      "fact": "The iconic yellow jersey worn by the general classification leader."
+    },
+    {
+      "q": "What popular South African non-alcoholic malt beverage is brewed with barley and hops and marketed as an energy restorer?",
+      "answers": [
+        "Malta Guiness",
+        "Castle Free",
+        "Hansa",
+        "Supermalt"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Clever Pints Trivia",
+      "fact": "South Africa's first homegrown 0.0% alcohol beer."
+    },
+    {
+      "q": "What is the capital city of the Netherlands, famous for its canals and bicycles?",
+      "answers": [
+        "Rotterdam",
+        "The Hague",
+        "Amsterdam",
+        "Utrecht"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Clever Pints Trivia",
+      "fact": "Amsterdam is the constitutional capital, while The Hague houses government."
+    },
+    {
+      "q": "How many players are on the ice for one team at full strength in an ice hockey game?",
+      "answers": [
+        "5 players",
+        "6 players",
+        "7 players",
+        "8 players"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Clever Pints Trivia",
+      "fact": "5 skaters plus 1 goaltender."
+    },
+    {
+      "q": "Which gas do plants absorb from the air to perform photosynthesis?",
+      "answers": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "correct": 1,
+      "round": "Round 1 · Clever Pints Trivia",
+      "fact": "Plants take in CO2 and release O2."
+    },
+    {
+      "q": "What is the name of the green-skinned, pear-shaped fruit whose flesh is the main ingredient in guacamole?",
+      "answers": [
+        "Kiwi",
+        "Papaya",
+        "Avocado",
+        "Fig"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Clever Pints Trivia",
+      "fact": "Avocados (avocado pear)."
+    },
+    {
+      "q": "In a standard game of chess, which piece can only move diagonally across the board?",
+      "answers": [
+        "Rook",
+        "Knight",
+        "Bishop",
+        "Pawn"
+      ],
+      "correct": 2,
+      "round": "Round 1 · Clever Pints Trivia",
+      "fact": "Bishops move any number of squares diagonally on their starting color."
+    },
+    {
+      "q": "Which popular South African fast-food chain, founded in 1967, is famous for its Mega Rib Burger, thick milkshakes, and breakfast plates?",
+      "answers": [
+        "Wimpy",
+        "Spur",
+        "Steers",
+        "Chicken Licken"
+      ],
+      "correct": 0,
+      "round": "Round 1 · Clever Pints Trivia",
+      "fact": "Wimpy opened its first South African restaurant in Durban in 1967."
+    },
+    {
+      "q": "In the 1992 Cricket World Cup in Australia, which South African fielder produced the most iconic flying run-out in history by diving headfirst into the stumps to dismiss Inzamam-ul-Haq?",
+      "answers": [
+        "Hansie Cronje",
+        "Jonty Rhodes",
+        "Kepler Wessels",
+        "Andrew Hudson"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Proteas Cricket & Global Cricket Icons",
+      "fact": "8 March 1992 in Brisbane: Jonty was airborne horizontally when he shattered the stumps."
+    },
+    {
+      "q": "Who was the first South African batsman to score a triple century (311 not out) in Test cricket, achieving the feat at The Oval against England in 2012?",
+      "answers": [
+        "Jacques Kallis",
+        "Graeme Smith",
+        "Hashim Amla",
+        "Gary Kirsten"
+      ],
+      "correct": 2,
+      "round": "Round 2 · Proteas Cricket & Global Cricket Icons",
+      "fact": "Hashim Amla batted for over 13 hours to score 311*."
+    },
+    {
+      "q": "Which South African fast bowler was nicknamed 'White Lightning' for his terrifying 150 km/h bouncers in the 1990s?",
+      "answers": [
+        "Fanie de Villiers",
+        "Allan Donald",
+        "Brett Schultz",
+        "Shaun Pollock"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Proteas Cricket & Global Cricket Icons",
+      "fact": "Allan Donald took 330 Test wickets for South Africa."
+    },
+    {
+      "q": "In cricket, how many runs is a 'century'?",
+      "answers": [
+        "50 runs",
+        "75 runs",
+        "100 runs",
+        "150 runs"
+      ],
+      "correct": 2,
+      "round": "Round 2 · Proteas Cricket & Global Cricket Icons",
+      "fact": "A century is 100 runs."
+    },
+    {
+      "q": "Which legendary Australian leg-spinner took 708 Test wickets and bowled the 'Ball of the Century' to Mike Gatting in 1993?",
+      "answers": [
+        "Glenn McGrath",
+        "Shane Warne",
+        "Stuart MacGill",
+        "Brett Lee"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Proteas Cricket & Global Cricket Icons",
+      "fact": "Shane Warne: 'The King of Spin'."
+    },
+    {
+      "q": "Which cricket ground in Cape Town is famed for its lush grass embankments, oaks, and stunning backdrop of Devil's Peak and Table Mountain?",
+      "answers": [
+        "Newlands Cricket Ground",
+        "Wanderers Stadium",
+        "Kingsmead",
+        "Willowmoore Park"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Proteas Cricket & Global Cricket Icons",
+      "fact": "Widely regarded as one of the most picturesque cricket venues in the world."
+    },
+    {
+      "q": "What is the maximum number of fielders permitted outside the 30-yard fielding circle during the first 10 overs of a men's ODI powerplay?",
+      "answers": [
+        "2 fielders",
+        "3 fielders",
+        "4 fielders",
+        "5 fielders"
+      ],
+      "correct": 0,
+      "round": "Round 2 · Proteas Cricket & Global Cricket Icons",
+      "fact": "Only 2 fielders outside the circle during Powerplay 1 (overs 1-10)."
+    },
+    {
+      "q": "Which South African wicketkeeper-batsman captained the Mumbai Indians and held the record for most dismissals by a keeper in Test history (555 dismissals)?",
+      "answers": [
+        "Dave Richardson",
+        "Mark Boucher",
+        "Quinton de Kock",
+        "AB de Villiers"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Proteas Cricket & Global Cricket Icons",
+      "fact": "Mark Boucher took 532 catches and 23 stumpings in 147 Tests."
+    },
+    {
+      "q": "What is the international biennial Test cricket series played between England and Australia called?",
+      "answers": [
+        "The Border-Gavaskar Trophy",
+        "The Ashes",
+        "The Wisden Trophy",
+        "The Chappell-Hadlee Trophy"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Proteas Cricket & Global Cricket Icons",
+      "fact": "Contested for a tiny terracotta urn supposedly containing the ashes of a cricket bail."
+    },
+    {
+      "q": "Which South African left-handed opener batted through all five days of a test match and later coached India to the 2011 World Cup title?",
+      "answers": [
+        "Daryll Cullinan",
+        "Gary Kirsten",
+        "Herschelle Gibbs",
+        "Boeta Dippenaar"
+      ],
+      "correct": 1,
+      "round": "Round 2 · Proteas Cricket & Global Cricket Icons",
+      "fact": "Gary Kirsten played 101 Tests and coached India to World Cup triumph."
+    },
+    {
+      "q": "In the legendary British comedy Fawlty Towers, what was Basil Fawlty's strict instruction to staff regarding his visiting German guests?",
+      "answers": [
+        "Don't charge them for wine",
+        "Don't mention the war!",
+        "Always speak German",
+        "Put towels on their chairs"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Comedy Classics & Sitcoms",
+      "fact": "'Don't mention the war! I mentioned it once, but I think I got away with it!'"
+    },
+    {
+      "q": "In the American version of The Office, who is the eccentric, beet-farming Assistant to the Regional Manager?",
+      "answers": [
+        "Jim Halpert",
+        "Dwight Schrute",
+        "Andy Bernard",
+        "Stanley Hudson"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Comedy Classics & Sitcoms",
+      "fact": "Dwight Kurt Schrute III, owner of Schrute Farms B&B."
+    },
+    {
+      "q": "Which British comedy troupe created Monty Python and the Holy Grail and Life of Brian?",
+      "answers": [
+        "The Goons",
+        "Monty Python",
+        "The League of Gentlemen",
+        "Beyond the Fringe"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Comedy Classics & Sitcoms",
+      "fact": "John Cleese, Michael Palin, Terry Jones, Eric Idle, Graham Chapman, and Terry Gilliam."
+    },
+    {
+      "q": "In the classic comedy sitcom Blackadder, what was Baldrick always famous for having?",
+      "answers": [
+        "A bag of gold",
+        "A cunning plan",
+        "A bottle of wine",
+        "A lucky turnip"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Comedy Classics & Sitcoms",
+      "fact": "'I have a cunning plan, my Lord!'"
+    },
+    {
+      "q": "What is the name of Homer Simpson's long-suffering wife with the towering blue beehive hair?",
+      "answers": [
+        "Lisa",
+        "Marge",
+        "Selma",
+        "Patty"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Comedy Classics & Sitcoms",
+      "fact": "Marjorie 'Marge' Simpson (née Bouvier)."
+    },
+    {
+      "q": "Which British sitcom set in Peckham followed market trader Derek 'Del Boy' Trotter trying to become millionaires?",
+      "answers": [
+        "Porridge",
+        "Steptoe and Son",
+        "Only Fools and Horses",
+        "Dad's Army"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Comedy Classics & Sitcoms",
+      "fact": "'This time next year, Rodney, we'll be millionaires!'"
+    },
+    {
+      "q": "In the 2004 comedy Anchorman, what musical instrument does Ron Burgundy play during his jazz club solo?",
+      "answers": [
+        "Saxophone",
+        "Jazz Flute",
+        "Trumpet",
+        "Trombone"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Comedy Classics & Sitcoms",
+      "fact": "Ron Burgundy's fiery jazz flute solo."
+    },
+    {
+      "q": "Which South African stand-up comedian became the global host of The Daily Show in New York from 2015 to 2022?",
+      "answers": [
+        "Barry Hilton",
+        "Casper de Vries",
+        "Trevor Noah",
+        "Marc Lottering"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Comedy Classics & Sitcoms",
+      "fact": "Trevor Noah hosted the acclaimed satirical news show on Comedy Central."
+    },
+    {
+      "q": "In the sitcom Friends, which character was notoriously married and divorced three times (Carol, Emily, Rachel)?",
+      "answers": [
+        "Joey Tribbiani",
+        "Chandler Bing",
+        "Ross Geller",
+        "Gunther"
+      ],
+      "correct": 2,
+      "round": "Round 3 · Comedy Classics & Sitcoms",
+      "fact": "Ross Geller: 'The Divorce Force'."
+    },
+    {
+      "q": "Which South African comedian is affectionately known as 'The Cousin' with his famous stand-up routines about Nou Gaan Ons Braai?",
+      "answers": [
+        "Casper de Vries",
+        "Barry Hilton",
+        "Tolla van der Merwe",
+        "Dowwe Dolla"
+      ],
+      "correct": 1,
+      "round": "Round 3 · Comedy Classics & Sitcoms",
+      "fact": "Barry Hilton: iconic face of South African comedy for over 30 years."
+    },
+    {
+      "q": "What inert gas is used alongside carbon dioxide to give draught Guinness stout its creamy head and smooth texture?",
+      "answers": [
+        "Helium",
+        "Nitrogen",
+        "Hydrogen",
+        "Argon"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Smoked Meats, Spices & Beers",
+      "fact": "Nitrogen creates smaller, tighter bubbles for the famous cascading surge."
+    },
+    {
+      "q": "What type of vinegar is traditionally preferred when curing traditional South African biltong?",
+      "answers": [
+        "Brown spirit vinegar or malt vinegar",
+        "Distilled white vinegar only",
+        "Balsamic vinegar",
+        "Rice wine vinegar"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Smoked Meats, Spices & Beers",
+      "fact": "Brown vinegar or malt vinegar imparts mellow acidity without bleaching the meat."
+    },
+    {
+      "q": "What cut of lamb from the loin or rib is cut with the bone in and braaied hot and fast for tender perfection?",
+      "answers": [
+        "Lamb Shank",
+        "Lamb Chops (Loin or Rib Chops)",
+        "Lamb Neck",
+        "Lamb Breast"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Smoked Meats, Spices & Beers",
+      "fact": "Tjops on the braai: crisp up the fat strip first, then sear the meat."
+    },
+    {
+      "q": "What is the main aromatic flavoring component in classic London Dry Gin?",
+      "answers": [
+        "Juniper Berries",
+        "Coriander",
+        "Cardamom",
+        "Nutmeg"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Smoked Meats, Spices & Beers",
+      "fact": "By legal definition, gin must have a predominant flavor of juniper."
+    },
+    {
+      "q": "What spicy North African paste made from red chili peppers, garlic, and caraway is popular as a braai marinade?",
+      "answers": [
+        "Harissa",
+        "Chimichurri",
+        "Pesto",
+        "Salsa verde"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Smoked Meats, Spices & Beers",
+      "fact": "Harissa originated in Tunisia."
+    },
+    {
+      "q": "What is the traditional name for the large clay beer pots used in Zulu culture to serve traditional umqombothi sorghum beer?",
+      "answers": [
+        "Potjie",
+        "Ukhamba",
+        "Assegai",
+        "Calabash"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Smoked Meats, Spices & Beers",
+      "fact": "Ukhamba: spherical earthenware beer vessel shared among guests."
+    },
+    {
+      "q": "What classic South African dessert consists of small, fluffy dumplings poached in spiced cinnamon syrup?",
+      "answers": [
+        "Souskluitjies",
+        "Malva Pudding",
+        "Hertzoggies",
+        "Koeksisters"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Smoked Meats, Spices & Beers",
+      "fact": "Souskluitjies: warm cinnamon sugar dumpling comfort food."
+    },
+    {
+      "q": "What is the German term used for bottom-fermented beers that are stored and conditioned at cold temperatures for weeks?",
+      "answers": [
+        "Ale",
+        "Lager",
+        "Stout",
+        "Lambic"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Smoked Meats, Spices & Beers",
+      "fact": "'Lagern' means 'to store' in German."
+    },
+    {
+      "q": "Which South African wine estate in Constantia, founded by Simon van der Stel in 1685, produced sweet wines favored by Napoleon Bonaparte on St Helena?",
+      "answers": [
+        "Groot Constantia",
+        "Klein Constantia",
+        "Buitenverwachting",
+        "Constantia Glen"
+      ],
+      "correct": 0,
+      "round": "Round 4 · Smoked Meats, Spices & Beers",
+      "fact": "Groot Constantia is South Africa's oldest wine-producing estate."
+    },
+    {
+      "q": "What South African biscuit is shaped like a small tartlet, filled with apricot jam, and topped with a baked coconut meringue cap?",
+      "answers": [
+        "Jan Smuts Koekie",
+        "Hertzoggie",
+        "Melktert",
+        "Soetkoekie"
+      ],
+      "correct": 1,
+      "round": "Round 4 · Smoked Meats, Spices & Beers",
+      "fact": "Named in honor of Prime Minister J.B.M. Hertzog."
+    },
+    {
+      "q": "In which province was the historic 1879 Battle of Isandlwana and the defense of Rorke's Drift fought between the British Army and the Zulu Kingdom?",
+      "answers": [
+        "Free State",
+        "KwaZulu-Natal",
+        "Eastern Cape",
+        "Mpumalanga"
+      ],
+      "correct": 1,
+      "round": "Round 5 · History & World Capitals",
+      "fact": "In the rolling hills of Zululand, KwaZulu-Natal."
+    },
+    {
+      "q": "What is the capital city of Greece, considered the cradle of Western civilization and democracy?",
+      "answers": [
+        "Thessaloniki",
+        "Sparta",
+        "Athens",
+        "Corinth"
+      ],
+      "correct": 2,
+      "round": "Round 5 · History & World Capitals",
+      "fact": "Athens, home of the Acropolis and Parthenon."
+    },
+    {
+      "q": "What is the oldest surviving colonial building in South Africa, constructed by the Dutch East India Company between 1666 and 1679 in Cape Town?",
+      "answers": [
+        "The Tuynhuys",
+        "Castle of Good Hope",
+        "Slave Lodge",
+        "Groote Kerk"
+      ],
+      "correct": 1,
+      "round": "Round 5 · History & World Capitals",
+      "fact": "A five-pointed star fortress in the heart of Cape Town."
+    },
+    {
+      "q": "What is the capital city of Scotland?",
+      "answers": [
+        "Glasgow",
+        "Edinburgh",
+        "Aberdeen",
+        "Dundee"
+      ],
+      "correct": 1,
+      "round": "Round 5 · History & World Capitals",
+      "fact": "Edinburgh, dominated by Edinburgh Castle."
+    },
+    {
+      "q": "Which South African general and statesman served as Prime Minister, helped draft the UN Charter, and was a member of the British Imperial War Cabinet?",
+      "answers": [
+        "Louis Botha",
+        "Jan Smuts",
+        "J.B.M. Hertzog",
+        "D.F. Malan"
+      ],
+      "correct": 1,
+      "round": "Round 5 · History & World Capitals",
+      "fact": "Jan Christian Smuts: philosopher, botanist, and military commander."
+    },
+    {
+      "q": "What is the longest artificial structure ever built by human civilization, stretching thousands of kilometers across northern China?",
+      "answers": [
+        "The Grand Canal",
+        "The Great Wall of China",
+        "The Silk Wall",
+        "The Yellow River Dyke"
+      ],
+      "correct": 1,
+      "round": "Round 5 · History & World Capitals",
+      "fact": "Over 21,000 km in total length including all branches."
+    },
+    {
+      "q": "What is the capital city of Switzerland?",
+      "answers": [
+        "Zurich",
+        "Geneva",
+        "Bern",
+        "Basel"
+      ],
+      "correct": 2,
+      "round": "Round 5 · History & World Capitals",
+      "fact": "Bern acts as the de facto federal city (capital) of Switzerland."
+    },
+    {
+      "q": "Which famous French military leader was defeated at the Battle of Waterloo in 1815?",
+      "answers": [
+        "Louis XIV",
+        "Napoleon Bonaparte",
+        "Charles de Gaulle",
+        "Cardinal Richelieu"
+      ],
+      "correct": 1,
+      "round": "Round 5 · History & World Capitals",
+      "fact": "Defeated by the Duke of Wellington and Field Marshal Blücher."
+    },
+    {
+      "q": "What river flows directly through the city of Paris, France?",
+      "answers": [
+        "Danube",
+        "Rhine",
+        "Seine",
+        "Thames"
+      ],
+      "correct": 2,
+      "round": "Round 5 · History & World Capitals",
+      "fact": "The Seine River divides Paris into the Left Bank and Right Bank."
+    },
+    {
+      "q": "In which Free State town was the National Museum founded, famous for its Florisbad skull archaeological discovery?",
+      "answers": [
+        "Welkom",
+        "Kroonstad",
+        "Bloemfontein",
+        "Bethlehem"
+      ],
+      "correct": 2,
+      "round": "Round 5 · History & World Capitals",
+      "fact": "The Florisbad skull was discovered in 1932 near Bloemfontein."
+    },
+    {
+      "q": "In what calendar year did the historic Battle of Blood River take place in KwaZulu-Natal?",
+      "answers": [
+        "1824",
+        "1838",
+        "1852",
+        "1879"
+      ],
+      "correct": 1,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "16 December 1838."
+    },
+    {
+      "q": "How many total balls did Hashim Amla face when he scored his historic 311 not out at The Oval in 2012?",
+      "answers": [
+        "412 balls",
+        "478 balls",
+        "529 balls",
+        "610 balls"
+      ],
+      "correct": 2,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "Amla faced 529 balls across 790 minutes of batting."
+    },
+    {
+      "q": "In what calendar year did construction of the Castle of Good Hope in Cape Town begin?",
+      "answers": [
+        "1652",
+        "1666",
+        "1679",
+        "1685"
+      ],
+      "correct": 1,
+      "round": "Sudden-Death Tie-Breakers",
+      "fact": "Started in 1666 and completed in 1679."
+    }
+  ]
+}

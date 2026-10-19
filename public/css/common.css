@@ -1,0 +1,71 @@
+:root {
+  --bg-0: #140f2b;
+  --bg-1: #241a4d;
+  --bg-2: #41307e;
+  --ink: #ffffff;
+  --dim: rgba(255, 255, 255, 0.72);
+  --accent: #ffd60a;
+  --accent-2: #7c5cff;
+  --good: #2ecc71;
+  --bad: #ff5c7a;
+  --radius: 20px;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--ink);
+  font-family: ui-rounded, "SF Pro Rounded", "Segoe UI Variable", "Segoe UI", system-ui, -apple-system, Roboto, Ubuntu, sans-serif;
+  background: radial-gradient(120vmax 90vmax at 75% -10%, var(--bg-2) 0%, var(--bg-1) 48%, var(--bg-0) 100%);
+  -webkit-font-smoothing: antialiased;
+}
+.hidden { display: none !important; }
+button { font: inherit; color: inherit; cursor: pointer; border: 0; background: none; }
+h1, h2, h3 { margin: 0; }
+.dim { color: var(--dim); }
+.center { text-align: center; }
+.pill {
+  display: inline-block;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  font-weight: 800;
+  white-space: nowrap;
+}
+.btn-primary {
+  display: block;
+  margin: 0 auto;
+  padding: 16px 44px;
+  font-size: 24px;
+  font-weight: 900;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #ffe066, #ffb703);
+  color: #1b1035;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.35);
+  transition: transform 0.07s ease, box-shadow 0.07s ease, filter 0.2s;
+}
+.btn-primary:active { transform: translateY(5px); box-shadow: 0 3px 0 rgba(0, 0, 0, 0.35); }
+.btn-primary:disabled { filter: grayscale(0.6); opacity: 0.55; cursor: not-allowed; transform: none; }
+.center-screen {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 24px;
+  text-align: center;
+}
+.pulse { font-size: 64px; animation: pulse 1.4s ease-in-out infinite; }
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.25); opacity: 0.75; }
+}
+@keyframes pop-in {
+  0% { transform: scale(0.5); opacity: 0; }
+  65% { transform: scale(1.08); }
+  100% { transform: scale(1); opacity: 1; }
+}
+.pop { animation: pop-in 0.28s cubic-bezier(0.2, 0.9, 0.3, 1.2) both; }
