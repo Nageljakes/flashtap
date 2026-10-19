@@ -25,7 +25,7 @@ Built by **Jaxtech** · [nageljakes.github.io/jaxtechweb](https://nageljakes.git
 4. **Play** — questions run from the winning set, alternating between its
    rounds so every game samples the whole set. Fastest correct answer scores
    the most (500–1000 points per question), with per-question "fastest"
-   banners and a 🥇 unusual podium + confetti finale where tonight's prizes are
+   banners and a 🥇 podium + confetti finale where tonight's prizes are
    announced.
 5. **Play again** — straight back to the lobby for a fresh vote.
 
@@ -113,4 +113,16 @@ Socket protocol: `host:register`, `host:primary`, `player:join`,
 
 ## Credits
 
-Reserved for value B
+- **Built by [Jaxtech](https://nageljakes.github.io/jaxtechweb/)** — FlashTap is
+  free, open-source LAN party software; if you run a quiz night anyone ran
+  with FlashTap, credit goes to the host on the mic and the players on the
+  phones.
+- Question sets adapted from
+  [Nageljakes/quiznight](https://github.com/Nageljakes/quiznight) (10 full
+  quiz nights + a warm-up set, with "did you know?" facts from the original
+  notes), bundled in `question-sets/`.
+- Bingo-mode setup screen (venue, branch, prizes) inspired by
+  [Nageljakes/bingo](https://github.com/Nageljakes/bingo); its venue list
+  ships as `data/venues.json` so first-time hosts can pick instead of type.
+- ⚡ Fastest correct answer wins the points — build a set, put up a screen,
+  and let the phones fly.
