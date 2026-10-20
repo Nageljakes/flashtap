@@ -120,7 +120,7 @@
     const line = brandLine();
     return `
       <div class="join-card">
-        <div class="logo-big">⚡</div>
+        <img class="brand-logo" src="/brand/logo.jpeg" alt="FlashTap">
         <h1>FlashTap</h1>
         <p class="tagline">${line ? esc(line) : esc(cfg?.tagline || 'Scan · Join · Vote · Tap fastest!')}</p>
         <input id="name" maxlength="16" placeholder="Your name" autocomplete="off" autocapitalize="words" enterkeyhint="go" value="${esc(savedName())}">

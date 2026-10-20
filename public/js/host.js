@@ -260,6 +260,7 @@
     return `
       <section class="stage lobby">
         ${tickerHtml()}
+        <img class="brand-banner" src="/brand/banner.jpeg" alt="FlashTap">
         <h1 class="logo" id="logo-btn" title="Click to open setup">⚡ FlashTap</h1>
         <p class="tagline">${esc(promo || 'Scan · Join · Vote · Tap fastest!')}</p>
         ${hostLine ? `<p class="hostline">${esc(hostLine)}</p>` : ''}
@@ -432,6 +433,7 @@
       </div>`;
     return `
       <section class="stage final">
+        <img class="brand-banner" src="/brand/banner.jpeg" alt="FlashTap">
         <h1 class="logo">🏆 Final results</h1>
         <div class="podium">
           ${g2 ? step(g2, 2) : ''}

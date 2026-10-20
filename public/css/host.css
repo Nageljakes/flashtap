@@ -108,6 +108,8 @@
 /* lobby */
 .stage.lobby { justify-content: center; gap: 1.4vh; padding: 2vh 4vw 4vh; }
 .stage.lobby .logo { font-size: clamp(40px, 5.4vw, 76px); }
+.brand-banner { display: block; margin: 0 auto; max-height: 20vh; width: auto; max-width: min(70vw, 640px); border-radius: 16px; box-shadow: 0 18px 50px rgba(0,0,0,.45); }
+.stage.final .brand-banner { max-height: 16vh; margin-bottom: 1vh; }
 .stage.lobby .tagline { font-size: clamp(16px, 1.8vw, 24px); }
 .stage.lobby .hostline { font-size: clamp(15px, 1.7vw, 23px); }
 .stage.lobby .players-title { margin: 0.6vh 0 0; }

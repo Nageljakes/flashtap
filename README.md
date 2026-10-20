@@ -1,5 +1,7 @@
 # ⚡ FlashTap
 
+![FlashTap banner](public/brand/banner.jpeg)
+
 A self-hosted, local-network party quiz for **DJs and event organisers**. One
 computer hosts the game and shows a big QR code on the venue's screen. Players
 scan with their phones, pick a name, **vote on which question set** to play,
