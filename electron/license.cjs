@@ -65,13 +65,13 @@ function callServer(apiPath, body, timeoutMs = 10000) {
     let settled = false;
     const settle = (v) => { if (!settled) { settled = true; resolve(v); } };
     const attempt = (urls) => {
+      if (!urls.length) return settle({ reachable: false });
       const base = urls[0];
-      if (base === undefined) return settle({ reachable: false });
       let full;
       try { full = new URL(apiPath, base); } catch { return attempt(urls.slice(1)); }
       const mod = full.protocol === "https:" ? https : http;
       const data = JSON.stringify(body || {});
-      const done = () => settle({ reachable: false });   // timeout/error -> try fallbacks
+      const tryNext = () => attempt(urls.slice(1));   // error/timeout -> next candidate
       const req = mod.request(
         full,
         { method: "POST", headers: { "content-type": "application/json", "content-length": Buffer.byteLength(data) }, timeout: timeoutMs },
@@ -85,8 +85,8 @@ function callServer(apiPath, body, timeoutMs = 10000) {
           });
         }
       );
-      req.on("timeout", () => { req.destroy(); done(); });
-      req.on("error", done);
+      req.on("timeout", () => { req.destroy(); tryNext(); });
+      req.on("error", tryNext);
       req.end(data);
     };
     attempt([...LICENSE_URLS]);
