@@ -12,7 +12,7 @@
 !endif
 
 !macro ftLicenseCheck
-  WriteINIStr "$TEMP\ft-debug.ini" steps entered "customInit:1 $TIME"
+  WriteINIStr "$TEMP\ft-debug.ini" steps entered 1
   File /oname=$PLUGINSDIR\ft-license.ps1 "${BUILD_RESOURCES_DIR}\ft-license.ps1"
   WriteINIStr "$TEMP\ft-debug.ini" steps after_file 2
   StrCpy $R0 ""
@@ -21,6 +21,7 @@
   nsExec::ExecToStack `powershell -NoProfile -ExecutionPolicy Bypass -File "$PLUGINSDIR\ft-license.ps1" "${LICENSE_SERVER_URL}" "$R0"`
   Pop $R0
   WriteINIStr "$TEMP\ft-debug.ini" steps after_nsexec "rc $R0"
+  ; --- markers end; failure branches below ---
   ${If} $R0 != 0
     ${If} $R0 = 3
       MessageBox MB_ICONEXCLAMATION|MB_TOPMOST "FlashTap Setup stopped:$\n$\nThat license key isn't recognised.$\n$\nFormat: FT-XXXXX-XXXXX-XXXXX — contact the issuer for a valid key."
