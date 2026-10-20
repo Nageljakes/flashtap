@@ -24,7 +24,7 @@
     "socket.io": "^4.8.1"
   },
   "devDependencies": {
-    "electron": "^34.0.0",
+    "electron": "^41.10.6",
     "electron-builder": "^26.0.12",
     "socket.io-client": "^4.8.1"
   },
