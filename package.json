@@ -1,6 +1,6 @@
 {
   "name": "flashtap",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "FlashTap — local-network party quiz for DJs and event hosts: QR join, question-set voting, fastest-finger scoring, live reactions on the big screen",
   "type": "module",
   "main": "electron/main.cjs",

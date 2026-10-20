@@ -51,19 +51,48 @@ Flags: `--port 3001`, `--ip 192.168.x.x` (force the join address), env
 
 ```bash
 npm run build:win
-# → dist/FlashTap Setup 1.1.0.exe
+# → dist/FlashTap Setup 1.2.0.exe
 ```
 
-The installer puts **FlashTap** on the desktop; launching it starts the game
-server and opens the host screen in an app window (F11 for fullscreen on a
-TV). On first launch Windows may ask to allow network access — click **Allow**
-so phones on the Wi-Fi can join. Question sets ship inside the app; the setup
-screen config is stored per-user.
+Everything ships inside the installer — no Node.js, no `npm install` needed on
+the venue PC. Launching **FlashTap** from the desktop shortcut starts the game
+server and opens the host screen in an app window (F11 for fullscreen on a TV).
+
+During setup the wizard asks for a **license key** (`FT-XXXXX-XXXXX-XXXXX`) on
+its own page and verifies it online before installing anything. Silent
+installs pass it on the command line: `"...Setup 1.2.0.exe" /S /KEY=FT-...`.
+At the end the installer adds a **Windows Firewall allow rule** for FlashTap
+(one admin/UAC prompt — declining is fine, the app will offer the fix again on
+first launch) so phones on the venue Wi-Fi can reach the server.
+
+> **SmartScreen note:** the installer is not code-signed, so Windows may show
+> "Windows protected your PC". Click **More info → Run anyway** — this is the
+> standard unsigned-publisher warning, not a virus alert.
+
+### If phones can't connect
+
+1. The PC and phones must be on the **same Wi-Fi/LAN**, and the Windows network
+   profile should be **Private** (a Public profile blocks inbound connections
+   even with the allow rule on some networks).
+2. Run FlashTap — if the firewall rule is missing it offers to add it
+   (one admin prompt).
+3. The join URL/QR on the host screen uses the PC's LAN IP — type exactly that
+   into the phone (e.g. `http://192.168.1.38:3000`, not `localhost`).
+
+### Installer troubleshooting
+
+Setup writes two diagnostic files into `%TEMP%` that support can ask for:
+
+* `FlashTap-Setup.log` — human-readable step log
+* `ft-debug.ini` — machine markers (which steps actually ran)
+
+A silent install without `/KEY=` fails on purpose (exit code 3).
 
 ## Licensing
 
 FlashTap is licensed, not free-without-key. Every install must verify against
-the license server (`https://tiny.tail5f36c9.ts.net`):
+the license server (`https://tiny.tail5f36c9.ts.net` — a public URL; it works
+from any normal internet connection, no VPN or Tailscale needed):
 
 * **At install** the setup wizard asks for a license key (`FT-XXXXX-XXXXX-XXXXX`)
   and validates it with the server — an invalid or revoked key stops

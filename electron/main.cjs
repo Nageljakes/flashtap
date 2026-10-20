@@ -147,6 +147,7 @@ app.whenReady().then(async () => {
   }
   createWindow(server.base);
   startRevalLoop();
+  ensureFirewallRule();
 });
 
 app.on('before-quit', () => {
@@ -287,6 +288,78 @@ async function startRevalLoop() {
       }
     } catch {}
   }, 30 * 60 * 1000).unref?.();
+}
+
+// ---------------------------------------------------------------------------
+// Windows firewall — phones can only join if FlashTap.exe is allowed inbound.
+// The installer adds a rule (best effort); when it is missing, offer the fix
+// here. "Not now" is remembered so we don't nag on every launch.
+// ---------------------------------------------------------------------------
+const RULE_NAME = 'FlashTap';
+
+function firewallRuleMissing() {
+  if (process.platform !== 'win32') return Promise.resolve(false);
+  return new Promise((resolve) => {
+    execFile('netsh', ['advfirewall', 'firewall', 'show', 'rule', `name=${RULE_NAME}`], (err, so) => {
+      resolve(!!err || !String(so).includes(RULE_NAME));
+    });
+  });
+}
+
+function addFirewallRuleElevated() {
+  if (process.platform !== 'win32') return Promise.resolve(false);
+  // -EncodedCommand sidesteps every quoting pitfall (paths with spaces, etc.)
+  const script = [
+    `$exe = '${process.execPath.replace(/'/g, "''")}'`,
+    "$prog = 'program=\"' + $exe + '\"'",
+    "Start-Process netsh -Verb RunAs -Wait -WindowStyle Hidden -ArgumentList @(" +
+      "'advfirewall','firewall','add','rule','name=FlashTap'," +
+      "'dir=in','action=allow','enable=yes','profile=any',$prog)",
+  ].join('; ');
+  const encoded = Buffer.from(script, 'utf16le').toString('base64');
+  return new Promise((resolve) => {
+    execFile('powershell.exe', ['-NoProfile', '-EncodedCommand', encoded], { timeout: 120000 }, (err) => {
+      resolve(!err);
+    });
+  });
+}
+
+async function ensureFirewallRule() {
+  try {
+    if (process.platform !== 'win32') return;
+    if (!(await firewallRuleMissing())) return;
+
+    const skipFile = path.join(app.getPath('userData'), 'firewall-skip.json');
+    try { if (JSON.parse(require('node:fs').readFileSync(skipFile, 'utf8')).skipped) return; } catch {}
+
+    const parent = win && !win.isDestroyed() ? win : null;
+    const { response } = await dialog.showMessageBox(parent, {
+      type: 'question',
+      title: 'FlashTap',
+      message: "Allow phones on the Wi-Fi to join FlashTap?",
+      detail:
+        'Windows Firewall has no allow rule for FlashTap, so phones on the same ' +
+        'network may not be able to open the player page.\n\n' +
+        'Adding the rule needs one administrator permission prompt.',
+      buttons: ['Add firewall rule', 'Not now'],
+      defaultId: 0,
+      cancelId: 1,
+      noLink: true,
+    });
+    if (response !== 0) {
+      try { require('node:fs').writeFileSync(skipFile, JSON.stringify({ skipped: Date.now() })); } catch {}
+      return;
+    }
+    await addFirewallRuleElevated();
+    if (await firewallRuleMissing()) {
+      dialog.showMessageBox(parent, {
+        type: 'info', title: 'FlashTap',
+        message: 'The firewall rule was not added.',
+        detail: 'Phones may not be able to connect. Add an inbound allow rule for FlashTap.exe, or run the installer again.',
+        buttons: ['OK'], noLink: true,
+      });
+    }
+  } catch {}
 }
 
 // pre-existing helpers below this line

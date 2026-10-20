@@ -198,10 +198,15 @@ function looksVirtual(c) {
   return false;
 }
 function scoreCandidate(c) {
-  if (looksVirtual(c)) return -100;
   let s = 0;
+  if (looksVirtual(c)) s -= 100;
+  // Phones live on the private LAN — a private-LAN address must always beat
+  // CGNAT/Tailscale/link-local picks, even when the adapter has a virtual-ish
+  // name (e.g. ICS bridges like "vEthernet (HomeAssistant LAN)" carry the
+  // machine's real LAN IP). Bonus is larger than the virtual penalty so a
+  // LAN IP on a virtual-named NIC still outranks a Tailscale IP.
+  if (isPrivateLan(c.ip)) s += 120;
   if (/^(en[po]|eth|ether|wlan|wi-fi|wifi|wireless|local area|wl)/i.test(c.name)) s += 10;
-  if (isPrivateLan(c.ip)) s += 5;
   return s;
 }
 const candidates = networkCandidates().sort((a, b) => scoreCandidate(b) - scoreCandidate(a));
