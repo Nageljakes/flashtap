@@ -1,6 +1,9 @@
 # FlashTap install-time license check (run by the NSIS installer).
-# Usage: powershell -File ft-license.ps1 <license-url> [key-from-cmdline]
+# Usage: powershell -File ft-license.ps1 <license-url-list> [key-from-cmdline]
 # Exit codes: 0 valid | 2 cancelled | 3 invalid | 4 revoked | 5 unreachable | 6 error
+# The HTTP check runs in a background job with a HARD timeout — PS 5.1's
+# -TimeoutSec does not reliably cover a stalled TLS handshake, which would
+# otherwise hang unattended installs forever.
 param()
 $ErrorActionPreference = 'Stop'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
@@ -8,6 +11,23 @@ $ErrorActionPreference = 'Stop'
 $url = if ($args.Count -ge 1 -and $args[0]) { $args[0] } else { 'https://tiny.tail5f36c9.ts.net|http://192.168.110.8:3211' }
 $fromSwitch = if ($args.Count -ge 2) { [string]$args[1] } else { '' }
 $urls = $url.Split('|') | Where-Object { $_ }
+
+function Test-LicenseServer([string]$u, [string]$bodyJson) {
+  # Returns $resultHash on success, $null on hard-timeout or HTTP error.
+  $job = Start-Job -ScriptBlock {
+    param($uu, $bb)
+    Invoke-RestMethod -Method Post -Uri ($uu.TrimEnd('/') + '/v1/install-check') `
+      -ContentType 'application/json' -Body $bb -TimeoutSec 15 -UseBasicParsing
+  } -ArgumentList $u, $bodyJson
+  if (Wait-Job $job -Timeout 25) {
+    $r = Receive-Job $job
+    Remove-Job $job -Force -ErrorAction SilentlyContinue
+    return $r
+  }
+  Stop-Job $job -ErrorAction SilentlyContinue
+  Remove-Job $job -Force -ErrorAction SilentlyContinue
+  return $null
+}
 
 try {
   $reg = $null
@@ -30,11 +50,8 @@ try {
   $body = @{ key = $key } | ConvertTo-Json -Compress
   $resp = $null
   foreach ($u in $urls) {
-    try {
-      $resp = Invoke-RestMethod -Method Post -Uri ($u.TrimEnd('/') + '/v1/install-check') `
-        -ContentType 'application/json' -Body $body -TimeoutSec 15 -UseBasicParsing
-      break
-    } catch { $resp = $null }                       # next candidate
+    $resp = Test-LicenseServer $u $body
+    if ($null -ne $resp) { break }
   }
   if ($null -eq $resp) { exit 5 }                   # no server reachable
 
