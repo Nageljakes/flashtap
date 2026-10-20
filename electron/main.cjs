@@ -5,11 +5,15 @@
  * plain Node via ELECTRON_RUN_AS_NODE), then opens the host screen in a
  * maximised window. Players still use their phones against the LAN URL in
  * the QR code.
+ *
+ * License gate: the server only starts and the window only opens once the
+ * license validates (online check with a 7-day offline grace).
  */
 const { app, BrowserWindow, Menu, dialog, shell } = require('electron');
-const { spawn } = require('node:child_process');
+const { spawn, execFile } = require('node:child_process');
 const path = require('node:path');
 const net = require('node:net');
+const lic = require('./license.cjs');
 
 const APP_ROOT = path.join(__dirname, '..');
 const PORT_START = 3210;
@@ -126,6 +130,11 @@ function createWindow(base) {
 
 app.whenReady().then(async () => {
   app.setAppUserModelId('com.jaxtech.flastap');
+
+  // License gate — nothing starts until this passes.
+  const gate = await licenseGate();
+  if (gate !== 'start') return; // 'blocked' waits on its lock window; 'stop' quits
+
   const server = await startGameServer();
   if (!server) {
     dialog.showErrorBox(
@@ -137,6 +146,7 @@ app.whenReady().then(async () => {
     return;
   }
   createWindow(server.base);
+  startRevalLoop();
 });
 
 app.on('before-quit', () => {
@@ -148,3 +158,135 @@ app.on('before-quit', () => {
 });
 
 app.on('window-all-closed', () => app.quit());
+
+// ---------------------------------------------------------------------------
+// License gate
+// ---------------------------------------------------------------------------
+const dataUrl = (html) =>
+  'data:text/html;base64,' + Buffer.from(html, 'utf8').toString('base64');
+
+function shellHtml({ title, prefill, message }) {
+  const msg = message
+    ? `<div id="msg" class="msg${/revoked/i.test(message) ? ' bad' : ''}">${message.replace(/[&<>"]/g, '')}</div>`
+    : '<div id="msg" class="msg"></div>';
+  return `<!doctype html><html><head><meta charset="utf-8">
+<style>
+  html,body{height:100%;margin:0;background:#140f2b;color:#efeaff;
+    font-family:'Segoe UI',system-ui,sans-serif;display:flex;align-items:center;justify-content:center}
+  .card{width:330px;padding:26px 28px;background:#1d1540;border:1px solid #3d2f77;border-radius:14px}
+  h1{font-size:20px;margin:0 0 4px}h1 span{color:#ffc94d}
+  p{margin:0 0 14px;font-size:12px;color:#b8b0e0;line-height:1.5}
+  input{width:100%;box-sizing:border-box;padding:11px 12px;font:16px ui-monospace,monospace;
+    letter-spacing:1px;background:#0f0b24;color:#fff;border:1px solid #4a3a95;border-radius:8px;text-transform:uppercase}
+  button{width:100%;margin-top:12px;padding:11px;font-size:14px;font-weight:600;color:#160b00;
+    background:linear-gradient(180deg,#ffd66e,#f7a625);border:0;border-radius:8px;cursor:pointer}
+  .msg{min-height:34px;margin-top:10px;font-size:12px;color:#8f86c9;line-height:1.45}
+  .msg.bad{color:#ff8ba0}
+</style></head><body>
+<div class="card">
+  <h1>⚡ Flash<span>TAP</span></h1>
+  <p>${title}</p>
+  <input id="key" placeholder="FT-XXXXX-XXXXX-XXXXX" value="${prefill || ''}" autocomplete="off" spellcheck="false" autofocus>
+  <button onclick="go()">Activate</button>
+  ${msg}
+</div>
+<script>
+  function go(){var k=document.getElementById('key').value.trim();
+    if(k) location.href='https://_activate.flastap.invalid/?key='+encodeURIComponent(k);}
+  function showMsg(m,bad){var e=document.getElementById('msg');e.textContent=m;e.className='msg'+(bad?' bad':'');}
+  document.getElementById('key').addEventListener('keydown',function(e){if(e.key==='Enter')go();});
+</script></body></html>`;
+}
+
+function promptKey(prefill, message) {
+  return new Promise((resolve) => {
+    const lw = new BrowserWindow({
+      width: 430, height: 340, useContentSize: true,
+      resizable: false, minimizable: true, maximizable: false, fullscreenable: false,
+      backgroundColor: '#140f2b', title: 'Activate FlashTap',
+      autoHideMenuBar: true, show: false,
+      webPreferences: { contextIsolation: true, nodeIntegration: false, sandbox: true },
+    });
+    lw.setMenuBarVisibility(false);
+    lw.loadURL(dataUrl(shellHtml({ title: 'Enter the license key you were given to play.', prefill, message })));
+    lw.once('ready-to-show', () => { lw.show(); lw.focus(); });
+    lw.webContents.on('will-navigate', (e, url) => {
+      if (url.startsWith('https://_activate.flastap.invalid/')) {
+        e.preventDefault();
+        try { resolve(decodeURIComponent(new URL(url).searchParams.get('key') || '')); }
+        catch { resolve(''); }
+      }
+    });
+    lw.on('closed', () => resolve(null));
+    lw.isPrompt = true;
+    promptKey.win = lw;
+  });
+}
+function updatePrompt(prefill, message) {
+  const lw = promptKey.win;
+  if (!lw || lw.isDestroyed() || !lw.isPrompt) return null;
+  lw.loadURL(dataUrl(shellHtml({ title: 'Enter the license key you were given to play.', prefill, message })));
+  return lw;
+}
+
+function readInstalledKey() {
+  // The installer seeds HKCU\Software\FlashTap\LicenseKey — prefill from it.
+  if (process.platform !== 'win32') return Promise.resolve(null);
+  return new Promise((resolve) => {
+    execFile('reg', ['query', 'HKCU\\Software\\FlashTap', '/v', 'LicenseKey'], (err, so) => {
+      try {
+        if (err) return resolve(null);
+        const m = String(so).match(/LicenseKey\s+REG_SZ\s+(FT-[0-9A-Z-]+)/i);
+        resolve(m ? m[1] : null);
+      } catch { resolve(null); }
+    });
+  });
+}
+
+async function licenseGate() {
+  const ud = app.getPath('userData');
+  const decision = await lic.evaluate(ud);
+  if (decision.status === 'ok') return 'start';
+  if (decision.status === 'revoked') {
+    const bw = new BrowserWindow({
+      width: 470, height: 300, resizable: false, minimizable: false, maximizable: false,
+      backgroundColor: '#140f2b', autoHideMenuBar: true,
+      webPreferences: { contextIsolation: true, nodeIntegration: false, sandbox: true },
+    });
+    bw.loadURL(dataUrl(shellHtml({
+      title: '⚠️ ✖ LICENSE REVOKED.',
+      message: 'This license key has been revoked. FlashTap is locked until the key is reinstated. Contact the issuer.',
+    })));
+    return 'blocked'; // window-all-closed quits the app when the user closes this
+  }
+  // ---- activation loop ----
+  let prefill = decision.savedKey || (await readInstalledKey());
+  let message = '';
+  for (;;) {
+    const key = await promptKey(prefill, message);
+    if (!key) return 'stop'; // user closed the window
+    const r = await lic.activate(ud, key);
+    if (r.ok) return 'start';
+    if (!r.reachable) message = `⚠ No internet right now — first launch needs one online check. ${r.reason}`;
+    else { message = r.reason; prefill = key; }
+  }
+}
+
+async function startRevalLoop() {
+  const ud = app.getPath('userData');
+  setInterval(async () => {
+    if (quitting) return;
+    try {
+      const decision = await lic.evaluate(ud);
+      if (decision.status === 'revoked') {
+        if (serverProc) { try { serverProc.kill(); serverProc = null; } catch {} }
+        if (win) { try { win.destroy(); win = null; } catch {} }
+        dialog.showErrorBox('FlashTap — license revoked',
+          'The license key on this machine has been revoked by the issuer.\n\nFlashTap is locked until the key is reinstated.');
+        app.quit();
+      }
+    } catch {}
+  }, 30 * 60 * 1000).unref?.();
+}
+
+// pre-existing helpers below this line

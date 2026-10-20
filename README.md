@@ -49,7 +49,7 @@ Flags: `--port 3001`, `--ip 192.168.x.x` (force the join address), env
 
 ```bash
 npm run build:win
-# → dist/FlashTap Setup 1.0.0.exe
+# → dist/FlashTap Setup 1.1.0.exe
 ```
 
 The installer puts **FlashTap** on the desktop; launching it starts the game
@@ -57,6 +57,24 @@ server and opens the host screen in an app window (F11 for fullscreen on a
 TV). On first launch Windows may ask to allow network access — click **Allow**
 so phones on the Wi-Fi can join. Question sets ship inside the app; the setup
 screen config is stored per-user.
+
+## Licensing
+
+FlashTap is licensed, not free-without-key. Every install must verify against
+the license server (`https://tiny.tail5f36c9.ts.net`):
+
+* **At install** the setup wizard asks for a license key (`FT-XXXXX-XXXXX-XXXXX`)
+  and validates it with the server — an invalid or revoked key stops
+  installation. Silent installs can pass `/KEY=FT-...`.
+* **At runtime** the app checks in on every launch and every 30 minutes.
+  A revoked key locks the app until the key is reinstated; if the machine
+  is offline (venue Wi-Fi), an activated install keeps working for up to
+  7 days since its last successful check.
+* One key may be bound to **2 machines** (main + backup).
+
+Administering keys happens on the license server box
+(`flashtap-license new|list|revoke|reinstate|unbind` on the command line, or
+the web panel on port 3212 — LAN only).
 
 ## Question sets
 
