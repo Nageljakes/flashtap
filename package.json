@@ -58,8 +58,8 @@
     "nsis": {
       "include": "build/installer.nsh",
       "oneClick": false,
-      "perMachine": false,
-      "allowToChangeInstallationDirectory": true,
+      "perMachine": true,
+      "license": "build/license.txt",
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
       "shortcutName": "FlashTap",

@@ -1,7 +1,18 @@
-; FlashTap NSIS customisation — install-time license validation + firewall rule.
-; Included by electron-builder (nsis.include).
+; FlashTap NSIS customisation — assisted install wizard + install-time
+; license validation + firewall rule. Included by electron-builder (nsis.include).
 ;
-; Flow:
+; Wizard page order (assisted flow, perMachine — one UAC prompt at launch):
+;   1. Installation folder   (customWelcomePage slot — electron-builder puts
+;                            the T&C's page first by default; we put the
+;                            directory picker there to get the classic order:
+;                            folder -> terms -> key -> install)
+;   2. Terms & conditions    (nsis.license = build/license.txt)
+;   3. FlashTap license KEY  (customPageAfterChangeDir — verified online)
+;   4. Installing            (MUI instfiles: progress bar + Cancel; the
+;                            Cancel button becomes Finish on the last page)
+;   5. Finish                (optionally "Run FlashTap")
+;
+; Flow internals:
 ;   customInit              — markers, extract helper scripts, parse /KEY=.
 ;                             SILENT installs run the license check here (no UI)
 ;                             and quit with the PS exit code when it fails.
@@ -12,9 +23,9 @@
 ;                             window existed — the user saw nothing for up to
 ;                             50 s, which looked like a "silent crash".
 ;   customInstall           — after files are in place, best-effort add a
-;                             Windows Firewall rule for FlashTap.exe (one UAC
-;                             prompt; declining is fine — the app offers the
-;                             fix again on first launch).
+;                             Windows Firewall rule for FlashTap.exe; declining
+;                             is fine — the app offers the fix again on first
+;                             launch.
 ;
 ; Exit codes from ft-license.ps1: 0 ok|3 invalid|4 revoked|5 unreachable|6 error
 ; Exit codes from ft-firewall.ps1: 0 ok/already|1 declined-or-failed
@@ -110,8 +121,19 @@
 !macroend
 
 ; ---------------------------------------------------------------------------
-; License wizard page (interactive only) — declared between the directory
-; page and the install step, while the wizard window is fully visible.
+; Wizard opening page: the installation-folder picker. electron-builder only
+; offers the "welcome" slot before the T&C's page, so the directory page is
+; declared here to get the classic order folder -> terms -> key -> install.
+; (nsis.allowToChangeInstallationDirectory must stay off, or the folder page
+; would appear twice.)
+; ---------------------------------------------------------------------------
+!macro customWelcomePage
+  !insertmacro MUI_PAGE_DIRECTORY
+!macroend
+
+; ---------------------------------------------------------------------------
+; License wizard page (interactive only) — declared after the T&C's page,
+; while the wizard window is fully visible.
 ; ---------------------------------------------------------------------------
 !macro customPageAfterChangeDir
   Page custom ftLicensePageCreate ftLicensePageLeave

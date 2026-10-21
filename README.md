@@ -55,15 +55,22 @@ npm run build:win
 ```
 
 Everything ships inside the installer — no Node.js, no `npm install` needed on
-the venue PC. Launching **FlashTap** from the desktop shortcut starts the game
-server and opens the host screen in an app window (F11 for fullscreen on a TV).
+the venue PC. The setup wizard runs as administrator (one Windows UAC prompt)
+and walks through the classic flow:
 
-During setup the wizard asks for a **license key** (`FT-XXXXX-XXXXX-XXXXX`) on
-its own page and verifies it online before installing anything. Silent
-installs pass it on the command line: `"...Setup 1.2.0.exe" /S /KEY=FT-...`.
+1. **Installation folder** — pick where FlashTap goes (defaults to Program Files)
+2. **Terms & conditions** — accept the licence agreement
+3. **License key** — type your key (`FT-XXXXX-XXXXX-XXXXX`); it's verified
+   online before anything is installed. Silent installs pass it on the command
+   line instead: `"...Setup 1.2.0.exe" /S /KEY=FT-...`
+4. **Installing** — progress bar with a Cancel button (it becomes **Finish**
+   when done, with a "Run FlashTap" tick box)
+
 At the end the installer adds a **Windows Firewall allow rule** for FlashTap
-(one admin/UAC prompt — declining is fine, the app will offer the fix again on
-first launch) so phones on the venue Wi-Fi can reach the server.
+so phones on the venue Wi-Fi can reach the server, and puts **FlashTap** on
+the desktop; launching it starts the game server and opens the host screen in
+an app window (F11 for fullscreen on a TV). If the rule is ever missing, the
+app notices on launch and offers to add it.
 
 > **SmartScreen note:** the installer is not code-signed, so Windows may show
 > "Windows protected your PC". Click **More info → Run anyway** — this is the

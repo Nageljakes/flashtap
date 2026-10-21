@@ -297,21 +297,33 @@ async function startRevalLoop() {
 // ---------------------------------------------------------------------------
 const RULE_NAME = 'FlashTap';
 
-function firewallRuleMissing() {
-  if (process.platform !== 'win32') return Promise.resolve(false);
+function firewallRuleState() {
+  // 'ok' = rule allows this exe | 'stale' = rule exists but points elsewhere
+  // | 'missing' = no rule. Reading rules needs no elevation.
+  if (process.platform !== 'win32') return Promise.resolve('ok');
   return new Promise((resolve) => {
     execFile('netsh', ['advfirewall', 'firewall', 'show', 'rule', `name=${RULE_NAME}`], (err, so) => {
-      resolve(!!err || !String(so).includes(RULE_NAME));
+      if (err) return resolve('missing');
+      const out = String(so);
+      if (!out.includes(RULE_NAME)) return resolve('missing');
+      const progs = [...out.matchAll(/^\s*Program:\s*(.+)$/gm)].map((m) => m[1].trim());
+      resolve(progs.some((p) => p.toLowerCase() === process.execPath.toLowerCase()) ? 'ok' : 'stale');
     });
   });
 }
+
+// Kept for compatibility with older callers expecting a boolean.
+const firewallRuleMissing = () => firewallRuleState().then((s) => s !== 'ok');
 
 function addFirewallRuleElevated() {
   if (process.platform !== 'win32') return Promise.resolve(false);
   // -EncodedCommand sidesteps every quoting pitfall (paths with spaces, etc.)
   const script = [
-    `$exe = '${process.execPath.replace(/'/g, "''")}'`,
+    "$exe = '" + process.execPath.replace(/'/g, "''") + "'",
     "$prog = 'program=\"' + $exe + '\"'",
+    // remove any stale rule (old install path) before adding ours
+    "Start-Process netsh -Verb RunAs -Wait -WindowStyle Hidden -ArgumentList @(" +
+      "'advfirewall','firewall','delete','rule','name=FlashTap')",
     "Start-Process netsh -Verb RunAs -Wait -WindowStyle Hidden -ArgumentList @(" +
       "'advfirewall','firewall','add','rule','name=FlashTap'," +
       "'dir=in','action=allow','enable=yes','profile=any',$prog)",
@@ -327,7 +339,8 @@ function addFirewallRuleElevated() {
 async function ensureFirewallRule() {
   try {
     if (process.platform !== 'win32') return;
-    if (!(await firewallRuleMissing())) return;
+    const state = await firewallRuleState();
+    if (state === 'ok') return;
 
     const skipFile = path.join(app.getPath('userData'), 'firewall-skip.json');
     try { if (JSON.parse(require('node:fs').readFileSync(skipFile, 'utf8')).skipped) return; } catch {}
@@ -336,12 +349,14 @@ async function ensureFirewallRule() {
     const { response } = await dialog.showMessageBox(parent, {
       type: 'question',
       title: 'FlashTap',
-      message: "Allow phones on the Wi-Fi to join FlashTap?",
+      message: state === 'stale'
+        ? 'Update the Windows Firewall rule for FlashTap?'
+        : 'Allow phones on the Wi-Fi to join FlashTap?',
       detail:
-        'Windows Firewall has no allow rule for FlashTap, so phones on the same ' +
-        'network may not be able to open the player page.\n\n' +
-        'Adding the rule needs one administrator permission prompt.',
-      buttons: ['Add firewall rule', 'Not now'],
+        state === 'stale'
+          ? 'An allow rule exists for an older FlashTap install location, so phones may not be able to open the player page.\n\nUpdating it needs one administrator permission prompt.'
+          : 'Windows Firewall has no allow rule for FlashTap, so phones on the same network may not be able to open the player page.\n\nAdding the rule needs one administrator permission prompt.',
+      buttons: [state === 'stale' ? 'Update firewall rule' : 'Add firewall rule', 'Not now'],
       defaultId: 0,
       cancelId: 1,
       noLink: true,
@@ -351,7 +366,7 @@ async function ensureFirewallRule() {
       return;
     }
     await addFirewallRuleElevated();
-    if (await firewallRuleMissing()) {
+    if ((await firewallRuleState()) !== 'ok') {
       dialog.showMessageBox(parent, {
         type: 'info', title: 'FlashTap',
         message: 'The firewall rule was not added.',

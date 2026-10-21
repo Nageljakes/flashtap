@@ -1,0 +1,46 @@
+FLASHTAP — LICENCE AGREEMENT & TERMS OF USE
+Jaxtech (Nageljakes). Version 1.2.0 — please read before installing.
+
+1. WHAT YOU ARE INSTALLING
+   FlashTap is a local-network party quiz for DJs and event hosts. The
+   software runs on your own computer; players join over your venue's
+   Wi-Fi. Nothing about your quiz, players or answers leaves the venue —
+   the only internet traffic is the one-time licence check below.
+
+2. LICENCE
+   FlashTap is installed under a per-venue licence key (format
+   FT-XXXXX-XXXXX-XXXXX) issued by Jaxtech.
+   - One key may be active on two machines (main + backup).
+   - The key is verified online once during installation, and re-checked
+     when the app starts. If the venue has no internet, an activated
+     install keeps working for up to 7 days.
+   - Keys may be revoked by the issuer (e.g. chargeback or abuse); a
+     revoked key locks the app until reinstated.
+   - You may not resell, sublicense or redistribute the installer or your
+     key. Your venue's hosts and staff may use the installed copy freely.
+
+3. OPEN-SOURCE COMPONENTS
+   The FlashTap source is published under the MIT Licence
+   (https://github.com/Nageljakes/flashtap). Question sets included with
+   the app are adapted from Nageljakes/quiznight with permission from the
+   author; the venue list is seeded from Nageljakes/bingo.
+
+   MIT LICENCE (summary): Permission is granted, free of charge, to use,
+   copy, modify and publish the software, provided the copyright and
+   permission notice are included. THE SOFTWARE IS PROVIDED "AS IS",
+   WITHOUT WARRANTY OF ANY KIND. In no event shall the authors be liable
+   for any claim, damages or other liability arising from the software.
+
+4. FAIR PLAY & CONDUCT
+   FlashTap is a tool for hosting live quiz events. You are responsible
+   for the content of any custom question sets you load and for running
+   the event in line with your venue's rules.
+
+5. LIABILITY
+   FlashTap is provided "as is". Jaxtech is not liable for event
+   interruptions, hardware issues or lost prizes. Keep a backup machine
+   and a printed copy of your questions if the night absolutely cannot
+   stop.
+
+By ticking "I accept" you agree to these terms.
+Questions / new keys: Jaxtech — https://nageljakes.github.io/jaxtechweb/
